@@ -10,7 +10,7 @@
     <title>HTI - Transforming Young Lives Through Technology</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <style>
@@ -29,7 +29,7 @@
         }
 
         body {
-            font-family: 'Lato', 'PT Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             overflow-x: hidden;
             background: #f5f5f5;
             overscroll-behavior-y: none;
@@ -58,10 +58,12 @@
             width: 100%;
             max-width: 430px;
             margin: 0 auto;
-            background: white;
+            background: linear-gradient(180deg, #fffbf5 0%, #ffffff 50%, #fffbf5 100%);
             min-height: 100vh;
             position: relative;
-            box-shadow: 0 0 40px rgba(0,0,0,0.3);
+            box-shadow:
+                0 0 60px rgba(245, 132, 32, 0.15),
+                0 0 120px rgba(0,0,0,0.2);
         }
 
         .section {
@@ -188,7 +190,7 @@
             font-size: 38px;
             margin-bottom: 20px;
             font-weight: 900;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             position: relative;
             z-index: 1;
             line-height: 1.2;
@@ -202,14 +204,14 @@
             position: relative;
             z-index: 1;
             line-height: 1.4;
-            font-family: 'PT Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
             font-weight: 400;
         }
 
         .tagline {
             font-size: 24px;
             font-weight: 300;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             margin-bottom: 20px;
             position: relative;
             z-index: 1;
@@ -274,7 +276,7 @@
             display: block;
             font-size: 32px;
             font-weight: 900;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             background: linear-gradient(90deg, #ffd000, #fdb715, #f58420);
             background-size: 200% auto;
             -webkit-background-clip: text;
@@ -289,7 +291,7 @@
         .hero-stat-label {
             display: block;
             font-size: 13px;
-            font-family: 'PT Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
             opacity: 0.95;
         }
 
@@ -333,7 +335,7 @@
             font-size: 18px;
             color: #4a4a4a;
             margin-bottom: 30px;
-            font-family: 'PT Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
             line-height: 1.6;
         }
 
@@ -377,22 +379,15 @@
         .impact-icon {
             font-size: 36px;
             margin-bottom: 12px;
-            display: block;
-            animation: bounce 2s ease-in-out infinite;
-        }
-
-        @keyframes bounce {
-            0%, 100% {
-                transform: translateY(0);
-            }
-            50% {
-                transform: translateY(-8px);
-            }
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #f58420;
         }
 
         .impact-card h3 {
             font-size: 18px;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             font-weight: 700;
             color: #1a1a1a;
             margin-bottom: 10px;
@@ -400,14 +395,16 @@
 
         .impact-card p {
             font-size: 14px;
-            font-family: 'PT Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
             color: #4a4a4a;
             line-height: 1.6;
         }
 
         /* Testimonial Carousel */
         .testimonials {
-            background: linear-gradient(135deg, #ffffff 0%, #fafafa 100%);
+            background: linear-gradient(135deg, #fffbf5 0%, #fff8f0 50%, #fff4ea 100%);
+            background-size: 200% 200%;
+            animation: gradientShift 15s ease infinite;
             position: relative;
         }
 
@@ -417,8 +414,11 @@
             top: 0;
             left: 0;
             right: 0;
-            height: 4px;
-            background: linear-gradient(90deg, #fdb715, #f58420 58%, #e45927);
+            height: 5px;
+            background: linear-gradient(90deg, #ffd000, #fdb715, #f58420, #e85d2c);
+            background-size: 200% 100%;
+            animation: slideGradient 3s linear infinite;
+            box-shadow: 0 0 15px rgba(245, 132, 32, 0.4);
         }
 
         .carousel-container {
@@ -496,7 +496,7 @@
             color: #2c2c2c;
             line-height: 1.75;
             margin-bottom: 30px;
-            font-family: 'PT Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
             position: relative;
             z-index: 1;
             flex-grow: 1;
@@ -511,7 +511,7 @@
             font-size: 17px;
             font-weight: 700;
             color: #1a1a1a;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             margin-bottom: 8px;
             line-height: 1.3;
         }
@@ -519,7 +519,7 @@
         .testimonial-role {
             font-size: 15px;
             color: #f58420;
-            font-family: 'PT Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
             font-style: italic;
             line-height: 1.5;
         }
@@ -680,22 +680,24 @@
         .donation-icon-large {
             font-size: 48px;
             margin-bottom: 15px;
-            display: block;
-            animation: float 4s ease-in-out infinite;
-            filter: drop-shadow(0 4px 8px rgba(245, 132, 32, 0.3));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #f58420;
         }
 
         .donation-icon {
             font-size: 36px;
             margin-bottom: 12px;
-            display: block;
-            animation: bounce 2.5s ease-in-out infinite;
-            filter: drop-shadow(0 3px 6px rgba(245, 132, 32, 0.2));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #f58420;
         }
 
         .donation-card h3 {
             font-size: 20px;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             font-weight: 700;
             color: #1a1a1a;
             margin-bottom: 10px;
@@ -704,7 +706,7 @@
 
         .donation-card p {
             font-size: 15px;
-            font-family: 'PT Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
             color: #4a4a4a;
             line-height: 1.6;
             margin-bottom: 15px;
@@ -715,7 +717,7 @@
             font-size: 14px;
             color: #f58420;
             font-weight: 700;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             margin-bottom: 15px;
             display: block;
             text-decoration: none;
@@ -759,7 +761,7 @@
             border-radius: 50px;
             font-size: 13px;
             font-weight: 700;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             margin-bottom: 20px;
             box-shadow: 0 4px 15px rgba(245, 132, 32, 0.4);
         }
@@ -767,7 +769,7 @@
         .tgt-feature h2 {
             font-size: 34px;
             font-weight: 900;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             color: white;
             margin-bottom: 15px;
             line-height: 1.2;
@@ -776,7 +778,7 @@
         .tgt-tagline {
             font-size: 20px;
             color: #fdb715;
-            font-family: 'PT Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
             margin-bottom: 25px;
             font-style: italic;
         }
@@ -808,7 +810,7 @@
             display: block;
             font-size: 36px;
             font-weight: 900;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             background: linear-gradient(90deg, #ffd000, #fdb715, #f58420);
             background-size: 200% auto;
             -webkit-background-clip: text;
@@ -823,7 +825,7 @@
             display: block;
             font-size: 14px;
             color: white;
-            font-family: 'PT Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
             opacity: 0.95;
         }
 
@@ -831,7 +833,7 @@
             color: rgba(255, 255, 255, 0.9);
             font-size: 16px;
             line-height: 1.7;
-            font-family: 'PT Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
             margin-bottom: 25px;
         }
 
@@ -842,7 +844,7 @@
             color: white;
             text-decoration: none;
             border-radius: 50px;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             font-weight: 700;
             font-size: 17px;
             box-shadow: 0 6px 20px rgba(245, 132, 32, 0.4);
@@ -878,7 +880,7 @@
 
         .expand-header h3 {
             font-size: 18px;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             font-weight: 700;
             color: #1a1a1a;
             margin: 0;
@@ -922,7 +924,7 @@
             padding: 20px;
             background: #fafafa;
             border-radius: 0 0 15px 15px;
-            font-family: 'PT Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
             color: #4a4a4a;
             line-height: 1.7;
         }
@@ -1017,7 +1019,7 @@
         }
 
         .kiwanis-popover h2 {
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             font-size: 28px;
             font-weight: 900;
             color: #1a1a1a;
@@ -1026,7 +1028,7 @@
         }
 
         .kiwanis-popover p {
-            font-family: 'PT Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
             font-size: 18px;
             color: #4a4a4a;
             line-height: 1.7;
@@ -1053,7 +1055,7 @@
             background: linear-gradient(90deg, #fdb715, #f58420 58%, #e45927);
             color: white;
             border-radius: 50px;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             font-weight: 700;
             font-size: 18px;
             border: none;
@@ -1068,15 +1070,16 @@
 
         /* Social Follow Section */
         .social-follow {
-            background: white;
+            background: linear-gradient(135deg, #fffbf5 0%, #fff8f0 100%);
             text-align: center;
             padding: 40px 20px;
             border-top: 1px solid #f0f0f0;
+            box-shadow: inset 0 10px 30px rgba(245, 132, 32, 0.05);
         }
 
         .social-follow-title {
             font-size: 20px;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             font-weight: 700;
             color: #1a1a1a;
             margin-bottom: 12px;
@@ -1084,7 +1087,7 @@
 
         .social-follow-subtitle {
             font-size: 15px;
-            font-family: 'PT Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
             color: #666;
             margin-bottom: 25px;
         }
@@ -1159,9 +1162,72 @@
             animation: shimmerText 3s ease-in-out infinite;
         }
 
+        /* Apple-Style Scroll Zoom Effects */
+        .section {
+            transform-origin: center;
+            will-change: transform, opacity;
+        }
+
+        .section.zoom-in {
+            animation: zoomIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        .section.zoom-out {
+            animation: zoomOut 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.95);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        @keyframes zoomOut {
+            from {
+                transform: scale(1);
+                opacity: 1;
+            }
+            to {
+                transform: scale(1.05);
+                opacity: 0;
+            }
+        }
+
+        /* Parallax Zoom on Scroll */
+        .parallax-zoom {
+            transition: transform 0.1s ease-out;
+            will-change: transform;
+        }
+
+        /* Card Depth Shadows */
+        .impact-card,
+        .testimonial-card,
+        .donation-card,
+        .expand-header {
+            box-shadow:
+                0 4px 6px -1px rgba(245, 132, 32, 0.1),
+                0 2px 4px -1px rgba(245, 132, 32, 0.06),
+                0 10px 40px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        .impact-card:hover,
+        .donation-card:hover {
+            box-shadow:
+                0 20px 25px -5px rgba(245, 132, 32, 0.2),
+                0 10px 10px -5px rgba(245, 132, 32, 0.04),
+                0 30px 60px -10px rgba(0, 0, 0, 0.2);
+        }
+
         /* Mission Section */
         .mission {
-            background: linear-gradient(135deg, #ffffff 0%, #fafafa 100%);
+            background: linear-gradient(135deg, #fffbf5 0%, #fff8f0 50%, #fff4ea 100%);
+            background-size: 200% 200%;
+            animation: gradientShift 15s ease infinite;
             position: relative;
         }
 
@@ -1171,8 +1237,11 @@
             top: 0;
             left: 0;
             right: 0;
-            height: 4px;
-            background: linear-gradient(90deg, #fdb715, #f58420 58%, #e45927);
+            height: 5px;
+            background: linear-gradient(90deg, #ffd000, #fdb715, #f58420, #e85d2c);
+            background-size: 200% 100%;
+            animation: slideGradient 3s linear infinite;
+            box-shadow: 0 0 15px rgba(245, 132, 32, 0.4);
         }
 
         .section-title {
@@ -1180,7 +1249,7 @@
             font-size: 32px;
             margin-bottom: 30px;
             font-weight: 900;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             position: relative;
             padding-bottom: 15px;
             letter-spacing: -0.5px;
@@ -1248,14 +1317,14 @@
 
         .mission-card h3 {
             color: #1a1a1a;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             font-weight: 700;
             margin-bottom: 10px;
         }
 
         .mission-card p {
             color: #4a4a4a;
-            font-family: 'PT Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
             line-height: 1.6;
         }
 
@@ -1301,7 +1370,7 @@
             justify-content: center;
             font-size: 20px;
             font-weight: bold;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             margin-right: 20px;
             flex-shrink: 0;
             box-shadow: 0 4px 12px rgba(245, 132, 32, 0.4);
@@ -1321,7 +1390,7 @@
             color: #1a1a1a;
             margin-bottom: 5px;
             font-size: 20px;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             font-weight: 700;
         }
 
@@ -1329,7 +1398,7 @@
             color: #4a4a4a;
             font-size: 14px;
             line-height: 1.4;
-            font-family: 'PT Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
         }
 
         /* Impact Section */
@@ -1392,7 +1461,7 @@
         .stat-number {
             font-size: 36px;
             font-weight: 900;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             margin-bottom: 5px;
             display: block;
         }
@@ -1400,7 +1469,7 @@
         .stat-label {
             font-size: 14px;
             opacity: 0.9;
-            font-family: 'PT Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
         }
 
         /* Youth Programs Section */
@@ -1427,7 +1496,7 @@
             color: #1a1a1a;
             margin-bottom: 15px;
             font-size: 22px;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             font-weight: 700;
             display: flex;
             align-items: center;
@@ -1435,7 +1504,7 @@
 
         .program-highlight p {
             color: #4a4a4a;
-            font-family: 'PT Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
             line-height: 1.6;
         }
 
@@ -1483,13 +1552,13 @@
             font-style: italic;
             line-height: 1.7;
             margin-bottom: 15px;
-            font-family: 'PT Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
         }
 
         .story-author {
             color: #1a1a1a;
             font-weight: bold;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
         }
 
         /* CTA Section */
@@ -1520,12 +1589,12 @@
         }
 
         .cta h2 {
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             font-weight: 900;
         }
 
         .cta p {
-            font-family: 'PT Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
         }
 
         .cta-buttons {
@@ -1574,7 +1643,7 @@
             background: linear-gradient(90deg, #fdb715, #f58420 58%, #e45927);
             color: white;
             box-shadow: 0 5px 15px rgba(245, 132, 32, 0.3);
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             font-weight: 700;
             position: relative;
             overflow: hidden;
@@ -1634,7 +1703,7 @@
         }
 
         .btn {
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
         }
 
         /* Contact Footer */
@@ -1660,11 +1729,11 @@
         }
 
         .footer strong {
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
         }
 
         .footer p {
-            font-family: 'PT Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
         }
 
         .social-links {
@@ -1707,14 +1776,14 @@
             color: #1a1a1a;
             margin-bottom: 10px;
             font-size: 20px;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             font-weight: 700;
         }
 
         .kiwanis-special p {
             color: #4a4a4a;
             line-height: 1.6;
-            font-family: 'PT Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
         }
 
         /* Wake Forest Kiwanis Thank You */
@@ -1732,7 +1801,7 @@
         }
 
         .kiwanis-thanks h2 {
-            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
             font-size: 24px;
             font-weight: 700;
             color: #1a1a1a;
@@ -1740,7 +1809,7 @@
         }
 
         .kiwanis-thanks p {
-            font-family: 'PT Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
             color: #4a4a4a;
             line-height: 1.7;
             max-width: 360px;
@@ -1854,22 +1923,22 @@
 
             <div class="impact-grid">
                 <div class="impact-card">
-                    <div class="impact-icon">📚</div>
+                    <div class="impact-icon"><i class="fas fa-book"></i></div>
                     <h3>Homework for the First Time</h3>
                     <p>Students without home computers can now complete assignments, access online learning, and keep up with their classmates.</p>
                 </div>
                 <div class="impact-card">
-                    <div class="impact-icon">🎓</div>
+                    <div class="impact-icon"><i class="fas fa-graduation-cap"></i></div>
                     <h3>College Dreams Made Possible</h3>
                     <p>Teen mothers earning GEDs. High schoolers getting into college. Parents pursuing certifications while raising kids.</p>
                 </div>
                 <div class="impact-card">
-                    <div class="impact-icon">👨‍👩‍👧‍👦</div>
+                    <div class="impact-icon"><i class="fas fa-users"></i></div>
                     <h3>Whole Families Empowered</h3>
                     <p>In families with 5-6 people sharing 1-2 devices, our Chromebooks create equity and opportunity for everyone.</p>
                 </div>
                 <div class="impact-card">
-                    <div class="impact-icon">🌟</div>
+                    <div class="impact-icon"><i class="fas fa-heart"></i></div>
                     <h3>Special Needs Support</h3>
                     <p>Children with autism using Chromebooks for ABA therapy and online tutoring. Technology customized for their learning needs.</p>
                 </div>
@@ -2118,7 +2187,7 @@
         </section>
 
         <!-- Partner Organizations -->
-        <section class="section" style="background: white;">
+        <section class="section" style="background: linear-gradient(135deg, #fff8f0 0%, #fff4ea 50%, #ffe8d5 100%); background-size: 200% 200%; animation: gradientShift 15s ease infinite; box-shadow: inset 0 10px 30px rgba(245, 132, 32, 0.08);">
             <h2 class="section-title">Trusted Community Partners</h2>
             <p class="impact-intro">HTI works with established organizations to identify families who will benefit most from technology access:</p>
 
@@ -2295,7 +2364,7 @@
             <div class="donation-cards">
                 <!-- Primary: Donate a Laptop -->
                 <a href="mailto:info@hubzonetech.org?subject=Laptop Donation Inquiry" class="donation-card primary">
-                    <span class="donation-icon-large">💻</span>
+                    <span class="donation-icon-large"><i class="fas fa-laptop"></i></span>
                     <h3>Donate a Laptop</h3>
                     <p>Your old laptop becomes a child's gateway to education</p>
                     <span class="donation-impact">1 Laptop = 1 Child Empowered</span>
@@ -2304,7 +2373,7 @@
 
                 <!-- Give Money -->
                 <a href="https://www.hubzonetech.org/donate" class="donation-card">
-                    <span class="donation-icon">💝</span>
+                    <span class="donation-icon"><i class="fas fa-heart"></i></span>
                     <h3>Give Money</h3>
                     <p>Fund conversions and training programs</p>
                     <span class="donation-impact">$25 = Training for 1 Family</span>
@@ -2313,7 +2382,7 @@
 
                 <!-- Shop eBay Store -->
                 <a href="https://www.hubzonetech.org" class="donation-card">
-                    <span class="donation-icon">🛒</span>
+                    <span class="donation-icon"><i class="fas fa-shopping-cart"></i></span>
                     <h3>Shop eBay</h3>
                     <p>Buy tech, support our mission</p>
                     <span class="donation-impact">100% Proceeds → Chromebooks</span>
@@ -2322,7 +2391,7 @@
 
                 <!-- Partner With Us -->
                 <a href="mailto:wsigmon@hubzonetech.org?subject=Partnership Inquiry" class="donation-card">
-                    <span class="donation-icon">🤝</span>
+                    <span class="donation-icon"><i class="fas fa-handshake"></i></span>
                     <h3>Partner</h3>
                     <p>Corporate or org collaboration</p>
                     <span class="donation-impact">Bulk Donations Welcome</span>
@@ -2673,6 +2742,53 @@
                 }
             });
         });
+
+        // Apple-Style Scroll Zoom Parallax
+        function appleStyleZoom() {
+            const scrollY = window.pageYOffset;
+            const windowHeight = window.innerHeight;
+
+            // Zoom effect on logo
+            const logoContainer = document.querySelector('.logo-container');
+            if (logoContainer) {
+                const logoTop = logoContainer.getBoundingClientRect().top;
+                const logoProgress = Math.max(0, Math.min(1, (windowHeight - logoTop) / windowHeight));
+                const scale = 1 + (logoProgress * 0.1);
+                logoContainer.style.transform = `scale(${scale}) translateY(${-scrollY * 0.2}px)`;
+            }
+
+            // Zoom cards as they enter viewport
+            document.querySelectorAll('.impact-card, .testimonial-card, .donation-card').forEach((card, index) => {
+                const rect = card.getBoundingClientRect();
+                const cardCenter = rect.top + (rect.height / 2);
+                const distanceFromCenter = Math.abs(windowHeight / 2 - cardCenter);
+                const maxDistance = windowHeight;
+                const progress = 1 - Math.min(distanceFromCenter / maxDistance, 1);
+
+                const scale = 0.95 + (progress * 0.05);
+                const opacity = 0.7 + (progress * 0.3);
+
+                if (rect.top < windowHeight && rect.bottom > 0) {
+                    card.style.transform = `scale(${scale})`;
+                    card.style.opacity = opacity;
+                }
+            });
+        }
+
+        // Run on scroll with RAF
+        let zoomTicking = false;
+        window.addEventListener('scroll', () => {
+            if (!zoomTicking) {
+                requestAnimationFrame(() => {
+                    appleStyleZoom();
+                    zoomTicking = false;
+                });
+                zoomTicking = true;
+            }
+        }, { passive: true });
+
+        // Initial call
+        appleStyleZoom();
 
         // Kiwanis Popover - Only show on 10/9/2025
         (function() {
