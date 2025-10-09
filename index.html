@@ -342,7 +342,7 @@
 
         .carousel-container {
             position: relative;
-            padding-bottom: 50px;
+            padding-bottom: 60px;
         }
 
         .carousel-track {
@@ -354,62 +354,65 @@
         .carousel-slide {
             min-width: 100%;
             flex-shrink: 0;
+            padding: 0 5px;
         }
 
         .testimonial-card {
             background: linear-gradient(135deg, #fffbf0, #fff4e0);
-            padding: 35px 25px 30px;
-            border-radius: 20px;
-            margin: 0 10px;
-            box-shadow: 0 6px 18px rgba(245, 132, 32, 0.12);
+            padding: 40px 30px 35px;
+            border-radius: 24px;
+            box-shadow: 0 8px 24px rgba(245, 132, 32, 0.15);
             position: relative;
-            border: 2px solid rgba(253, 183, 21, 0.2);
-            min-height: 320px;
+            border: 2px solid rgba(253, 183, 21, 0.3);
+            min-height: 380px;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: space-between;
         }
 
         .testimonial-card::before {
             content: '"';
             position: absolute;
-            left: 20px;
-            top: 10px;
-            font-size: 50px;
+            left: 25px;
+            top: 15px;
+            font-size: 60px;
             color: #f58420;
-            opacity: 0.12;
+            opacity: 0.1;
             font-family: Georgia, serif;
             line-height: 1;
         }
 
         .testimonial-text {
-            font-size: 17px;
+            font-size: 18px;
             color: #2c2c2c;
-            line-height: 1.8;
-            margin-bottom: 25px;
+            line-height: 1.75;
+            margin-bottom: 30px;
             font-family: 'PT Sans', sans-serif;
             position: relative;
             z-index: 1;
             flex-grow: 1;
-            display: flex;
-            align-items: center;
+        }
+
+        .testimonial-footer {
+            position: relative;
+            z-index: 1;
         }
 
         .testimonial-author {
-            font-size: 16px;
+            font-size: 17px;
             font-weight: 700;
             color: #1a1a1a;
             font-family: 'Lato', sans-serif;
-            margin-bottom: 6px;
+            margin-bottom: 8px;
             line-height: 1.3;
         }
 
         .testimonial-role {
-            font-size: 14px;
+            font-size: 15px;
             color: #f58420;
             font-family: 'PT Sans', sans-serif;
             font-style: italic;
-            line-height: 1.4;
+            line-height: 1.5;
         }
 
         .carousel-dots {
@@ -1374,8 +1377,10 @@
                     <div class="carousel-slide">
                         <div class="testimonial-card">
                             <p class="testimonial-text">"My daughter graduated from high school—that was the happiest day of my life. She kept her grades up while working part-time, and now she's starting college pursuing a Business Administration degree. The Chromebook made all the difference for her education."</p>
-                            <p class="testimonial-author">DeAndra Jones</p>
-                            <p class="testimonial-role">HTI Recipient & Mother | Teen Mother Success Story</p>
+                            <div class="testimonial-footer">
+                                <p class="testimonial-author">DeAndra Jones</p>
+                                <p class="testimonial-role">HTI Recipient & Mother<br>Teen Mother Success Story</p>
+                            </div>
                         </div>
                     </div>
 
@@ -1383,8 +1388,10 @@
                     <div class="carousel-slide">
                         <div class="testimonial-card">
                             <p class="testimonial-text">"The Chromebook has been amazing for my son's online learning, homework, and ABA therapy sessions. He's learned to navigate the internet, use Microsoft Office, and email. Having his own personal computer gives him the flexibility he needs for his therapeutic and educational work."</p>
-                            <p class="testimonial-author">Xavier Williams' Family</p>
-                            <p class="testimonial-role">Parent of Child with Autism | Received December 2022</p>
+                            <div class="testimonial-footer">
+                                <p class="testimonial-author">Xavier Williams' Family</p>
+                                <p class="testimonial-role">Parent of Child with Autism<br>Received December 2022</p>
+                            </div>
                         </div>
                     </div>
 
@@ -1392,8 +1399,10 @@
                     <div class="carousel-slide">
                         <div class="testimonial-card">
                             <p class="testimonial-text">"As a single mother with three children—one with special needs—the HTI Chromebook bridged a critical gap for our family. My children are now excelling in the classroom, and I've learned new computer skills that are helping me provide for them."</p>
-                            <p class="testimonial-author">Shawn Burton</p>
-                            <p class="testimonial-role">Single Mother of Three | Received December 2022</p>
+                            <div class="testimonial-footer">
+                                <p class="testimonial-author">Shawn Burton</p>
+                                <p class="testimonial-role">Single Mother of Three<br>Received December 2022</p>
+                            </div>
                         </div>
                     </div>
 
@@ -1401,8 +1410,10 @@
                     <div class="carousel-slide">
                         <div class="testimonial-card">
                             <p class="testimonial-text">"HTI is inspiring. I see people in the community gaining motivation to work because they didn't have this access before. With these HTI Chromebooks, we've seen clients receive college diplomas, trade school certificates, and get jobs."</p>
-                            <p class="testimonial-author">Shane Hicks</p>
-                            <p class="testimonial-role">Easterseals UCP | Community Partner</p>
+                            <div class="testimonial-footer">
+                                <p class="testimonial-author">Shane Hicks</p>
+                                <p class="testimonial-role">Easterseals UCP<br>Community Partner</p>
+                            </div>
                         </div>
                     </div>
 
@@ -1410,8 +1421,10 @@
                     <div class="carousel-slide">
                         <div class="testimonial-card">
                             <p class="testimonial-text">"I was unemployed and looking for IT work when I received my Chromebook. It helped me learn Google Drive, Microsoft Office, and internet skills. Now I have an IT Support job at Cox Communications and started my own side business!"</p>
-                            <p class="testimonial-author">Octavia Jones</p>
-                            <p class="testimonial-role">HTI Recipient | Now IT Professional</p>
+                            <div class="testimonial-footer">
+                                <p class="testimonial-author">Octavia Jones</p>
+                                <p class="testimonial-role">HTI Recipient<br>Now IT Professional</p>
+                            </div>
                         </div>
                     </div>
 
@@ -1419,8 +1432,10 @@
                     <div class="carousel-slide">
                         <div class="testimonial-card">
                             <p class="testimonial-text">"After overcoming addiction, I needed tools to rebuild my life. The HTI Chromebook enabled me to work from home as a loan officer. Now I'm planning to return to school to continue my education."</p>
-                            <p class="testimonial-author">Michael Hines</p>
-                            <p class="testimonial-role">HTI Recipient | Loan Officer</p>
+                            <div class="testimonial-footer">
+                                <p class="testimonial-author">Michael Hines</p>
+                                <p class="testimonial-role">HTI Recipient<br>Loan Officer</p>
+                            </div>
                         </div>
                     </div>
 
@@ -1428,8 +1443,10 @@
                     <div class="carousel-slide">
                         <div class="testimonial-card">
                             <p class="testimonial-text">"As a child advocate, the Chromebook transformed how I serve families. I can now type reports, attend Zoom meetings, and receive emails efficiently. This technology helps me help more children in our community."</p>
-                            <p class="testimonial-author">Doris Swan</p>
-                            <p class="testimonial-role">Child Advocate | Community Leader</p>
+                            <div class="testimonial-footer">
+                                <p class="testimonial-author">Doris Swan</p>
+                                <p class="testimonial-role">Child Advocate<br>Community Leader</p>
+                            </div>
                         </div>
                     </div>
 
@@ -1437,8 +1454,10 @@
                     <div class="carousel-slide">
                         <div class="testimonial-card">
                             <p class="testimonial-text">"Many of the people we serve are single mothers and families with children who need this access. In families with 5-6 people sharing just 1-2 devices, competition for screen time means kids fall behind. These HTI Chromebooks create equity and open doors to employment and educational opportunities."</p>
-                            <p class="testimonial-author">HTI Partner Organization</p>
-                            <p class="testimonial-role">Serving Families in Need</p>
+                            <div class="testimonial-footer">
+                                <p class="testimonial-author">HTI Partner Organization</p>
+                                <p class="testimonial-role">Serving Families in Need</p>
+                            </div>
                         </div>
                     </div>
 
@@ -1446,8 +1465,10 @@
                     <div class="carousel-slide">
                         <div class="testimonial-card">
                             <p class="testimonial-text">"If we want to, we can all still stay connected and engaged with each other. HTI exists to ensure that technology isn't a barrier preventing families from achieving their educational and career goals."</p>
-                            <p class="testimonial-author">Mark Williams</p>
-                            <p class="testimonial-role">HTI Executive Director</p>
+                            <div class="testimonial-footer">
+                                <p class="testimonial-author">Mark Williams</p>
+                                <p class="testimonial-role">HTI Executive Director</p>
+                            </div>
                         </div>
                     </div>
 
@@ -1455,8 +1476,10 @@
                     <div class="carousel-slide">
                         <div class="testimonial-card">
                             <p class="testimonial-text">"To play a small part in helping even one person further their education and achieve their life goals is truly gratifying. When we multiply that impact across thousands of families, we're changing our entire community."</p>
-                            <p class="testimonial-author">HTI Board Member</p>
-                            <p class="testimonial-role">Volunteer Leadership</p>
+                            <div class="testimonial-footer">
+                                <p class="testimonial-author">HTI Board Member</p>
+                                <p class="testimonial-role">Volunteer Leadership</p>
+                            </div>
                         </div>
                     </div>
                 </div>
