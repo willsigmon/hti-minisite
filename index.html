@@ -856,18 +856,29 @@
             box-shadow: 0 10px 25px rgba(245, 132, 32, 0.16);
         }
 
+        .partner-name {
+            margin-top: 12px;
+            font-size: 13px;
+            font-weight: 600;
+            color: #2c2c2c;
+        }
+
         .partner-logo {
             max-width: 120px;
             max-height: 60px;
             width: 100%;
             object-fit: contain;
+            filter: drop-shadow(0 2px 6px rgba(0,0,0,0.1));
         }
 
-        .partner-card span {
-            margin-top: 12px;
-            font-size: 13px;
-            font-weight: 600;
-            color: #2c2c2c;
+        .partner-logo.fallback {
+            background: linear-gradient(135deg, #fdb715, #f58420);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+            font-weight: 700;
         }
 
         .recognition-panel {
@@ -905,18 +916,36 @@
         }
 
         .recognition-item {
-            padding: 12px;
+            padding: 12px 16px;
             background: white;
             border-radius: 12px;
-            font-weight: 600;
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 16px;
+            box-shadow: 0 6px 16px rgba(245, 132, 32, 0.12);
         }
 
-        .recognition-item i {
-            color: #f58420;
-            font-size: 18px;
+        .recognition-logo {
+            width: 48px;
+            max-height: 36px;
+            object-fit: contain;
+        }
+
+        .recognition-text {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .recognition-title {
+            font-weight: 700;
+            color: #2c2c2c;
+        }
+
+        .recognition-caption {
+            font-size: 13px;
+            color: #555;
+            font-weight: 500;
         }
 
         .tgt-feature h2 {
@@ -2437,36 +2466,36 @@
 
             <div class="partner-logos">
                 <div class="partner-card">
-                    <img src="assets/partners/boys-and-girls-club.svg" alt="Boys & Girls Club logo" class="partner-logo">
-                    <span>Boys & Girls Club</span>
+                    <img src="assets/partners/boys-and-girls-club.svg" alt="Boys &amp; Girls Club logo" class="partner-logo" loading="lazy">
+                    <span class="partner-name">Boys &amp; Girls Club</span>
                 </div>
                 <div class="partner-card">
-                    <img src="assets/partners/ymca.svg" alt="YMCA logo" class="partner-logo">
-                    <span>YMCA</span>
+                    <img src="assets/partners/ymca.svg" alt="YMCA logo" class="partner-logo" loading="lazy">
+                    <span class="partner-name">YMCA</span>
                 </div>
                 <div class="partner-card">
-                    <img src="assets/partners/salvation-army.svg" alt="Salvation Army shield logo" class="partner-logo">
-                    <span>Salvation Army</span>
+                    <img src="assets/partners/salvation-army.svg" alt="Salvation Army shield logo" class="partner-logo" loading="lazy">
+                    <span class="partner-name">Salvation Army</span>
                 </div>
                 <div class="partner-card">
-                    <img src="assets/partners/easterseals-ucp.png" alt="Easterseals UCP logo" class="partner-logo">
-                    <span>Easterseals UCP</span>
+                    <img src="assets/partners/easterseals-ucp.png" alt="Easterseals UCP logo" class="partner-logo" loading="lazy">
+                    <span class="partner-name">Easterseals UCP</span>
                 </div>
                 <div class="partner-card">
-                    <img src="assets/partners/veterans-life-center.png" alt="Veterans Life Center of North Carolina logo" class="partner-logo">
-                    <span>Veterans Life Center NC</span>
+                    <img src="assets/partners/veterans-life-center.png" alt="Veterans Life Center of North Carolina logo" class="partner-logo" loading="lazy">
+                    <span class="partner-name">Veterans Life Center NC</span>
                 </div>
                 <div class="partner-card">
-                    <img src="assets/partners/passage-home.png" alt="Passage Home logo" class="partner-logo">
-                    <span>Passage Home</span>
+                    <img src="assets/partners/passage-home.png" alt="Passage Home logo" class="partner-logo" loading="lazy">
+                    <span class="partner-name">Passage Home</span>
                 </div>
                 <div class="partner-card">
-                    <img src="assets/partners/step-up-ministry.png" alt="Step Up Ministry logo" class="partner-logo">
-                    <span>Step Up Ministry</span>
+                    <img src="assets/partners/step-up-ministry.png" alt="Step Up Ministry logo" class="partner-logo" loading="lazy">
+                    <span class="partner-name">Step Up Ministry</span>
                 </div>
                 <div class="partner-card">
-                    <img src="assets/partners/raleigh-dream-center.png" alt="Raleigh Dream Center logo" class="partner-logo">
-                    <span>Raleigh Dream Center</span>
+                    <img src="assets/partners/raleigh-dream-center.png" alt="Raleigh Dream Center logo" class="partner-logo" loading="lazy">
+                    <span class="partner-name">Raleigh Dream Center</span>
                 </div>
             </div>
 
@@ -2477,20 +2506,32 @@
                 </h3>
                 <div class="recognition-grid">
                     <div class="recognition-item">
-                        <i class="fas fa-hand-holding-dollar" aria-hidden="true"></i>
-                        <span>$600,000 NC Digital Champion Grant</span>
+                        <img src="assets/recognition/nc-dit.png" alt="North Carolina Department of Information Technology logo" class="recognition-logo" loading="lazy">
+                        <div class="recognition-text">
+                            <span class="recognition-title">$600,000 NC Digital Champion Grant</span>
+                            <span class="recognition-caption">Awarded by the NC Department of Information Technology</span>
+                        </div>
                     </div>
                     <div class="recognition-item">
-                        <i class="fas fa-handshake" aria-hidden="true"></i>
-                        <span>$25,000 State Farm Neighborhood Assist</span>
+                        <img src="assets/recognition/state-farm.svg" alt="State Farm logo" class="recognition-logo" loading="lazy">
+                        <div class="recognition-text">
+                            <span class="recognition-title">$25,000 State Farm Neighborhood Assist</span>
+                            <span class="recognition-caption">Community grant fueling device refurbishments</span>
+                        </div>
                     </div>
                     <div class="recognition-item">
-                        <i class="fas fa-mobile-screen-button" aria-hidden="true"></i>
-                        <span>T-Mobile Hometown Grant (Cargo Van)</span>
+                        <img src="assets/recognition/t-mobile.svg" alt="T-Mobile logo" class="recognition-logo" loading="lazy">
+                        <div class="recognition-text">
+                            <span class="recognition-title">T-Mobile Hometown Grant</span>
+                            <span class="recognition-caption">Funded the cargo van that powers rural deliveries</span>
+                        </div>
                     </div>
                     <div class="recognition-item">
-                        <i class="fas fa-tv" aria-hidden="true"></i>
-                        <span>Featured on WRAL News</span>
+                        <img src="assets/recognition/wral.svg" alt="WRAL News logo" class="recognition-logo" loading="lazy">
+                        <div class="recognition-text">
+                            <span class="recognition-title">Featured on WRAL News</span>
+                            <span class="recognition-caption">Spotlighted as a leading digital equity program</span>
+                        </div>
                     </div>
                 </div>
             </div>
