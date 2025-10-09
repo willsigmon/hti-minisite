@@ -406,6 +406,7 @@
             background-size: 200% 200%;
             animation: gradientShift 15s ease infinite;
             position: relative;
+            overflow: visible;
         }
 
         .testimonials::before {
@@ -423,8 +424,8 @@
 
         .carousel-container {
             position: relative;
-            padding-bottom: 60px;
-            overflow: hidden;
+            padding: 0 5px 70px;
+            overflow: visible;
             width: 100%;
         }
 
@@ -433,6 +434,7 @@
             transition: transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
             will-change: transform;
             width: 100%;
+            overflow: visible;
         }
 
         .carousel-slide {
@@ -440,7 +442,7 @@
             width: 100%;
             flex-shrink: 0;
             flex-grow: 0;
-            padding: 0;
+            padding: 5px;
         }
 
         .testimonial-card {
@@ -449,14 +451,14 @@
             animation: gradientShift 10s ease infinite;
             padding: 40px 25px 35px;
             border-radius: 24px;
-            box-shadow: 0 8px 24px rgba(245, 132, 32, 0.15);
+            box-shadow: 0 10px 30px rgba(245, 132, 32, 0.18);
             position: relative;
             border: 2px solid rgba(253, 183, 21, 0.3);
             min-height: 400px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            margin: 0 auto;
+            margin: 0;
             max-width: 100%;
         }
 
