@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>HTI - Transforming Young Lives Through Technology</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lato', 'PT Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            overflow-x: hidden;
+            background: #f5f5f5;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 430px;
+            margin: 0 auto;
+            background: white;
+            min-height: 100vh;
+            position: relative;
+            box-shadow: 0 0 40px rgba(0,0,0,0.3);
+        }
+
+        .section {
+            min-height: 100vh;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            scroll-snap-align: start;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #2c2c2c 0%, #1a1a1a 100%);
+            color: white;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background:
+                radial-gradient(circle at 20% 50%, rgba(220, 38, 38, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(220, 38, 38, 0.05) 0%, transparent 50%);
+            animation: pulse 15s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 0.6; }
+        }
+
+        .logo-container {
+            width: 180px;
+            height: 180px;
+            background: white;
+            border-radius: 24px;
+            margin: 0 auto 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow:
+                0 20px 60px rgba(0,0,0,0.3),
+                0 0 0 1px rgba(255,255,255,0.1);
+            position: relative;
+            z-index: 1;
+            padding: 20px;
+        }
+
+        .logo-img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .logo-text {
+            color: #1e3a5f;
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 38px;
+            margin-bottom: 20px;
+            font-weight: 900;
+            font-family: 'Lato', sans-serif;
+            position: relative;
+            z-index: 1;
+            line-height: 1.2;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            margin-bottom: 15px;
+            opacity: 0.95;
+            position: relative;
+            z-index: 1;
+            line-height: 1.4;
+            font-family: 'PT Sans', sans-serif;
+            font-weight: 400;
+        }
+
+        .tagline {
+            font-size: 24px;
+            font-weight: 300;
+            font-family: 'Lato', sans-serif;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        .tagline .old {
+            text-transform: lowercase;
+        }
+
+        .tagline .new {
+            text-transform: lowercase;
+            color: #dc2626;
+        }
+
+        .impact-badge {
+            background: rgba(255,255,255,0.2);
+            backdrop-filter: blur(10px);
+            padding: 15px 25px;
+            border-radius: 50px;
+            display: inline-block;
+            margin-top: 20px;
+            position: relative;
+            z-index: 1;
+            border: 2px solid rgba(255,255,255,0.3);
+        }
+
+        /* Mission Section */
+        .mission {
+            background: white;
+        }
+
+        .section-title {
+            color: #1a1a1a;
+            font-size: 32px;
+            margin-bottom: 30px;
+            font-weight: 900;
+            font-family: 'Lato', sans-serif;
+            position: relative;
+            padding-bottom: 15px;
+            letter-spacing: -0.5px;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: #dc2626;
+            border-radius: 2px;
+        }
+
+        .mission-card {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 25px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            transform: translateY(0);
+            transition: all 0.3s ease;
+        }
+
+        .mission-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        .mission-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #2c2c2c, #1a1a1a);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+            font-size: 28px;
+        }
+
+        .mission-card h3 {
+            color: #1a1a1a;
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .mission-card p {
+            color: #4a4a4a;
+            font-family: 'PT Sans', sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Process Section */
+        .process {
+            background: #f8f9fa;
+        }
+
+        .process-step {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            opacity: 0;
+            animation: slideIn 0.5s ease forwards;
+        }
+
+        .process-step:nth-child(1) { animation-delay: 0.1s; }
+        .process-step:nth-child(2) { animation-delay: 0.2s; }
+        .process-step:nth-child(3) { animation-delay: 0.3s; }
+        .process-step:nth-child(4) { animation-delay: 0.4s; }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .step-number {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #dc2626, #b91c1c);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Lato', sans-serif;
+            margin-right: 20px;
+            flex-shrink: 0;
+            box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+        }
+
+        .step-content h3 {
+            color: #1a1a1a;
+            margin-bottom: 5px;
+            font-size: 20px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+        }
+
+        .step-content p {
+            color: #4a4a4a;
+            font-size: 14px;
+            line-height: 1.4;
+            font-family: 'PT Sans', sans-serif;
+        }
+
+        /* Impact Section */
+        .impact {
+            background: white;
+        }
+
+        .stat-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #2c2c2c, #1a1a1a);
+            color: white;
+            padding: 25px 20px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            transform: scale(1);
+            transition: transform 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #dc2626, #ef4444);
+        }
+
+        .stat-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .stat-number {
+            font-size: 36px;
+            font-weight: 900;
+            font-family: 'Lato', sans-serif;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            opacity: 0.9;
+            font-family: 'PT Sans', sans-serif;
+        }
+
+        /* Youth Programs Section */
+        .youth-programs {
+            background: linear-gradient(135deg, #fafafa 0%, #f0f0f0 100%);
+        }
+
+        .program-highlight {
+            background: white;
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            margin-bottom: 20px;
+            border-left: 4px solid #dc2626;
+            transition: all 0.3s ease;
+        }
+
+        .program-highlight:hover {
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+            transform: translateX(5px);
+        }
+
+        .program-highlight h3 {
+            color: #1a1a1a;
+            margin-bottom: 15px;
+            font-size: 22px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+        }
+
+        .program-highlight p {
+            color: #4a4a4a;
+            font-family: 'PT Sans', sans-serif;
+            line-height: 1.6;
+        }
+
+        .program-highlight .icon {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #dc2626, #b91c1c);
+            color: white;
+            border-radius: 10px;
+            text-align: center;
+            line-height: 40px;
+            margin-right: 15px;
+            font-size: 20px;
+        }
+
+        /* Success Stories */
+        .stories {
+            background: #f8f9fa;
+        }
+
+        .story-card {
+            background: white;
+            padding: 25px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            position: relative;
+            padding-left: 45px;
+        }
+
+        .story-card::before {
+            content: '"';
+            position: absolute;
+            left: 15px;
+            top: 20px;
+            font-size: 40px;
+            color: #dc2626;
+            opacity: 0.2;
+            font-family: Georgia, serif;
+        }
+
+        .story-text {
+            color: #333;
+            font-style: italic;
+            line-height: 1.7;
+            margin-bottom: 15px;
+            font-family: 'PT Sans', sans-serif;
+        }
+
+        .story-author {
+            color: #1a1a1a;
+            font-weight: bold;
+            font-family: 'Lato', sans-serif;
+        }
+
+        /* CTA Section */
+        .cta {
+            background: linear-gradient(135deg, #2c2c2c 0%, #1a1a1a 100%);
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+
+        .cta::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background:
+                radial-gradient(circle at 30% 20%, rgba(220, 38, 38, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 70% 80%, rgba(220, 38, 38, 0.08) 0%, transparent 50%);
+        }
+
+        .cta h2,
+        .cta p,
+        .cta-buttons {
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta h2 {
+            font-family: 'Lato', sans-serif;
+            font-weight: 900;
+        }
+
+        .cta p {
+            font-family: 'PT Sans', sans-serif;
+        }
+
+        .cta-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .btn {
+            padding: 18px 30px;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-block;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #dc2626, #b91c1c);
+            color: white;
+            box-shadow: 0 5px 15px rgba(220, 38, 38, 0.3);
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(220, 38, 38, 0.4);
+            background: linear-gradient(135deg, #b91c1c, #991b1b);
+        }
+
+        .btn-secondary {
+            background: rgba(255,255,255,0.1);
+            color: white;
+            border: 2px solid white;
+            backdrop-filter: blur(10px);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255,255,255,0.2);
+        }
+
+        .btn {
+            font-family: 'Lato', sans-serif;
+        }
+
+        /* Contact Footer */
+        .footer {
+            background: #1a1a1a;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .contact-info {
+            margin-bottom: 20px;
+        }
+
+        .contact-info a {
+            color: #dc2626;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            color: #ef4444;
+        }
+
+        .footer strong {
+            font-family: 'Lato', sans-serif;
+        }
+
+        .footer p {
+            font-family: 'PT Sans', sans-serif;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .social-link {
+            width: 40px;
+            height: 40px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            background: #dc2626;
+            transform: scale(1.1);
+        }
+
+        /* Special Kiwanis Message */
+        .kiwanis-special {
+            background: white;
+            padding: 20px;
+            border-radius: 20px;
+            margin: 20px 0;
+            border: 2px solid #e5e5e5;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .kiwanis-special h3 {
+            color: #1a1a1a;
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+        }
+
+        .kiwanis-special p {
+            color: #4a4a4a;
+            line-height: 1.6;
+            font-family: 'PT Sans', sans-serif;
+        }
+
+        /* Wake Forest Kiwanis Thank You */
+        .kiwanis-thanks {
+            background: white;
+            padding: 30px 20px;
+            text-align: center;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .kiwanis-logo {
+            width: 100px;
+            height: auto;
+            margin: 0 auto 20px;
+        }
+
+        .kiwanis-thanks h2 {
+            font-family: 'Lato', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+        }
+
+        .kiwanis-thanks p {
+            font-family: 'PT Sans', sans-serif;
+            color: #4a4a4a;
+            line-height: 1.7;
+            max-width: 360px;
+            margin: 0 auto;
+        }
+
+        .kiwanis-thanks .highlight {
+            color: #dc2626;
+            font-weight: 700;
+        }
+
+        /* Scroll Indicator */
+        .scroll-indicator {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
+            40% { transform: translateX(-50%) translateY(-10px); }
+            60% { transform: translateX(-50%) translateY(-5px); }
+        }
+
+        .arrow-down {
+            width: 30px;
+            height: 30px;
+            border-right: 3px solid rgba(255,255,255,0.7);
+            border-bottom: 3px solid rgba(255,255,255,0.7);
+            transform: rotate(45deg);
+        }
+
+        /* Responsive adjustments */
+        @media (max-height: 700px) {
+            .section {
+                padding: 30px 20px;
+                min-height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Wake Forest Kiwanis Thank You -->
+        <section class="kiwanis-thanks">
+            <img src="https://www.kiwanis.org/wp-content/uploads/2023/06/KI_logo_blue_4C.png" alt="Kiwanis International" class="kiwanis-logo">
+            <h2>Thank You, Wake Forest Kiwanis Club</h2>
+            <p>
+                To the members of the <span class="highlight">Wake Forest Kiwanis Club</span>: Thank you for welcoming me to The Forks on October 9th to share HTI's mission. Your nearly 40 years of serving children in Wake Forest—from Kiwanis Park to youth leadership programs—reflects the same commitment that drives our work bridging the digital divide.
+            </p>
+            <p style="margin-top: 15px;">
+                Special thanks to <span class="highlight">Jeff Gonder</span> for making this connection possible. When organizations like Kiwanis and HTI collaborate, we amplify our impact on the young lives we're called to serve.
+            </p>
+        </section>
+
+        <!-- Hero Section -->
+        <section class="section hero">
+            <div class="logo-container">
+                <img src="https://cdn.prod.website-files.com/62ffac304a82537c845d8487/62ffac304a8253698b5d84b7_hti-logo.webp" alt="HTI Logo" class="logo-img">
+            </div>
+            <h1>Transforming Young Lives Through Technology</h1>
+            <p class="tagline"><span class="old">old</span> laptops. <span class="new">new</span> opportunities.</p>
+            <p class="subtitle">Closing North Carolina's Digital Divide, One Child at a Time</p>
+            <div class="impact-badge">
+                🎯 2,500 Chromebooks by 2026
+            </div>
+            <div class="scroll-indicator">
+                <div class="arrow-down"></div>
+            </div>
+        </section>
+
+        <!-- Mission Section -->
+        <section class="section mission">
+            <h2 class="section-title">Our Mission for Children</h2>
+            
+            <div class="mission-card">
+                <div class="mission-icon">📚</div>
+                <h3>Educational Empowerment</h3>
+                <p>Every child deserves equal access to digital learning. We're ensuring students can complete homework, access educational resources, and develop crucial 21st-century skills.</p>
+            </div>
+
+            <div class="mission-card">
+                <div class="mission-icon">🌟</div>
+                <h3>Breaking Barriers</h3>
+                <p>For families in HUBZone communities, a laptop isn't a luxury—it's a lifeline to opportunity. We're removing technology as a barrier to success.</p>
+            </div>
+
+            <div class="mission-card">
+                <div class="mission-icon">💚</div>
+                <h3>Environmental Stewardship</h3>
+                <p>Teaching young people about sustainability by transforming e-waste into educational tools. Every laptop saved is a lesson in environmental responsibility.</p>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="section process">
+            <h2 class="section-title">How We Transform Lives</h2>
+            
+            <div class="process-step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <h3>Acquire</h3>
+                    <p>Corporate partners donate laptops that would otherwise become e-waste</p>
+                </div>
+            </div>
+
+            <div class="process-step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <h3>Convert</h3>
+                    <p>Our technicians securely wipe data and install ChromeOS Flex—fast, secure, and kid-friendly</p>
+                </div>
+            </div>
+
+            <div class="process-step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <h3>Donate</h3>
+                    <p>Partner organizations identify families with school-age children who need technology access</p>
+                </div>
+            </div>
+
+            <div class="process-step">
+                <div class="step-number">4</div>
+                <div class="step-content">
+                    <h3>Train</h3>
+                    <p>312+ hours of digital literacy training ensures families maximize their new tools</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Youth Programs Section -->
+        <section class="section youth-programs">
+            <h2 class="section-title">Youth Programs That Inspire</h2>
+            
+            <div class="kiwanis-special">
+                <h3>🤝 Partnership with Kiwanis</h3>
+                <p>Our youth-focused initiatives align with Kiwanis International's commitment to improving the world one child and one community at a time.</p>
+            </div>
+
+            <div class="program-highlight">
+                <h3><span class="icon">🎮</span> 4-H STEM Partnership</h3>
+                <p>12-13 year olds learn to refurbish PCs into retro-gaming computers, combining fun with real-world tech skills. They're not just playing games—they're building futures in STEM.</p>
+            </div>
+
+            <div class="program-highlight">
+                <h3><span class="icon">🎓</span> Student Success Stories</h3>
+                <p>From college diplomas to trade certificates, HTI Chromebooks have enabled countless young people to achieve their educational dreams.</p>
+            </div>
+
+            <div class="program-highlight">
+                <h3><span class="icon">👨‍👩‍👧‍👦</span> Family Digital Literacy</h3>
+                <p>When we equip a family with technology, children gain homework help, parents find jobs, and entire households connect to opportunity.</p>
+            </div>
+        </section>
+
+        <!-- Impact Section -->
+        <section class="section impact">
+            <h2 class="section-title">Our Impact on Young Lives</h2>
+            
+            <div class="stat-grid">
+                <div class="stat-card">
+                    <span class="stat-number">2,500</span>
+                    <span class="stat-label">Chromebooks for Families</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">15</span>
+                    <span class="stat-label">NC Counties Served</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">312+</span>
+                    <span class="stat-label">Training Hours</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">$45K</span>
+                    <span class="stat-label">T-Mobile Grant Winner</span>
+                </div>
+            </div>
+
+            <div class="program-highlight" style="background: linear-gradient(135deg, #e8f5e9, #c8e6c9);">
+                <h3>Real Results for Real Families</h3>
+                <ul style="color: #333; line-height: 1.8; padding-left: 20px;">
+                    <li>Students completing homework for the first time</li>
+                    <li>Parents applying for better jobs online</li>
+                    <li>Families staying connected during remote learning</li>
+                    <li>Young people discovering careers in technology</li>
+                    <li>Children accessing educational games and resources</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Success Stories -->
+        <section class="section stories">
+            <h2 class="section-title">Voices of Change</h2>
+            
+            <div class="story-card">
+                <p class="story-text">"HTI is inspiring. I see people in the community gaining motivation to work because they didn't have this access before. With these HTI Chromebooks, we've seen clients receive college diplomas, trade school certificates, and get jobs."</p>
+                <p class="story-author">— Shane Hicks, Community Partner</p>
+            </div>
+
+            <div class="story-card">
+                <p class="story-text">"My daughter graduated from high school—that was the happiest day of my life. She kept her grades up while working part-time, and now she's starting college. The Chromebook made all the difference."</p>
+                <p class="story-author">— DeAndra Jones, HTI Recipient & Mother</p>
+            </div>
+
+            <div class="story-card">
+                <p class="story-text">"Many of the people we serve are single mothers and families with children who need this access. These HTI Chromebooks allow for so many more employment and educational opportunities."</p>
+                <p class="story-author">— Partner Organization</p>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="section cta">
+            <h2 style="font-size: 32px; margin-bottom: 20px;">Join Us in Transforming Lives</h2>
+            <p style="font-size: 18px; line-height: 1.6; margin-bottom: 30px;">
+                Every laptop donated, every dollar contributed, and every hour volunteered directly impacts a child's future.
+            </p>
+            
+            <div class="cta-buttons">
+                <a href="https://www.hubzonetech.org/donate" class="btn btn-primary">
+                    💝 Donate Now
+                </a>
+                <a href="tel:+12525900240" class="btn btn-secondary">
+                    📞 Call (252) 590-0240
+                </a>
+                <a href="mailto:info@hubzonetech.org" class="btn btn-secondary">
+                    ✉️ Contact Our Team
+                </a>
+            </div>
+
+            <div style="margin-top: 40px; padding: 20px; background: rgba(255,255,255,0.1); border-radius: 15px;">
+                <h3 style="margin-bottom: 15px;">Ways to Make an Impact:</h3>
+                <ul style="text-align: left; line-height: 2; list-style: none; padding: 0;">
+                    <li>✅ Donate laptops from your organization</li>
+                    <li>✅ Sponsor digital literacy training</li>
+                    <li>✅ Host a laptop collection drive</li>
+                    <li>✅ Volunteer as a digital literacy instructor</li>
+                    <li>✅ Connect us with corporate partners</li>
+                    <li>✅ Share our story with your network</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section class="footer">
+            <div class="contact-info">
+                <p style="font-size: 20px; margin-bottom: 10px;">
+                    <strong>HUBZone Technology Initiative</strong>
+                </p>
+                <p style="margin-bottom: 5px;">
+                    501 S. Chestnut Street, Henderson, NC 27536
+                </p>
+                <p style="margin-bottom: 5px;">
+                    <a href="tel:+12525900240">📞 (252) 590-0240</a>
+                </p>
+                <p style="margin-bottom: 5px;">
+                    <a href="mailto:info@hubzonetech.org">✉️ info@hubzonetech.org</a>
+                </p>
+                <p>
+                    <a href="https://www.hubzonetech.org">🌐 www.hubzonetech.org</a>
+                </p>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.facebook.com/HTIHUBZone/" class="social-link">f</a>
+                <a href="https://www.linkedin.com/company/htihubzone" class="social-link">in</a>
+                <a href="https://www.instagram.com/hubzonetech/" class="social-link">📷</a>
+            </div>
+
+            <p style="margin-top: 30px; font-size: 14px; opacity: 0.8;">
+                501(c)(3) Tax-Exempt Organization • EIN: 83-3153294
+            </p>
+        </section>
+    </div>
+
+    <script>
+        // Smooth scroll functionality
+        let isScrolling = false;
+        let currentSection = 0;
+        const sections = document.querySelectorAll('.section');
+        const totalSections = sections.length;
+
+        // Touch handling for mobile swipe
+        let touchStartY = 0;
+        let touchEndY = 0;
+
+        document.addEventListener('touchstart', (e) => {
+            touchStartY = e.changedTouches[0].screenY;
+        });
+
+        document.addEventListener('touchend', (e) => {
+            touchEndY = e.changedTouches[0].screenY;
+            handleSwipe();
+        });
+
+        function handleSwipe() {
+            if (isScrolling) return;
+
+            if (touchStartY - touchEndY > 50) {
+                // Swipe up - next section
+                if (currentSection < totalSections - 1) {
+                    currentSection++;
+                    scrollToSection(currentSection);
+                }
+            }
+
+            if (touchEndY - touchStartY > 50) {
+                // Swipe down - previous section
+                if (currentSection > 0) {
+                    currentSection--;
+                    scrollToSection(currentSection);
+                }
+            }
+        }
+
+        function scrollToSection(index) {
+            if (isScrolling) return;
+            isScrolling = true;
+
+            sections[index].scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+
+            setTimeout(() => {
+                isScrolling = false;
+            }, 800);
+        }
+
+        // Intersection Observer for section tracking
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const index = Array.from(sections).indexOf(entry.target);
+                    currentSection = index;
+                }
+            });
+        }, {
+            threshold: 0.5
+        });
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+
+        // Add click handlers to buttons
+        document.querySelectorAll('.btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                // Allow default behavior for links
+                if (this.href.startsWith('mailto:') || this.href.startsWith('tel:')) {
+                    return;
+                }
+            });
+        });
+
+        // Animate elements on scroll
+        const animateOnScroll = () => {
+            const elements = document.querySelectorAll('.mission-card, .program-highlight, .story-card');
+            
+            elements.forEach(element => {
+                const rect = element.getBoundingClientRect();
+                const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+                
+                if (isVisible) {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        };
+
+        window.addEventListener('scroll', animateOnScroll);
+        animateOnScroll(); // Initial check
+
+        // Add counter animation for statistics
+        const animateCounter = (element, target) => {
+            let current = 0;
+            const increment = target / 50;
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    current = target;
+                    clearInterval(timer);
+                }
+                element.textContent = Math.floor(current).toLocaleString();
+                if (target === 2500 || target === 312 || target === 45) {
+                    element.textContent = current >= target ? target.toLocaleString() : Math.floor(current).toLocaleString();
+                }
+            }, 30);
+        };
+
+        // Observe stat cards for animation
+        const statObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const statNumber = entry.target.querySelector('.stat-number');
+                    if (statNumber && !statNumber.classList.contains('animated')) {
+                        statNumber.classList.add('animated');
+                        const target = parseInt(statNumber.textContent.replace(/\D/g, ''));
+                        if (!isNaN(target)) {
+                            animateCounter(statNumber, target);
+                        }
+                    }
+                }
+            });
+        }, {
+            threshold: 0.5
+        });
+
+        document.querySelectorAll('.stat-card').forEach(card => {
+            statObserver.observe(card);
+        });
+    </script>
+</body>
+</html>
