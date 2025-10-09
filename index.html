@@ -3001,8 +3001,17 @@
                 if (entry.isIntersecting) {
                     const statNumber = entry.target.querySelector('.stat-number');
                     if (statNumber && !statNumber.classList.contains('animated')) {
+                        const originalText = statNumber.dataset.original || statNumber.textContent;
+                        statNumber.dataset.original = originalText;
+                        const numericOnly = originalText.replace(/[^0-9]/g, '');
+                        const hasDecorators = originalText.trim() !== numericOnly && numericOnly !== '';
+                        if (hasDecorators || numericOnly === '') {
+                            statNumber.textContent = originalText;
+                            statNumber.classList.add('animated');
+                            return;
+                        }
                         statNumber.classList.add('animated');
-                        const target = parseInt(statNumber.textContent.replace(/\D/g, ''));
+                        const target = parseInt(numericOnly, 10);
                         if (!isNaN(target)) {
                             animateCounter(statNumber, target);
                         }
