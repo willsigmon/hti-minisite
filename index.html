@@ -251,6 +251,19 @@
             border-radius: 16px;
             text-align: center;
             border: 1px solid rgba(255, 255, 255, 0.2);
+            animation: fadeInScale 0.6s ease forwards;
+            opacity: 0;
+            transform: scale(0.9);
+        }
+
+        .hero-stat:nth-child(1) { animation-delay: 0.3s; }
+        .hero-stat:nth-child(2) { animation-delay: 0.4s; }
+
+        @keyframes fadeInScale {
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
         }
 
         .hero-stat-number {
@@ -320,15 +333,30 @@
             padding: 25px 20px;
             border-radius: 20px;
             box-shadow: 0 6px 16px rgba(245, 132, 32, 0.12);
-            transition: all 0.3s ease;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             will-change: transform;
             border: 1px solid rgba(253, 183, 21, 0.15);
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 0.6s ease forwards;
+        }
+
+        .impact-card:nth-child(1) { animation-delay: 0.1s; }
+        .impact-card:nth-child(2) { animation-delay: 0.2s; }
+        .impact-card:nth-child(3) { animation-delay: 0.3s; }
+        .impact-card:nth-child(4) { animation-delay: 0.4s; }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         .impact-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(245, 132, 32, 0.2);
-            border-color: rgba(253, 183, 21, 0.3);
+            transform: translateY(-8px) scale(1.03);
+            box-shadow: 0 12px 30px rgba(245, 132, 32, 0.25);
+            border-color: rgba(253, 183, 21, 0.4);
         }
 
         .impact-icon {
@@ -556,8 +584,24 @@
 
         .donation-card.primary {
             grid-column: 1 / -1;
-            background: linear-gradient(135deg, #fff4e0, #ffe8c0);
+            background: linear-gradient(135deg, #fff4e0 0%, #ffe8c0 50%, #ffd9a0 100%);
+            background-size: 200% 200%;
+            animation: gradientShift 8s ease infinite;
             border: 2px solid #f58420;
+            box-shadow: 0 8px 25px rgba(245, 132, 32, 0.2);
+        }
+
+        @keyframes gradientShift {
+            0%, 100% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+        }
+
+        .donation-card.primary:hover {
+            box-shadow: 0 12px 35px rgba(245, 132, 32, 0.3);
         }
 
         .donation-icon-large {
@@ -673,6 +717,14 @@
             padding: 25px 20px;
             border-radius: 16px;
             border: 1px solid rgba(253, 183, 21, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .tgt-stat:hover {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: rgba(253, 183, 21, 0.5);
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(253, 183, 21, 0.3);
         }
 
         .tgt-stat-number {
@@ -930,6 +982,82 @@
 
         .kiwanis-popover-cta:active {
             transform: scale(0.98);
+        }
+
+        /* Social Follow Section */
+        .social-follow {
+            background: white;
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 1px solid #f0f0f0;
+        }
+
+        .social-follow-title {
+            font-size: 20px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 12px;
+        }
+
+        .social-follow-subtitle {
+            font-size: 15px;
+            font-family: 'PT Sans', sans-serif;
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        .social-follow-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .social-follow-link {
+            width: 52px;
+            height: 52px;
+            background: linear-gradient(135deg, #fff4e0, #ffe8c0);
+            border: 2px solid #f58420;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: #f58420;
+            font-size: 24px;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 4px 12px rgba(245, 132, 32, 0.15);
+        }
+
+        .social-follow-link:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 8px 20px rgba(245, 132, 32, 0.25);
+            background: linear-gradient(135deg, #fdb715, #f58420);
+            color: white;
+        }
+
+        .social-follow-link:active {
+            transform: translateY(-2px) scale(0.98);
+        }
+
+        /* Enhanced Animations */
+        @keyframes shimmerText {
+            0%, 100% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+        }
+
+        .section-title.animated {
+            background: linear-gradient(90deg, #1a1a1a 0%, #f58420 50%, #1a1a1a 100%);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: shimmerText 3s ease-in-out infinite;
         }
 
         /* Mission Section */
@@ -1309,19 +1437,50 @@
             box-shadow: 0 5px 15px rgba(245, 132, 32, 0.3);
             font-family: 'Lato', sans-serif;
             font-weight: 700;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-primary::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.4);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+
+        .btn-primary:active::after {
+            width: 400px;
+            height: 400px;
         }
 
         .btn-primary:hover {
-            transform: translateY(-3px) scale(1.02);
+            transform: translateY(-3px) scale(1.03);
             box-shadow:
-                0 12px 30px rgba(245, 132, 32, 0.4),
-                0 0 20px rgba(253, 183, 21, 0.2);
+                0 15px 35px rgba(245, 132, 32, 0.5),
+                0 0 25px rgba(253, 183, 21, 0.3);
             background: linear-gradient(90deg, #ffd000, #fda415 58%, #f58420);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                box-shadow: 0 15px 35px rgba(245, 132, 32, 0.5), 0 0 25px rgba(253, 183, 21, 0.3);
+            }
+            50% {
+                box-shadow: 0 15px 35px rgba(245, 132, 32, 0.7), 0 0 35px rgba(253, 183, 21, 0.5);
+            }
         }
 
         .btn-primary:active {
             transform: translateY(-1px) scale(0.98);
             box-shadow: 0 5px 15px rgba(245, 132, 32, 0.3);
+            animation: none;
         }
 
         .btn-secondary {
@@ -1926,8 +2085,8 @@
                     <span class="stat-label">Training Hours</span>
                 </div>
                 <div class="stat-card">
-                    <span class="stat-number">$45K</span>
-                    <span class="stat-label">T-Mobile Grant Winner</span>
+                    <span class="stat-number">$600K</span>
+                    <span class="stat-label">NC Digital Champion Grant</span>
                 </div>
             </div>
 
@@ -1966,26 +2125,26 @@
         <!-- Triangles Got Talent Feature -->
         <section class="section tgt-feature">
             <div class="tgt-content">
-                <span class="tgt-badge">🎭 ANNUAL FUNDRAISER</span>
-                <h2>Triangles Got Talent</h2>
-                <p class="tgt-tagline">Our Community Talent Showcase Supporting Children</p>
+                <span class="tgt-badge">🎭 A COMPETITION FOR A CAUSE</span>
+                <h2>Triangle's Got Talent</h2>
+                <p class="tgt-tagline">Kids Under 18 Performing to Change Lives</p>
 
                 <div class="tgt-stats">
                     <div class="tgt-stat">
                         <span class="tgt-stat-number">$25K+</span>
-                        <span class="tgt-stat-label">Raised for Chromebooks</span>
+                        <span class="tgt-stat-label">Raised in 2025</span>
                     </div>
                     <div class="tgt-stat">
-                        <span class="tgt-stat-number">100+</span>
-                        <span class="tgt-stat-label">Talented Performers</span>
+                        <span class="tgt-stat-number">17</span>
+                        <span class="tgt-stat-label">Young Performers</span>
                     </div>
                 </div>
 
                 <p class="tgt-description">
-                    Every October, local talent takes the stage to raise funds that directly provide Chromebooks to children in need. Triangles Got Talent isn't just entertainment—it's our community coming together to change young lives through technology access.
+                    Young singers, dancers, musicians, comedians, and magicians take the stage each year in an America's Got Talent-style showcase. Every ticket sold provides Chromebooks to children in HUBZone communities across North Carolina.
                 </p>
 
-                <a href="https://www.hubzonetech.org" class="tgt-cta">Learn About Next Year's Event</a>
+                <a href="https://www.hubzonetech.org/events" class="tgt-cta">View Upcoming Events</a>
             </div>
         </section>
 
@@ -2033,6 +2192,19 @@
             </div>
         </section>
 
+        <!-- Social Follow Section -->
+        <section class="social-follow">
+            <h3 class="social-follow-title">Stay Connected</h3>
+            <p class="social-follow-subtitle">Follow our journey transforming lives through technology</p>
+            <div class="social-follow-links">
+                <a href="https://www.facebook.com/HTIHUBZone/" class="social-follow-link" aria-label="Follow on Facebook">f</a>
+                <a href="https://www.instagram.com/hubzonetech/" class="social-follow-link" aria-label="Follow on Instagram">📷</a>
+                <a href="https://twitter.com/hubzonetech" class="social-follow-link" aria-label="Follow on Twitter">𝕏</a>
+                <a href="https://www.linkedin.com/company/htihubzone" class="social-follow-link" aria-label="Follow on LinkedIn">in</a>
+                <a href="https://www.youtube.com/channel/UCm2e7buBxPV1-pR6nQL7LCQ" class="social-follow-link" aria-label="Subscribe on YouTube">▶</a>
+            </div>
+        </section>
+
         <!-- Footer -->
         <section class="footer">
             <div class="contact-info">
@@ -2054,9 +2226,11 @@
             </div>
 
             <div class="social-links">
-                <a href="https://www.facebook.com/HTIHUBZone/" class="social-link">f</a>
-                <a href="https://www.linkedin.com/company/htihubzone" class="social-link">in</a>
-                <a href="https://www.instagram.com/hubzonetech/" class="social-link">📷</a>
+                <a href="https://www.facebook.com/HTIHUBZone/" class="social-link" aria-label="Facebook">f</a>
+                <a href="https://www.instagram.com/hubzonetech/" class="social-link" aria-label="Instagram">📷</a>
+                <a href="https://twitter.com/hubzonetech" class="social-link" aria-label="Twitter">𝕏</a>
+                <a href="https://www.linkedin.com/company/htihubzone" class="social-link" aria-label="LinkedIn">in</a>
+                <a href="https://www.youtube.com/channel/UCm2e7buBxPV1-pR6nQL7LCQ" class="social-link" aria-label="YouTube">▶</a>
             </div>
 
             <p style="margin-top: 30px; font-size: 14px; opacity: 0.8;">
