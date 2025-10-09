@@ -1677,39 +1677,16 @@
         }
 
         .stat-card.stat-card-grant {
-            background: linear-gradient(145deg, #1f1f1f 0%, #141414 100%);
-            border: 2px solid rgba(253, 183, 21, 0.6);
-            box-shadow: 0 14px 30px rgba(245, 132, 32, 0.28);
+            background: linear-gradient(135deg, #2c2c2c 0%, #1a1a1a 50%, #0f0f0f 100%);
+            border: 1px solid rgba(253, 183, 21, 0.4);
         }
 
         .stat-card.stat-card-grant::before {
-            height: 6px;
-            background: linear-gradient(90deg, #ffd000, #fdb715, #f58420, #e85d2c);
-        }
-
-        .stat-card.stat-card-grant .stat-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            font-size: 12px;
-            font-weight: 700;
-            letter-spacing: 0.6px;
-            text-transform: uppercase;
-            color: #fdb715;
-            background: rgba(253, 183, 21, 0.12);
-            border-radius: 999px;
-            padding: 6px 12px;
-            margin-bottom: 10px;
-        }
-
-        .stat-card.stat-card-grant .stat-badge i {
-            color: #f58420;
-            font-size: 12px;
+            height: 4px;
         }
 
         .stat-card.stat-card-grant .stat-number {
-            font-size: 42px;
-            color: #ffffff;
+            color: #ffd000;
             text-shadow: 0 3px 12px rgba(0, 0, 0, 0.45);
         }
 
@@ -1719,8 +1696,7 @@
         }
 
         .stat-card.stat-card-grant .stat-detail {
-            display: block;
-            margin-top: 6px;
+            margin-top: 4px;
             color: rgba(255, 230, 193, 0.9);
         }
 
@@ -1730,6 +1706,26 @@
             font-family: 'DM Sans', sans-serif;
             margin-bottom: 5px;
             display: block;
+            position: relative;
+            padding-top: 30px;
+        }
+
+        .stat-number::before {
+            content: attr(data-icon);
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 18px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #ffd000, #fdb715, #f58420);
+            color: white;
+            box-shadow: 0 4px 10px rgba(245, 132, 32, 0.35);
         }
 
         .stat-label {
@@ -2636,23 +2632,22 @@
             
             <div class="stat-grid">
                 <div class="stat-card">
-                    <span class="stat-number">2,500</span>
+                    <span class="stat-number" data-icon="💻">2,500</span>
                     <span class="stat-label">Chromebooks for Families</span>
                     <span class="stat-detail">2025 distribution goal</span>
                 </div>
                 <div class="stat-card">
-                    <span class="stat-number">15</span>
+                    <span class="stat-number" data-icon="🌍">15</span>
                     <span class="stat-label">NC Counties Served</span>
                     <span class="stat-detail">2025 county reach goal</span>
                 </div>
                 <div class="stat-card">
-                    <span class="stat-number">156+</span>
+                    <span class="stat-number" data-icon="🎓">156+</span>
                     <span class="stat-label">Training Hours</span>
                     <span class="stat-detail">2025 training hours goal</span>
                 </div>
                 <div class="stat-card stat-card-grant">
-                    <span class="stat-badge"><i class="fas fa-award" aria-hidden="true"></i> Grant Funding</span>
-                    <span class="stat-number">$600K</span>
+                    <span class="stat-number" data-icon="🏅">$600K</span>
                     <span class="stat-label">NC Digital Champion Grant</span>
                     <span class="stat-detail">Awarded in 2024 — powering statewide Chromebook deployments to date</span>
                 </div>
