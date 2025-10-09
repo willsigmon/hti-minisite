@@ -1722,28 +1722,24 @@
             font-family: 'DM Sans', sans-serif;
             margin-bottom: 5px;
             display: block;
-            position: relative;
-            padding-top: 30px;
         }
 
-        .stat-number::before {
-            content: attr(data-icon);
-            position: absolute;
-            top: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 16px;
+        .stat-icon {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            border-radius: 12px;
             background: linear-gradient(135deg, #ffd000, #fdb715, #f58420);
             color: white;
-            box-shadow: 0 4px 10px rgba(245, 132, 32, 0.35);
-            font-family: 'Font Awesome 6 Free';
-            font-weight: 900;
+            margin: 0 auto 12px;
+            box-shadow: 0 6px 15px rgba(245, 132, 32, 0.32);
+            font-size: 17px;
+        }
+
+        .stat-icon i {
+            line-height: 1;
         }
 
         .stat-label {
@@ -2650,22 +2646,26 @@
             
             <div class="stat-grid">
                 <div class="stat-card">
-                    <span class="stat-number" data-icon="">2,500</span>
+                    <span class="stat-icon"><i class="fas fa-laptop-code" aria-hidden="true"></i></span>
+                    <span class="stat-number">2,500</span>
                     <span class="stat-label">Chromebooks for Families</span>
                     <span class="stat-detail">2025 distribution goal</span>
                 </div>
                 <div class="stat-card">
-                    <span class="stat-number" data-icon="">15</span>
+                    <span class="stat-icon"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></span>
+                    <span class="stat-number">15</span>
                     <span class="stat-label">NC Counties Served</span>
                     <span class="stat-detail">2025 county reach goal</span>
                 </div>
                 <div class="stat-card">
-                    <span class="stat-number" data-icon="">156+</span>
+                    <span class="stat-icon"><i class="fas fa-user-graduate" aria-hidden="true"></i></span>
+                    <span class="stat-number">156+</span>
                     <span class="stat-label">Training Hours</span>
                     <span class="stat-detail">2025 training hours goal</span>
                 </div>
                 <div class="stat-card stat-card-grant">
-                    <span class="stat-number" data-icon="">$600K</span>
+                    <span class="stat-icon"><i class="fas fa-award" aria-hidden="true"></i></span>
+                    <span class="stat-number">$600K</span>
                     <span class="stat-label">NC Digital Champion Grant</span>
                     <span class="stat-detail">Awarded in 2024 — powering statewide Chromebook deployments to date</span>
                 </div>
