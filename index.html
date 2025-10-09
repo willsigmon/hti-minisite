@@ -609,6 +609,136 @@
             margin-bottom: 10px;
         }
 
+        /* Kiwanis Popover Splash */
+        .kiwanis-popover-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(8px);
+            z-index: 10000;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .kiwanis-popover-overlay.active {
+            display: flex;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .kiwanis-popover {
+            background: white;
+            border-radius: 24px;
+            max-width: 400px;
+            width: 100%;
+            padding: 40px 30px;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+            position: relative;
+            animation: popIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            transform: translateZ(0);
+        }
+
+        @keyframes popIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9) translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+
+        .kiwanis-popover-close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            width: 36px;
+            height: 36px;
+            border: none;
+            background: #f5f5f5;
+            border-radius: 50%;
+            font-size: 24px;
+            color: #666;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .kiwanis-popover-close:active {
+            background: #f58420;
+            color: white;
+            transform: scale(0.9);
+        }
+
+        .kiwanis-popover-logo {
+            width: 120px;
+            height: auto;
+            margin: 0 auto 25px;
+        }
+
+        .kiwanis-popover h2 {
+            font-family: 'Lato', sans-serif;
+            font-size: 26px;
+            font-weight: 900;
+            color: #1a1a1a;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .kiwanis-popover p {
+            font-family: 'PT Sans', sans-serif;
+            font-size: 16px;
+            color: #4a4a4a;
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+
+        .kiwanis-popover .highlight {
+            color: #f58420;
+            font-weight: 700;
+        }
+
+        .kiwanis-popover-date {
+            font-size: 14px;
+            color: #999;
+            font-style: italic;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e5e5;
+        }
+
+        .kiwanis-popover-cta {
+            margin-top: 25px;
+            padding: 15px 30px;
+            background: linear-gradient(90deg, #fdb715, #f58420 58%, #e45927);
+            color: white;
+            border-radius: 50px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+        }
+
+        .kiwanis-popover-cta:active {
+            transform: scale(0.98);
+        }
+
         /* Mission Section */
         .mission {
             background: white;
@@ -1153,6 +1283,23 @@
     </style>
 </head>
 <body>
+    <!-- Kiwanis Popover (Only shows on 10/9/2025) -->
+    <div class="kiwanis-popover-overlay" id="kiwanisPopover">
+        <div class="kiwanis-popover">
+            <button class="kiwanis-popover-close" id="closePopover" aria-label="Close">×</button>
+            <img src="https://www.kiwanis.org/wp-content/uploads/2023/06/KI_logo_blue_4C.png" alt="Kiwanis International" class="kiwanis-popover-logo">
+            <h2>Welcome, Wake Forest Kiwanis Club!</h2>
+            <p>
+                Thank you for having me at The Forks today to share HTI's mission. Your nearly <span class="highlight">40 years of serving children</span> in Wake Forest—from Kiwanis Park to youth leadership programs—inspires everything we do.
+            </p>
+            <p>
+                Special thanks to <span class="highlight">Jeff Gonder</span> for making this connection possible. Together, we're changing lives.
+            </p>
+            <p class="kiwanis-popover-date">October 9, 2025 • The Forks Cafeteria</p>
+            <button class="kiwanis-popover-cta" id="exploreBtn">Explore How HTI Helps Children</button>
+        </div>
+    </div>
+
     <div class="scroll-progress"></div>
     <div class="container">
         <!-- Hero Section -->
@@ -1620,18 +1767,6 @@
             </div>
         </section>
 
-        <!-- Wake Forest Kiwanis Thank You -->
-        <section class="kiwanis-thanks">
-            <img src="https://www.kiwanis.org/wp-content/uploads/2023/06/KI_logo_blue_4C.png" alt="Kiwanis International" class="kiwanis-logo">
-            <h2>Thank You, Wake Forest Kiwanis Club</h2>
-            <p>
-                To the members of the <span class="highlight">Wake Forest Kiwanis Club</span>: Thank you for welcoming me to The Forks on October 9th to share HTI's mission. Your nearly 40 years of serving children in Wake Forest—from Kiwanis Park to youth leadership programs—reflects the same commitment that drives our work bridging the digital divide.
-            </p>
-            <p style="margin-top: 15px;">
-                Special thanks to <span class="highlight">Jeff Gonder</span> for making this connection possible. When organizations like Kiwanis and HTI collaborate, we amplify our impact on the young lives we're called to serve.
-            </p>
-        </section>
-
         <!-- Footer -->
         <section class="footer">
             <div class="contact-info">
@@ -1959,6 +2094,61 @@
                 }
             });
         });
+
+        // Kiwanis Popover - Only show on 10/9/2025
+        (function() {
+            const popoverOverlay = document.getElementById('kiwanisPopover');
+            const closeBtn = document.getElementById('closePopover');
+            const exploreBtn = document.getElementById('exploreBtn');
+
+            // Check if today is October 9, 2025
+            const today = new Date();
+            const targetDate = new Date('2025-10-09');
+
+            const isTargetDate =
+                today.getFullYear() === targetDate.getFullYear() &&
+                today.getMonth() === targetDate.getMonth() &&
+                today.getDate() === targetDate.getDate();
+
+            // Show popover if it's the target date
+            if (isTargetDate) {
+                setTimeout(() => {
+                    popoverOverlay.classList.add('active');
+                }, 500); // Small delay for page load
+            }
+
+            // Close button handler
+            function closePopover() {
+                popoverOverlay.classList.remove('active');
+            }
+
+            closeBtn.addEventListener('click', closePopover);
+
+            // Explore button - close and scroll to content
+            exploreBtn.addEventListener('click', () => {
+                closePopover();
+                setTimeout(() => {
+                    document.querySelector('.quick-impact').scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }, 300);
+            });
+
+            // Close on overlay click (not the popover itself)
+            popoverOverlay.addEventListener('click', (e) => {
+                if (e.target === popoverOverlay) {
+                    closePopover();
+                }
+            });
+
+            // Close on ESC key
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && popoverOverlay.classList.contains('active')) {
+                    closePopover();
+                }
+            });
+        })();
     </script>
 </body>
 </html>
