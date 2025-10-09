@@ -194,7 +194,7 @@
             position: relative;
             z-index: 1;
             line-height: 1.2;
-            letter-spacing: -0.5px;
+            letter-spacing: -1px;
         }
 
         .subtitle {
@@ -748,6 +748,12 @@
             color: #f58420;
         }
 
+        .donation-icon img,
+        .donation-icon-large img {
+            max-height: 48px;
+            width: auto;
+        }
+
         .donation-card h3 {
             font-size: 20px;
             font-family: 'DM Sans', sans-serif;
@@ -807,7 +813,9 @@
         }
 
         .tgt-badge {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
             background: linear-gradient(90deg, #fdb715, #f58420 58%, #e45927);
             color: white;
             padding: 8px 20px;
@@ -817,6 +825,98 @@
             font-family: 'DM Sans', sans-serif;
             margin-bottom: 20px;
             box-shadow: 0 4px 15px rgba(245, 132, 32, 0.4);
+        }
+
+        .tgt-badge i {
+            font-size: 16px;
+        }
+
+        .partner-logos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .partner-card {
+            background: #f8f9fa;
+            padding: 18px 15px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(245, 132, 32, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .partner-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(245, 132, 32, 0.16);
+        }
+
+        .partner-logo {
+            max-width: 120px;
+            max-height: 60px;
+            width: 100%;
+            object-fit: contain;
+        }
+
+        .partner-card span {
+            margin-top: 12px;
+            font-size: 13px;
+            font-weight: 600;
+            color: #2c2c2c;
+        }
+
+        .recognition-panel {
+            margin-top: 30px;
+            padding: 30px 25px;
+            background: linear-gradient(135deg, #fff4e0, #ffe8c0);
+            border-radius: 20px;
+            border: 2px solid #f58420;
+            box-shadow: 0 8px 20px rgba(245, 132, 32, 0.15);
+        }
+
+        .recognition-panel h3 {
+            font-family: 'Lato', sans-serif;
+            font-weight: 900;
+            margin-bottom: 20px;
+            color: #1a1a1a;
+            font-size: 22px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .recognition-panel h3 i {
+            color: #f58420;
+            font-size: 20px;
+        }
+
+        .recognition-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+            font-size: 15px;
+            color: #2c2c2c;
+            font-family: 'PT Sans', sans-serif;
+        }
+
+        .recognition-item {
+            padding: 12px;
+            background: white;
+            border-radius: 12px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .recognition-item i {
+            color: #f58420;
+            font-size: 18px;
         }
 
         .tgt-feature h2 {
@@ -1082,14 +1182,16 @@
             color: #1a1a1a;
             margin-bottom: 20px;
             line-height: 1.2;
+            letter-spacing: -0.5px;
         }
 
         .kiwanis-popover p {
             font-family: 'Inter', sans-serif;
             font-size: 18px;
             color: #4a4a4a;
-            line-height: 1.7;
+            line-height: 1.6;
             margin-bottom: 15px;
+            letter-spacing: -0.2px;
         }
 
         .kiwanis-popover .highlight {
@@ -1119,6 +1221,7 @@
             cursor: pointer;
             transition: all 0.3s ease;
             width: 100%;
+            letter-spacing: -0.3px;
         }
 
         .kiwanis-popover-cta:active {
@@ -1515,6 +1618,32 @@
             opacity: 1;
         }
 
+        .stat-card.stat-card-grant {
+            background: linear-gradient(135deg, #3d1f00 0%, #f58420 55%, #ffb347 100%);
+            box-shadow: 0 18px 35px rgba(245, 132, 32, 0.35);
+        }
+
+        .stat-card.stat-card-grant::before {
+            height: 6px;
+        }
+
+        .stat-card.stat-card-grant .stat-number {
+            font-size: 42px;
+            color: #fff7e0;
+            text-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+        }
+
+        .stat-card.stat-card-grant .stat-label {
+            color: #fff1c9;
+            opacity: 1;
+        }
+
+        .stat-card.stat-card-grant .stat-detail {
+            display: block;
+            margin-top: 4px;
+            color: rgba(255, 255, 255, 0.85);
+        }
+
         .stat-number {
             font-size: 36px;
             font-weight: 900;
@@ -1527,6 +1656,13 @@
             font-size: 14px;
             opacity: 0.9;
             font-family: 'Inter', sans-serif;
+        }
+
+        .stat-detail {
+            font-size: 12px;
+            opacity: 0.85;
+            font-family: 'Inter', sans-serif;
+            letter-spacing: 0.3px;
         }
 
         /* Youth Programs Section */
@@ -1566,14 +1702,14 @@
         }
 
         .program-highlight .icon {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
             width: 40px;
             height: 40px;
             background: linear-gradient(135deg, #fdb715, #f58420 58%, #e45927);
             color: white;
             border-radius: 10px;
-            text-align: center;
-            line-height: 40px;
             margin-right: 15px;
             font-size: 20px;
         }
@@ -1668,7 +1804,10 @@
             font-weight: 600;
             text-decoration: none;
             transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
             text-align: center;
             position: relative;
             overflow: hidden;
@@ -1676,6 +1815,14 @@
             will-change: transform;
             user-select: none;
             -webkit-user-select: none;
+        }
+
+        .btn i {
+            font-size: 18px;
+        }
+
+        .btn span {
+            display: inline-block;
         }
 
         .btn::before {
@@ -1779,6 +1926,9 @@
             color: #f58420;
             text-decoration: none;
             transition: color 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
         }
 
         .contact-info a:hover {
@@ -1835,6 +1985,10 @@
             font-size: 20px;
             font-family: 'DM Sans', sans-serif;
             font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
         }
 
         .kiwanis-special p {
@@ -1965,8 +2119,14 @@
                 </div>
             </div>
             <div class="hero-cta-group">
-                <a href="#donate" class="btn btn-primary btn-large">💝 Help a Child Today</a>
-                <a href="tel:+12525900240" class="btn btn-secondary">📞 Call Us: (252) 590-0240</a>
+                <a href="#donate" class="btn btn-primary btn-large">
+                    <i class="fas fa-children" aria-hidden="true"></i>
+                    <span>Help a Child Today</span>
+                </a>
+                <a href="tel:+12525900240" class="btn btn-secondary">
+                    <i class="fas fa-phone" aria-hidden="true"></i>
+                    <span>Call Us: (252) 590-0240</span>
+                </a>
             </div>
             <div class="scroll-indicator">
                 <div class="arrow-down"></div>
@@ -2142,7 +2302,7 @@
             <!-- Expandable: Elementary Students -->
             <div class="expandable">
                 <div class="expand-header">
-                    <h3>📚 Elementary & Middle School Students</h3>
+                    <h3><i class="fas fa-book-open" aria-hidden="true"></i> Elementary & Middle School Students</h3>
                     <span class="expand-icon">+</span>
                 </div>
                 <div class="expand-content">
@@ -2162,7 +2322,7 @@
             <!-- Expandable: High School & College -->
             <div class="expandable">
                 <div class="expand-header">
-                    <h3>🎓 High School & College Students</h3>
+                    <h3><i class="fas fa-graduation-cap" aria-hidden="true"></i> High School & College Students</h3>
                     <span class="expand-icon">+</span>
                 </div>
                 <div class="expand-content">
@@ -2182,7 +2342,7 @@
             <!-- Expandable: Special Needs -->
             <div class="expandable">
                 <div class="expand-header">
-                    <h3>🌟 Children with Special Needs</h3>
+                    <h3><i class="fas fa-star" aria-hidden="true"></i> Children with Special Needs</h3>
                     <span class="expand-icon">+</span>
                 </div>
                 <div class="expand-content">
@@ -2202,7 +2362,7 @@
             <!-- Expandable: Families in Crisis -->
             <div class="expandable">
                 <div class="expand-header">
-                    <h3>💙 Families Facing Challenges</h3>
+                    <h3><i class="fas fa-heart" aria-hidden="true"></i> Families Facing Challenges</h3>
                     <span class="expand-icon">+</span>
                 </div>
                 <div class="expand-content">
@@ -2223,7 +2383,7 @@
             <!-- Expandable: Digital Literacy Training -->
             <div class="expandable">
                 <div class="expand-header">
-                    <h3>💻 Digital Literacy Training (156+ Hours)</h3>
+                    <h3><i class="fas fa-laptop-code" aria-hidden="true"></i> Digital Literacy Training (156+ Hours)</h3>
                     <span class="expand-icon">+</span>
                 </div>
                 <div class="expand-content">
@@ -2253,24 +2413,63 @@
             <h2 class="section-title">Trusted Community Partners</h2>
             <p class="impact-intro">HTI works with established organizations to identify families who will benefit most from technology access:</p>
 
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 25px;">
-                <div style="background: #f8f9fa; padding: 15px; border-radius: 12px; text-align: center; font-size: 14px; font-weight: 600; color: #2c2c2c;">Boys & Girls Club</div>
-                <div style="background: #f8f9fa; padding: 15px; border-radius: 12px; text-align: center; font-size: 14px; font-weight: 600; color: #2c2c2c;">YMCA</div>
-                <div style="background: #f8f9fa; padding: 15px; border-radius: 12px; text-align: center; font-size: 14px; font-weight: 600; color: #2c2c2c;">Salvation Army</div>
-                <div style="background: #f8f9fa; padding: 15px; border-radius: 12px; text-align: center; font-size: 14px; font-weight: 600; color: #2c2c2c;">Easterseals UCP</div>
-                <div style="background: #f8f9fa; padding: 15px; border-radius: 12px; text-align: center; font-size: 14px; font-weight: 600; color: #2c2c2c;">Veterans Life Center NC</div>
-                <div style="background: #f8f9fa; padding: 15px; border-radius: 12px; text-align: center; font-size: 14px; font-weight: 600; color: #2c2c2c;">Passage Home</div>
-                <div style="background: #f8f9fa; padding: 15px; border-radius: 12px; text-align: center; font-size: 14px; font-weight: 600; color: #2c2c2c;">Step Up Ministry</div>
-                <div style="background: #f8f9fa; padding: 15px; border-radius: 12px; text-align: center; font-size: 14px; font-weight: 600; color: #2c2c2c;">Raleigh Dream Center</div>
+            <div class="partner-logos">
+                <div class="partner-card">
+                    <img src="assets/partners/boys-and-girls-club.svg" alt="Boys & Girls Club logo" class="partner-logo">
+                    <span>Boys & Girls Club</span>
+                </div>
+                <div class="partner-card">
+                    <img src="assets/partners/ymca.svg" alt="YMCA logo" class="partner-logo">
+                    <span>YMCA</span>
+                </div>
+                <div class="partner-card">
+                    <img src="assets/partners/salvation-army.svg" alt="Salvation Army shield logo" class="partner-logo">
+                    <span>Salvation Army</span>
+                </div>
+                <div class="partner-card">
+                    <img src="assets/partners/easterseals-ucp.png" alt="Easterseals UCP logo" class="partner-logo">
+                    <span>Easterseals UCP</span>
+                </div>
+                <div class="partner-card">
+                    <img src="assets/partners/veterans-life-center.png" alt="Veterans Life Center of North Carolina logo" class="partner-logo">
+                    <span>Veterans Life Center NC</span>
+                </div>
+                <div class="partner-card">
+                    <img src="assets/partners/passage-home.png" alt="Passage Home logo" class="partner-logo">
+                    <span>Passage Home</span>
+                </div>
+                <div class="partner-card">
+                    <img src="assets/partners/step-up-ministry.png" alt="Step Up Ministry logo" class="partner-logo">
+                    <span>Step Up Ministry</span>
+                </div>
+                <div class="partner-card">
+                    <img src="assets/partners/raleigh-dream-center.png" alt="Raleigh Dream Center logo" class="partner-logo">
+                    <span>Raleigh Dream Center</span>
+                </div>
             </div>
 
-            <div style="margin-top: 30px; padding: 30px 25px; background: linear-gradient(135deg, #fff4e0, #ffe8c0); border-radius: 20px; border: 2px solid #f58420; box-shadow: 0 8px 20px rgba(245, 132, 32, 0.15);">
-                <h3 style="font-family: 'Lato', sans-serif; font-weight: 900; margin-bottom: 20px; color: #1a1a1a; font-size: 22px;">🏆 Recognition & Support</h3>
-                <div style="display: grid; grid-template-columns: 1fr; gap: 12px; font-size: 15px; color: #2c2c2c; font-family: 'PT Sans', sans-serif;">
-                    <div style="padding: 12px; background: white; border-radius: 12px; font-weight: 600;">💰 $600,000 NC Digital Champion Grant</div>
-                    <div style="padding: 12px; background: white; border-radius: 12px; font-weight: 600;">🤝 $25,000 State Farm Neighborhood Assist</div>
-                    <div style="padding: 12px; background: white; border-radius: 12px; font-weight: 600;">📱 T-Mobile Hometown Grant (Cargo Van)</div>
-                    <div style="padding: 12px; background: white; border-radius: 12px; font-weight: 600;">📺 Featured on WRAL News</div>
+            <div class="recognition-panel">
+                <h3>
+                    <i class="fas fa-trophy" aria-hidden="true"></i>
+                    <span>Recognition &amp; Support</span>
+                </h3>
+                <div class="recognition-grid">
+                    <div class="recognition-item">
+                        <i class="fas fa-hand-holding-dollar" aria-hidden="true"></i>
+                        <span>$600,000 NC Digital Champion Grant</span>
+                    </div>
+                    <div class="recognition-item">
+                        <i class="fas fa-handshake" aria-hidden="true"></i>
+                        <span>$25,000 State Farm Neighborhood Assist</span>
+                    </div>
+                    <div class="recognition-item">
+                        <i class="fas fa-mobile-screen-button" aria-hidden="true"></i>
+                        <span>T-Mobile Hometown Grant (Cargo Van)</span>
+                    </div>
+                    <div class="recognition-item">
+                        <i class="fas fa-tv" aria-hidden="true"></i>
+                        <span>Featured on WRAL News</span>
+                    </div>
                 </div>
             </div>
         </section>
@@ -2317,22 +2516,22 @@
             <h2 class="section-title">Youth Programs That Inspire</h2>
             
             <div class="kiwanis-special">
-                <h3>🤝 Partnership with Kiwanis</h3>
+                <h3><i class="fas fa-handshake" aria-hidden="true"></i> Partnership with Kiwanis</h3>
                 <p>Our youth-focused initiatives align with Kiwanis International's commitment to improving the world one child and one community at a time.</p>
             </div>
 
             <div class="program-highlight">
-                <h3><span class="icon">🎮</span> 4-H STEM Partnership</h3>
+                <h3><span class="icon"><i class="fas fa-gamepad" aria-hidden="true"></i></span> 4-H STEM Partnership</h3>
                 <p>12-13 year olds learn to refurbish PCs into retro-gaming computers, combining fun with real-world tech skills. They're not just playing games—they're building futures in STEM.</p>
             </div>
 
             <div class="program-highlight">
-                <h3><span class="icon">🎓</span> Student Success Stories</h3>
+                <h3><span class="icon"><i class="fas fa-user-graduate" aria-hidden="true"></i></span> Student Success Stories</h3>
                 <p>From college diplomas to trade certificates, HTI Chromebooks have enabled countless young people to achieve their educational dreams.</p>
             </div>
 
             <div class="program-highlight">
-                <h3><span class="icon">👨‍👩‍👧‍👦</span> Family Digital Literacy</h3>
+                <h3><span class="icon"><i class="fas fa-people-group" aria-hidden="true"></i></span> Family Digital Literacy</h3>
                 <p>When we equip a family with technology, children gain homework help, parents find jobs, and entire households connect to opportunity.</p>
             </div>
         </section>
@@ -2354,9 +2553,10 @@
                     <span class="stat-number">156+</span>
                     <span class="stat-label">Training Hours</span>
                 </div>
-                <div class="stat-card">
+                <div class="stat-card stat-card-grant">
                     <span class="stat-number">$600K</span>
-                    <span class="stat-label">NC Digital Champion Grant</span>
+                    <span class="stat-label">NC Digital Champion Grant Funding</span>
+                    <span class="stat-detail">Driving statewide Chromebook deployments</span>
                 </div>
             </div>
 
@@ -2395,7 +2595,10 @@
         <!-- Triangles Got Talent Feature -->
         <section class="section tgt-feature">
             <div class="tgt-content">
-                <span class="tgt-badge">🎭 A COMPETITION FOR A CAUSE</span>
+                <span class="tgt-badge">
+                    <i class="fas fa-theater-masks" aria-hidden="true"></i>
+                    <span>A COMPETITION FOR A CAUSE</span>
+                </span>
                 <h2>Triangle's Got Talent</h2>
                 <p class="tgt-tagline">Local Talent Performing to Change Lives</p>
 
@@ -2426,38 +2629,47 @@
             <div class="donation-cards">
                 <!-- Primary: Donate a Laptop -->
                 <a href="mailto:info@hubzonetech.org?subject=Laptop Donation Inquiry" class="donation-card primary">
-                    <span class="donation-icon-large"><i class="fas fa-laptop"></i></span>
+                    <span class="donation-icon-large"><i class="fas fa-laptop" aria-hidden="true"></i></span>
                     <h3>Donate a Laptop</h3>
-                    <p>Your old laptop becomes a child's gateway to education</p>
+                    <p>Your retired laptops become a child's gateway to education</p>
                     <span class="donation-impact">1 Laptop = 1 Child Empowered</span>
                     <div class="btn btn-primary">Email to Arrange Pickup</div>
                 </a>
 
                 <!-- Give Money -->
                 <a href="https://www.hubzonetech.org/donate" class="donation-card">
-                    <span class="donation-icon"><i class="fas fa-heart"></i></span>
+                    <span class="donation-icon"><i class="fas fa-hand-holding-dollar" aria-hidden="true"></i></span>
                     <h3>Give Money</h3>
-                    <p>Fund conversions and training programs</p>
-                    <span class="donation-impact">$25 = Training for 1 Family</span>
+                    <p>Fund conversions, repairs, and training programs</p>
+                    <span class="donation-impact">$25 covers training for one family</span>
                     <div class="btn btn-primary" style="font-size: 16px; padding: 12px 20px;">Donate Now</div>
                 </a>
 
                 <!-- Shop eBay Store -->
                 <a href="https://www.hubzonetech.org" class="donation-card">
-                    <span class="donation-icon"><i class="fas fa-shopping-cart"></i></span>
+                    <span class="donation-icon"><img src="assets/actions/ebay.svg" alt="eBay logo" class="donation-logo"></span>
                     <h3>Shop eBay</h3>
-                    <p>Buy tech, support our mission</p>
-                    <span class="donation-impact">100% Proceeds → Chromebooks</span>
+                    <p>Buy refurbished tech to fund more Chromebooks</p>
+                    <span class="donation-impact">100% of proceeds support distributions</span>
                     <div class="btn btn-primary" style="font-size: 16px; padding: 12px 20px;">Browse Store</div>
                 </a>
 
                 <!-- Partner With Us -->
                 <a href="mailto:wsigmon@hubzonetech.org?subject=Partnership Inquiry" class="donation-card">
-                    <span class="donation-icon"><i class="fas fa-handshake"></i></span>
+                    <span class="donation-icon"><i class="fas fa-handshake" aria-hidden="true"></i></span>
                     <h3>Partner</h3>
-                    <p>Corporate or org collaboration</p>
-                    <span class="donation-impact">Bulk Donations Welcome</span>
+                    <p>Corporate or nonprofit collaboration</p>
+                    <span class="donation-impact">Bulk device donations welcome</span>
                     <div class="btn btn-primary" style="font-size: 16px; padding: 12px 20px;">Get in Touch</div>
+                </a>
+
+                <!-- Volunteer With HTI -->
+                <a href="mailto:info@hubzonetech.org?subject=Volunteer with HTI" class="donation-card">
+                    <span class="donation-icon"><i class="fas fa-hand-holding-heart" aria-hidden="true"></i></span>
+                    <h3>Volunteer</h3>
+                    <p>Support device prep, deliveries, and workshops</p>
+                    <span class="donation-impact">Great for individuals and teams</span>
+                    <div class="btn btn-primary" style="font-size: 16px; padding: 12px 20px;">Join the Crew</div>
                 </a>
             </div>
         </section>
@@ -2485,13 +2697,13 @@
                     501 S. Chestnut Street, Henderson, NC 27536
                 </p>
                 <p style="margin-bottom: 5px;">
-                    <a href="tel:+12525900240">📞 (252) 590-0240</a>
+                    <a href="tel:+12525900240"><i class="fas fa-phone" aria-hidden="true"></i> <span>(252) 590-0240</span></a>
                 </p>
                 <p style="margin-bottom: 5px;">
-                    <a href="mailto:info@hubzonetech.org">✉️ info@hubzonetech.org</a>
+                    <a href="mailto:info@hubzonetech.org"><i class="fas fa-envelope" aria-hidden="true"></i> <span>info@hubzonetech.org</span></a>
                 </p>
                 <p>
-                    <a href="https://www.hubzonetech.org">🌐 www.hubzonetech.org</a>
+                    <a href="https://www.hubzonetech.org"><i class="fas fa-globe" aria-hidden="true"></i> <span>www.hubzonetech.org</span></a>
                 </p>
             </div>
 

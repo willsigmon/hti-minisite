@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144501472-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-144501472-1');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Veterans Life Center of North Carolina - Helping Our 21st Century Veterans">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="https://vlcnc.org/xmlrpc.php">
+    <title>Page not found &#8211; Veterans Life Center of North Carolina</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" type="text/calendar" title="Veterans Life Center of North Carolina &raquo; iCal Feed" href="https://vlcnc.org/events/?ical=1" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/vlcnc.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.4"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://vlcnc.org/wp-includes/css/dist/block-library/style.min.css?ver=6.6.4' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://vlcnc.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.0.5' type='text/css' media='all' />
+<link rel='stylesheet' id='simple-staff-list-css' href='https://vlcnc.org/wp-content/plugins/simple-staff-list/public/css/simple-staff-list-public.css?ver=2.2.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-job-manager-job-listings-css' href='https://vlcnc.org/wp-content/plugins/wp-job-manager/assets/dist/css/job-listings.css?ver=598383a28ac5f9f156e4' type='text/css' media='all' />
+<link rel='stylesheet' id='understrap-styles-css' href='https://vlcnc.org/wp-content/themes/understrap/css/theme.min.css?ver=0.6.5' type='text/css' media='all' />
+<script type="text/javascript" src="https://vlcnc.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://vlcnc.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://vlcnc.org/wp-content/themes/understrap/js/popper.min.js?ver=6.6.4" id="popper-scripts-js"></script>
+<link rel="https://api.w.org/" href="https://vlcnc.org/wp-json/" /><meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://vlcnc.org"><link rel="alternate" href="https://vlcnc.org/wp-json/tribe/events/v1/" />    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" id="vlc-styles-css" href="/wp-content/themes/understrap/vlc.css?ver=0.6.8" type="text/css" media="all">
+</head>
+
+<body class="error404 tribe-no-js page-template-understrap group-blog hfeed understrap">
+
+    <div class="hfeed site" id="page">
+
+        <!-- ******************* The Navbar Area ******************* -->
+        <div class="wrapper-fluid wrapper-navbar" id="wrapper-navbar">
+
+            <a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a>
+
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary py-lg-3">
+
+                                <div class="container">
+                    
+                    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Your site title as branding in the menu -->
+                    
+                    
+                    <a class="navbar-brand py-0 m-0 m-auto" style="width:180px" rel="home" href="https://vlcnc.org/" title="Veterans Life Center of North Carolina"><img src="/veterans-life-center-logo-white.svg" alt="Veterans Life Center of North Carolina" class="img-fluid w-100" /></a>
+
+                    
+
+                                        <!-- end custom logo -->
+
+                    <!-- The WordPress Menu goes here -->
+                    <div id="navbarNavDropdown" class="collapse navbar-collapse"><ul id="main-menu" class="navbar-nav ml-auto"><li id="menu-item-1812" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-1812"><a title="Brick by Brick Campaign" href="https://vlcnc.org/pathways-to-success-brick-by-brick-campaign/" class="nav-link">Brick by Brick Campaign</a></li>
+<li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home nav-item menu-item-195"><a title="Home" href="https://vlcnc.org/" class="nav-link">Home</a></li>
+<li id="menu-item-235" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nav-item menu-item-235 dropdown"><a title="About" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">About <span class="caret"></span></a>
+<ul class=" dropdown-menu" role="menu">
+	<li id="menu-item-201" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-201"><a title="Who We Are" href="https://vlcnc.org/who-we-are/" class="nav-link">Who We Are</a></li>
+	<li id="menu-item-1723" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-1723"><a title="Testimonials" href="https://vlcnc.org/mary-jane-taylor/" class="nav-link">Testimonials</a></li>
+	<li id="menu-item-1430" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-1430"><a title="Volunteering" href="https://vlcnc.org/volunteer/" class="nav-link">Volunteering</a></li>
+	<li id="menu-item-1480" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-1480"><a title="Resident Application" href="https://vlcnc.org/resident-application/" class="nav-link">Resident Application</a></li>
+	<li id="menu-item-1444" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-1444"><a title="Our Staff" href="https://vlcnc.org/our-staff/" class="nav-link">Our Staff</a></li>
+	<li id="menu-item-204" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-204"><a title="Advisory Board" href="https://vlcnc.org/advisory-board/" class="nav-link">Advisory Board</a></li>
+	<li id="menu-item-203" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-203"><a title="Board Of Directors" href="https://vlcnc.org/board-of-directors/" class="nav-link">Board Of Directors</a></li>
+	<li id="menu-item-202" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-202"><a title="Contact Us" href="https://vlcnc.org/contact-us/" class="nav-link">Contact Us</a></li>
+</ul>
+</li>
+<li id="menu-item-197" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-197"><a title="The Situation" href="https://vlcnc.org/the-situation/" class="nav-link">The Situation</a></li>
+<li id="menu-item-723" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-723"><a title="Services" href="https://vlcnc.org/services/" class="nav-link">Services</a></li>
+<li id="menu-item-518" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nav-item menu-item-518 dropdown"><a title="Donate" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Donate <span class="caret"></span></a>
+<ul class=" dropdown-menu" role="menu">
+	<li id="menu-item-1811" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-1811"><a title="Brick by Brick Campaign" href="https://vlcnc.org/pathways-to-success-brick-by-brick-campaign/" class="nav-link">Brick by Brick Campaign</a></li>
+	<li id="menu-item-258" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-258"><a title="Donate Online" href="https://vlcnc.org/donate-online/" class="nav-link">Donate Online</a></li>
+	<li id="menu-item-257" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-257"><a title="Donate By Mail" href="https://vlcnc.org/donate-by-mail/" class="nav-link">Donate By Mail</a></li>
+	<li id="menu-item-198" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-198"><a title="Five Star Leadership Campaign" href="https://vlcnc.org/fundrasing-campaigns/" class="nav-link">Five Star Leadership Campaign</a></li>
+	<li id="menu-item-1429" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-1429"><a title="Volunteering" href="https://vlcnc.org/volunteer/" class="nav-link">Volunteering</a></li>
+</ul>
+</li>
+<li id="menu-item-946" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nav-item menu-item-946 dropdown"><a title="News &amp; Events" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">News &#038; Events <span class="caret"></span></a>
+<ul class=" dropdown-menu" role="menu">
+	<li id="menu-item-199" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent nav-item menu-item-199"><a title="Recent News" href="https://vlcnc.org/news/" class="nav-link">Recent News</a></li>
+	<li id="menu-item-945" class="menu-item menu-item-type-custom menu-item-object-custom nav-item menu-item-945"><a title="Upcoming Events" href="https://vlcnc.org/events/" class="nav-link">Upcoming Events</a></li>
+</ul>
+</li>
+</ul></div>                                    </div><!-- .container -->
+                
+            </nav><!-- .site-navigation -->
+
+        </div><!-- .wrapper-navbar end -->
+<div class="wrapper" id="404-wrapper">
+
+	<div class="container" id="content" tabindex="-1">
+
+		<div class="row">
+
+			<div class="col-md-12 content-area" id="primary">
+
+				<main class="site-main" id="main">
+
+					<section class="error-404 not-found">
+
+						<header class="page-header">
+
+							<h1 class="page-title">Oops! That page can&rsquo;t be found.</h1>
+
+						</header><!-- .page-header -->
+
+						<div class="page-content">
+
+							<p>It looks like nothing was found at this location. Maybe try one of the links below or a search?</p>
+
+							<form method="get" id="searchform" action="https://vlcnc.org/" role="search">
+	<label class="assistive-text" for="s">Search</label>
+	<div class="input-group">
+		<input class="field form-control" id="s" name="s" type="text"
+			placeholder="Search &hellip;">
+		<span class="input-group-btn">
+			<input class="submit btn btn-primary" id="searchsubmit" name="submit" type="submit"
+			value="Search">
+	</span>
+	</div>
+</form>
+
+							
+		<div class="widget widget_recent_entries">
+		<h2 class="widgettitle">Recent Posts</h2>
+		<ul>
+											<li>
+					<a href="https://vlcnc.org/2021/02/24/john-turner-is-finalist-for-congressional-medal-of-honor-society-award/">John Turner is Finalist for Congressional Medal of Honor Society Award</a>
+									</li>
+											<li>
+					<a href="https://vlcnc.org/2020/08/01/veterans-life-center-grand-opening/">Veterans Life Center Grand Opening Ceremony</a>
+									</li>
+											<li>
+					<a href="https://vlcnc.org/2020/06/01/veterans-life-center-receives-300000-grant-from-kenan-charitable-trust/">Veterans Life Center Receives $300,000 Grant From Kenan Charitable Trust</a>
+									</li>
+											<li>
+					<a href="https://vlcnc.org/2020/03/27/veterans-life-center-receives-grant-from-usda/">Veterans Life Center Receives Grant From USDA</a>
+									</li>
+											<li>
+					<a href="https://vlcnc.org/2020/02/09/secu-foundation-makes-1-million-gift-to-the-veterans-life-center/">SECU Foundation Makes $1 Million Gift to the Veterans Life Center</a>
+									</li>
+					</ul>
+
+		</div>
+							
+								<div class="widget widget_categories">
+
+									<h2 class="widget-title">Most Used Categories</h2>
+
+									<ul>
+											<li class="cat-item cat-item-2"><a href="https://vlcnc.org/category/construction-news/">Construction News</a> (15)
+</li>
+	<li class="cat-item cat-item-7"><a href="https://vlcnc.org/category/north-carolina-news/">North Carolina News</a> (13)
+</li>
+	<li class="cat-item cat-item-3"><a href="https://vlcnc.org/category/fundraising-news/">Fundraising News</a> (12)
+</li>
+	<li class="cat-item cat-item-9"><a href="https://vlcnc.org/category/in-the-media/">In The Media</a> (5)
+</li>
+	<li class="cat-item cat-item-5"><a href="https://vlcnc.org/category/honors/">Honors</a> (5)
+</li>
+	<li class="cat-item cat-item-1"><a href="https://vlcnc.org/category/uncategorized/">Uncategorized</a> (3)
+</li>
+	<li class="cat-item cat-item-8"><a href="https://vlcnc.org/category/national-news/">National News</a> (3)
+</li>
+	<li class="cat-item cat-item-6"><a href="https://vlcnc.org/category/staff-news/">Staff News</a> (3)
+</li>
+	<li class="cat-item cat-item-16"><a href="https://vlcnc.org/category/news-advisory/">News Advisory</a> (2)
+</li>
+	<li class="cat-item cat-item-4"><a href="https://vlcnc.org/category/success-stories/">Success Stories</a> (1)
+</li>
+									</ul>
+
+								</div><!-- .widget -->
+
+							
+							<div class="widget widget_archive"><h2 class="widgettitle">Archives</h2><p>Try looking in the monthly archives. 🙂</p>		<label class="screen-reader-text" for="archives-dropdown--1">Archives</label>
+		<select id="archives-dropdown--1" name="archive-dropdown">
+			
+			<option value="">Select Month</option>
+				<option value='https://vlcnc.org/2021/02/'> February 2021 </option>
+	<option value='https://vlcnc.org/2020/08/'> August 2020 </option>
+	<option value='https://vlcnc.org/2020/06/'> June 2020 </option>
+	<option value='https://vlcnc.org/2020/03/'> March 2020 </option>
+	<option value='https://vlcnc.org/2020/02/'> February 2020 </option>
+	<option value='https://vlcnc.org/2019/08/'> August 2019 </option>
+	<option value='https://vlcnc.org/2019/06/'> June 2019 </option>
+	<option value='https://vlcnc.org/2019/04/'> April 2019 </option>
+	<option value='https://vlcnc.org/2019/01/'> January 2019 </option>
+	<option value='https://vlcnc.org/2018/12/'> December 2018 </option>
+	<option value='https://vlcnc.org/2017/10/'> October 2017 </option>
+	<option value='https://vlcnc.org/2017/06/'> June 2017 </option>
+	<option value='https://vlcnc.org/2016/10/'> October 2016 </option>
+	<option value='https://vlcnc.org/2016/01/'> January 2016 </option>
+	<option value='https://vlcnc.org/2015/11/'> November 2015 </option>
+	<option value='https://vlcnc.org/2015/09/'> September 2015 </option>
+	<option value='https://vlcnc.org/2015/06/'> June 2015 </option>
+	<option value='https://vlcnc.org/2015/05/'> May 2015 </option>
+	<option value='https://vlcnc.org/2015/02/'> February 2015 </option>
+	<option value='https://vlcnc.org/2015/01/'> January 2015 </option>
+	<option value='https://vlcnc.org/2014/12/'> December 2014 </option>
+	<option value='https://vlcnc.org/2014/09/'> September 2014 </option>
+	<option value='https://vlcnc.org/2014/06/'> June 2014 </option>
+	<option value='https://vlcnc.org/2014/05/'> May 2014 </option>
+	<option value='https://vlcnc.org/2013/01/'> January 2013 </option>
+	<option value='https://vlcnc.org/2012/12/'> December 2012 </option>
+
+		</select>
+
+			<script type="text/javascript">
+/* <![CDATA[ */
+
+(function() {
+	var dropdown = document.getElementById( "archives-dropdown--1" );
+	function onSelectChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value !== '' ) {
+			document.location.href = this.options[ this.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onSelectChange;
+})();
+
+/* ]]> */
+</script>
+</div>
+						</div><!-- .page-content -->
+
+					</section><!-- .error-404 -->
+
+				</main><!-- #main -->
+
+			</div><!-- #primary -->
+
+		</div><!-- .row -->
+
+	</div><!-- Container end -->
+
+</div><!-- Wrapper end -->
+
+
+<div class="funding py-5 text-center">
+    <div class="container px-md-5">
+        <h3 class="h6 text-uppercase font-weight-bold letter-spacing-5 mt-0 mb-3">&mdash; Funding Provided By &mdash;</h3>
+        <div class="row justify-content-center px-4">
+            <div class="col-md-2 col-3 my-auto px-lg-4">
+                <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Seal_of_the_United_States_Department_of_Housing_and_Urban_Development.svg" width="80" height="80" />
+            </div>
+            <div class="col-md-2 col-3 my-auto px-lg-4">
+                <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/USDA_logo.png/320px-USDA_logo.png" width="80" height="80" />
+            </div>
+            <div class="col-md-4 col-6 my-auto">
+                <img class="img-fluid" src="/wp-content/themes/understrap/img/sponsors/secu-logo.svg" width="80" height="80" />
+            </div>
+            <div class="col-md-2 col-3 my-auto px-lg-4">
+                <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/7/72/Seal_of_North_Carolina.svg" width="80" height="80" />
+            </div>
+            <div class="col-md-2 col-3 my-auto px-lg-4">
+                <img class="img-fluid" src="/wp-content/themes/understrap/img/sponsors/Golden%20Leaf%20Foundation.svg" width="80" height="80" />
+            </div>
+
+            <div class="col-md-2 col-3 my-auto px-lg-4">
+                <img class="img-fluid" src="/wp-content/themes/understrap/img/sponsors/William%20R.%20Kenan%20Jr.svg" width="80" height="80" />
+            </div>
+            <div class="col-md-2 col-3 my-auto px-lg-4">
+                <img class="img-fluid" src="/wp-content/themes/understrap/img/sponsors/John%20William%20Pope.svg" width="80" height="80" />
+            </div>
+            <div class="col-md-2 col-3 my-auto px-lg-3">
+                <img class="img-fluid" src="/wp-content/themes/understrap/img/sponsors/bank-of-america.svg" width="80" height="80" />
+            </div>
+            <div class="col-md-2 col-3 my-auto px-lg-4">
+                <img class="img-fluid" src="/wp-content/themes/understrap/img/sponsors/Waste%20Industries2.svg" width="80" height="80" />
+            </div>
+            <div class="col-md-2 d-none d-md-block">
+                <div class="px-lg-2">
+                    <img class="img-fluid" src="/wp-content/themes/understrap/img/sponsors/DAR.svg" width="80" height="80" />
+                </div>
+            </div>
+            <div class="col-md-2 col-3 my-auto px-lg-4">
+                <div class="px-lg-2">
+                    <img class="img-fluid" src="/wp-content/uploads/2019/07/bb-t-logo.svg" width="80" height="80" />
+                </div>
+            </div>
+            <div class="col-md-2 col-3 my-auto px-lg-2 px-md-0 px-0">
+                <img class="img-fluid" src="/wp-content/themes/understrap/img/sponsors/Sunrock.svg" width="80" height="80" />
+            </div>
+            <div class="col-md-2 col-3 my-auto px-lg-3">
+                <img class="img-fluid" src="/wp-content/themes/understrap/img/sponsors/Duke-Energy-Logo.svg" width="80" height="80" />
+            </div>
+            <div class="col-md-2 col-3 my-auto px-lg-2 px-md-0 px-0">
+                <img class="img-fluid" src="/wp-content/themes/understrap/img/sponsors/first-national-bank.svg" width="80" height="80" />
+            </div>
+            <div class="col-md-2 col-3 my-auto px-lg-4">
+                <div class="px-lg-2">
+                    <img class="img-fluid" src="/wp-content/themes/understrap/img/sponsors/wells-fargo.svg" width="80" height="80" />
+                </div>
+            </div>
+            <div class="col-md-2 col-3 my-auto px-lg-2 px-md-0 px-0">
+                <img class="img-fluid" src="/wp-content/themes/understrap/img/sponsors/baileys-fine-jewelry.svg" width="80" height="80" />
+            </div>
+            <div class="col-md-2 col-3 my-auto px-lg-2 px-md-0 px-0">
+                <img class="img-fluid" src="/wp-content/themes/understrap/img/sponsors/USfalcon_Inc_Logo.svg" width="80" height="80" />
+            </div>
+
+            <div class="col-md-4 col-3 my-auto px-lg-4 px-md-3 px-0">
+                <img class="img-fluid" src="/wp-content/themes/understrap/img/sponsors/NC-SEAL-DHHS.svg" width="80" height="80" />
+            </div>
+
+
+
+        </div>
+        <p class="h6 text-uppercase font-weight-bold letter-spacing-5 mt-4">... and hundreds of caring people like you. THANK YOU!</p>
+    </div>
+</div>
+
+
+<section class="position-relative overflow-hidden">
+    <div class="flag h-100 position-absolute w-100"></div>
+    <div class="fade-top h-100 position-absolute w-100"></div>
+    <div class="container py-4 row align-items-center h-100 z-1 position-relative justify-content-center mx-auto">
+        <div class="col-md-9 col-12 text-center text-md-left order-2 order-lg-1">
+            <h2 class="h3 mb-1 mt-0" style="letter-spacing:-.03em !important;line-height:1.05;color: color(display-p3 0.831 0.702 0.396) !important;">Create a Lasting Tribute and Support Veterans</h2>
+            <p class="lead mb-2 font-weight-normal text-white">Join our "Brick by Brick" Campaign for Just $500!</p>
+            <a class="btn btn-sm btn-warning font-weight-bold px-4" style="border-radius:2rem;" href="/pathways-to-success-brick-by-brick-campaign/">learn more</a>
+        </div>
+        <div class="col-md-3 col-12 col-sm-12 order-1 order-lg-2 mtweek">
+            <a href="h/pathways-to-success-brick-by-brick-campaign/"><img src="/images/brick-by-brick.png" class="w-100 img-fluid d-none d-md-block">
+                <img src="/images/mobile.png" class="w-100 img-fluid d-md-none"></a>
+        </div>
+    </div>
+</section>
+<div class="wrapper bg-dark hatch" id="wrapper-footer">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <footer class="site-footer" id="colophon">
+
+
+
+                    <div class="row mb-0 py-4 align-items-center justify-content-center g-3 g-lg-0">
+                        <div class="col-lg-3 col-md-4 col-12 text-center pb-sm-0 pt-sm-0 pt-4 mb-4 mx-auto my-auto pr-md-5">
+                            <a rel="home" href="http://vlc.rickrountree.com/" title="Veterans Life Center">
+                                <img src="/veterans-life-center-logo-white.svg" alt="Veterans Life Center" class="img-fluid"></a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-12 text-center mt-lg-0 pt-lg-4 mb-lg-3 my-auto mb-3 mb-lg-0">
+                            <div class="small text-white font-weight-light">
+                                <div class="mb-2"><strong class="font-weight-bold">MAIL</strong><br> PO Box 37087, <span class="d-inline-block">Raleigh, NC 27627</span></div>
+                                <div class=""><strong class="font-weight-bold">PHYSICAL ADDRESS</strong><br> 1005 9th St, <span class="d-inline-block">Butner, NC 27509</span></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-12 text-center mt-lg-0 pt-lg-4 mb-lg-3 my-auto text-white font-weight-light mb-3 mb-lg-0">
+                            <div class="mb-2">
+                                <strong class="font-weight-bold">PHONE</strong> (919) 803-5516
+                            </div>
+                            <div class="">
+                                <strong class="font-weight-bold">EMAIL</strong> <a href="mailto:info@vlcnc.org" class="text-warning">info@vlcnc.org</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-12 text-center mt-lg-0 pt-lg-4 mb-lg-3 my-auto">
+                            <a href="https://www.facebook.com/VeteransLifeCenterNC/" class="mt-2 d-inline-block text-white py-1 px-3 rounded text-white text-center" style="background:color(display-p3 0.17 0.181 0.195);text-decoration:none;font-size:1.6rem"><span class="align-middle"><i class="fa fa-facebook" aria-hidden="true"></i></span> <span style="font-size:1.2rem"><span class="text-white">Follow Us!</span></span></a>
+                        </div>
+                    </div>
+
+                    <p class="small text-center text-white w-100" style="font-size:.7em">
+                        The Veterans Life Center is a 501 (c) (3) not-for-profit corporation. <span class="d-inline-block">© Copyright  The Veterans Life Center. All Rights Reserved.</span>
+                    </p>
+            </div><!-- .site-info -->
+
+            </footer><!-- #colophon -->
+
+        </div>
+        <!--col end -->
+
+    </div><!-- row end -->
+
+</div><!-- container end -->
+
+</div><!-- wrapper end -->
+
+</div><!-- #page we need this extra closing tag here -->
+
+		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script><script type="text/javascript" src="https://vlcnc.org/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://vlcnc.org/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vlcnc.org/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.5" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-before">
+/* <![CDATA[ */
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/vlcnc.org\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    },
+    "cached": 1
+};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vlcnc.org/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.5" id="contact-form-7-js"></script>
+<script type="text/javascript" src="https://vlcnc.org/wp-content/themes/understrap/js/theme.min.js?ver=0.6.5" id="understrap-scripts-js"></script>
+<script>
+jQuery(document).ready(function($) {
+    $('figure, img').removeAttr('width').removeAttr('height').removeAttr('style');
+});
+</script>
+
+<script type="text/javascript">
+var icpForm7292 = document.getElementById('icpsignup7292');
+
+if (document.location.protocol === "https:")
+
+    icpForm7292.action = "https://app.icontact.com/icp/signup.php";
+
+function verifyRequired7292() {
+    if (icpForm7292["fields_email"].value == "") {
+        icpForm7292["fields_email"].focus();
+        alert("The Email field is required.");
+        return false;
+    }
+
+    if (icpForm7292["fields_email"].value && icpForm7292["fields_email"].value !== "") {
+        icpForm7292["fields_email"].value = icpForm7292["fields_email"].value.trim();
+    }
+    return true;
+}
+
+function validDate7292(value) {
+
+    if (value == "") {
+        return true;
+    }
+
+    var dateSections = value.split('/');
+    if (dateSections.length != 3) {
+        return false;
+    }
+
+    var month = dateSections[0];
+    if (month && (month.length > 2 || month < 1 || month > 12)) {
+        return false;
+    }
+
+    var day = dateSections[1];
+    if (day && (day.length > 2 || day < 1 || day > 31)) {
+        return false;
+    }
+
+    var year = dateSections[2];
+    if (!year || (year && year.length != 4)) {
+        return false;
+    }
+
+    var dateValue = new Date(value);
+    if (month != (dateValue.getMonth() + 1) || day != dateValue.getDate() || year != dateValue.getFullYear()) {
+        return false;
+    }
+
+    return true;
+}
+</script>
+
+
+
+</body>
+
+
+</html>
+
+<!-- Page cached by LiteSpeed Cache 6.5.4 on 2025-10-09 01:01:19 -->

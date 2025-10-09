@@ -1,0 +1,1404 @@
+<!DOCTYPE html>
+<html lang="en-US" class="html_stretched responsive av-preloader-disabled  html_header_top html_logo_left html_main_nav_header html_menu_right html_custom html_header_sticky html_header_shrinking_disabled html_mobile_menu_tablet html_header_searchicon html_content_align_center html_header_unstick_top_disabled html_header_stretch_disabled html_av-submenu-hidden html_av-submenu-display-click html_av-overlay-side html_av-overlay-side-classic html_9 html_av-submenu-noclone html_entry_id_475833 av-cookies-no-cookie-consent av-default-lightbox av-no-preview html_text_menu_active av-mobile-menu-switch-default">
+<head>
+<meta charset="UTF-8" />
+<script type="text/javascript">
+/* <![CDATA[ */
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+/* ]]> */
+</script>
+
+
+
+<!-- mobile setting -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Scripts/CSS and wp_head hook -->
+<meta name='robots' content='noindex, follow' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+	<!-- This site is optimized with the Yoast SEO Premium plugin v26.0 (Yoast SEO v26.0) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Page not found - Easterseals PORT Health</title>
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:title" content="Page not found - Easterseals PORT Health" />
+	<meta property="og:site_name" content="Easterseals PORT Health" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://eastersealsport.com/#website","url":"https://eastersealsport.com/","name":"Easterseals PORT Health","description":"Helping our neighbors live their best life","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://eastersealsport.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Easterseals PORT Health &raquo; Feed" href="https://eastersealsport.com/feed/" />
+<link rel="alternate" type="text/calendar" title="Easterseals PORT Health &raquo; iCal Feed" href="https://eastersealsport.com/calendar/?ical=1" />
+<style type="text/css">.brave_popup{display:none}</style><script data-no-optimize="1"> var brave_popup_data = {}; var bravepop_emailValidation=false; var brave_popup_videos = {};  var brave_popup_formData = {};var brave_popup_adminUser = false; var brave_popup_pageInfo = {"type":"notfound","pageID":"","singleType":""};  var bravepop_emailSuggestions={};</script>		<!-- This site uses the Google Analytics by MonsterInsights plugin v9.6.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=G-FQQ4KHMH9X"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '9.6.0';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+								var MonsterInsightsDefaultLocations = {"page_location":"https:\/\/eastersealsport.com\/wp-content\/uploads\/2019\/09\/esucp-logo.png\/"};
+								if ( typeof MonsterInsightsPrivacyGuardFilter === 'function' ) {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsPrivacyGuardFilter( MonsterInsightsExcludeQuery ) : MonsterInsightsPrivacyGuardFilter( MonsterInsightsDefaultLocations );
+				} else {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsExcludeQuery : MonsterInsightsDefaultLocations;
+				}
+
+								var disableStrs = [
+										'ga-disable-G-FQQ4KHMH9X',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+					if ( MonsterInsightsLocations.page_location ) {
+						__gtagTracker('set', MonsterInsightsLocations);
+					}
+										__gtagTracker('config', 'G-FQQ4KHMH9X', {"forceSSL":"true","link_attribution":"true","page_path":'\/404.html?page=' + document.location.pathname + document.location.search + '&from=' + document.referrer} );
+															window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+									'referrer' : 'page_referrer',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+		
+<!-- google webfont font replacement -->
+
+			<script type='text/javascript'>
+
+				(function() {
+
+					/*	check if webfonts are disabled by user setting via cookie - or user must opt in.	*/
+					var html = document.getElementsByTagName('html')[0];
+					var cookie_check = html.className.indexOf('av-cookies-needs-opt-in') >= 0 || html.className.indexOf('av-cookies-can-opt-out') >= 0;
+					var allow_continue = true;
+					var silent_accept_cookie = html.className.indexOf('av-cookies-user-silent-accept') >= 0;
+
+					if( cookie_check && ! silent_accept_cookie )
+					{
+						if( ! document.cookie.match(/aviaCookieConsent/) || html.className.indexOf('av-cookies-session-refused') >= 0 )
+						{
+							allow_continue = false;
+						}
+						else
+						{
+							if( ! document.cookie.match(/aviaPrivacyRefuseCookiesHideBar/) )
+							{
+								allow_continue = false;
+							}
+							else if( ! document.cookie.match(/aviaPrivacyEssentialCookiesEnabled/) )
+							{
+								allow_continue = false;
+							}
+							else if( document.cookie.match(/aviaPrivacyGoogleWebfontsDisabled/) )
+							{
+								allow_continue = false;
+							}
+						}
+					}
+
+					if( allow_continue )
+					{
+						var f = document.createElement('link');
+
+						f.type 	= 'text/css';
+						f.rel 	= 'stylesheet';
+						f.href 	= 'https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=auto';
+						f.id 	= 'avia-google-webfont';
+
+						document.getElementsByTagName('head')[0].appendChild(f);
+					}
+				})();
+
+			</script>
+			<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/eastersealsport.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.3"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel='stylesheet' id='avia-grid-css' href='https://eastersealsport.com/wp-content/themes/enfold/css/grid.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-base-css' href='https://eastersealsport.com/wp-content/themes/enfold/css/base.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-layout-css' href='https://eastersealsport.com/wp-content/themes/enfold/css/layout.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-tabs-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/tabs/tabs.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-blog-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/blog/blog.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-postslider-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/postslider/postslider.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-button-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/buttons/buttons.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-buttonrow-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/buttonrow/buttonrow.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-button-fullwidth-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/buttons_fullwidth/buttons_fullwidth.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-comments-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/comments/comments.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow/slideshow.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-gallery-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/gallery/gallery.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-maps-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/google_maps/google_maps.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-gridrow-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/grid_row/grid_row.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-heading-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/heading/heading.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-hr-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/hr/hr.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-icon-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/icon/icon.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-iconbox-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/iconbox/iconbox.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-image-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/image/image.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-contentpartner-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/contentslider/contentslider.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-masonry-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/masonry_entries/masonry_entries.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-siteloader-css' href='https://eastersealsport.com/wp-content/themes/enfold/css/avia-snippet-site-preloader.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-numbers-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/numbers/numbers.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-accordion-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow_accordion/slideshow_accordion.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-feature-image-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow_feature_image/slideshow_feature_image.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-fullsize-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow_fullsize/slideshow_fullsize.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-fullscreen-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow_fullscreen/slideshow_fullscreen.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-social-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/social_share/social_share.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-team-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/team/team.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-testimonials-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/testimonials/testimonials.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-toggles-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/toggles/toggles.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-video-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/video/video.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='sbi_styles-css' href='https://eastersealsport.com/wp-content/plugins/instagram-feed-pro/css/sbi-styles.min.css?ver=6.8.1' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://eastersealsport.com/wp-includes/css/dist/block-library/style.min.css?ver=6.8.3' type='text/css' media='all' />
+<style id='filebird-block-filebird-gallery-style-inline-css' type='text/css'>
+ul.filebird-block-filebird-gallery{margin:auto!important;padding:0!important;width:100%}ul.filebird-block-filebird-gallery.layout-grid{display:grid;grid-gap:20px;align-items:stretch;grid-template-columns:repeat(var(--columns),1fr);justify-items:stretch}ul.filebird-block-filebird-gallery.layout-grid li img{border:1px solid #ccc;box-shadow:2px 2px 6px 0 rgba(0,0,0,.3);height:100%;max-width:100%;-o-object-fit:cover;object-fit:cover;width:100%}ul.filebird-block-filebird-gallery.layout-masonry{-moz-column-count:var(--columns);-moz-column-gap:var(--space);column-gap:var(--space);-moz-column-width:var(--min-width);columns:var(--min-width) var(--columns);display:block;overflow:auto}ul.filebird-block-filebird-gallery.layout-masonry li{margin-bottom:var(--space)}ul.filebird-block-filebird-gallery li{list-style:none}ul.filebird-block-filebird-gallery li figure{height:100%;margin:0;padding:0;position:relative;width:100%}ul.filebird-block-filebird-gallery li figure figcaption{background:linear-gradient(0deg,rgba(0,0,0,.7),rgba(0,0,0,.3) 70%,transparent);bottom:0;box-sizing:border-box;color:#fff;font-size:.8em;margin:0;max-height:100%;overflow:auto;padding:3em .77em .7em;position:absolute;text-align:center;width:100%;z-index:2}ul.filebird-block-filebird-gallery li figure figcaption a{color:inherit}
+
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--metallic-red: #b02b2c;--wp--preset--color--maximum-yellow-red: #edae44;--wp--preset--color--yellow-sun: #eeee22;--wp--preset--color--palm-leaf: #83a846;--wp--preset--color--aero: #7bb0e7;--wp--preset--color--old-lavender: #745f7e;--wp--preset--color--steel-teal: #5f8789;--wp--preset--color--raspberry-pink: #d65799;--wp--preset--color--medium-turquoise: #4ecac2;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 1rem;--wp--preset--font-size--medium: 1.125rem;--wp--preset--font-size--large: 1.75rem;--wp--preset--font-size--x-large: clamp(1.75rem, 3vw, 2.25rem);--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root { --wp--style--global--content-size: 800px;--wp--style--global--wide-size: 1130px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-metallic-red-color{color: var(--wp--preset--color--metallic-red) !important;}.has-maximum-yellow-red-color{color: var(--wp--preset--color--maximum-yellow-red) !important;}.has-yellow-sun-color{color: var(--wp--preset--color--yellow-sun) !important;}.has-palm-leaf-color{color: var(--wp--preset--color--palm-leaf) !important;}.has-aero-color{color: var(--wp--preset--color--aero) !important;}.has-old-lavender-color{color: var(--wp--preset--color--old-lavender) !important;}.has-steel-teal-color{color: var(--wp--preset--color--steel-teal) !important;}.has-raspberry-pink-color{color: var(--wp--preset--color--raspberry-pink) !important;}.has-medium-turquoise-color{color: var(--wp--preset--color--medium-turquoise) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-metallic-red-background-color{background-color: var(--wp--preset--color--metallic-red) !important;}.has-maximum-yellow-red-background-color{background-color: var(--wp--preset--color--maximum-yellow-red) !important;}.has-yellow-sun-background-color{background-color: var(--wp--preset--color--yellow-sun) !important;}.has-palm-leaf-background-color{background-color: var(--wp--preset--color--palm-leaf) !important;}.has-aero-background-color{background-color: var(--wp--preset--color--aero) !important;}.has-old-lavender-background-color{background-color: var(--wp--preset--color--old-lavender) !important;}.has-steel-teal-background-color{background-color: var(--wp--preset--color--steel-teal) !important;}.has-raspberry-pink-background-color{background-color: var(--wp--preset--color--raspberry-pink) !important;}.has-medium-turquoise-background-color{background-color: var(--wp--preset--color--medium-turquoise) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-metallic-red-border-color{border-color: var(--wp--preset--color--metallic-red) !important;}.has-maximum-yellow-red-border-color{border-color: var(--wp--preset--color--maximum-yellow-red) !important;}.has-yellow-sun-border-color{border-color: var(--wp--preset--color--yellow-sun) !important;}.has-palm-leaf-border-color{border-color: var(--wp--preset--color--palm-leaf) !important;}.has-aero-border-color{border-color: var(--wp--preset--color--aero) !important;}.has-old-lavender-border-color{border-color: var(--wp--preset--color--old-lavender) !important;}.has-steel-teal-border-color{border-color: var(--wp--preset--color--steel-teal) !important;}.has-raspberry-pink-border-color{border-color: var(--wp--preset--color--raspberry-pink) !important;}.has-medium-turquoise-border-color{border-color: var(--wp--preset--color--medium-turquoise) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='eic_public-css' href='https://eastersealsport.com/wp-content/plugins/easy-image-collage/css/public.css?ver=1.13.6' type='text/css' media='screen' />
+<link rel='stylesheet' id='cff-css' href='https://eastersealsport.com/wp-content/plugins/custom-facebook-feed-pro/assets/css/cff-style.min.css?ver=4.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-scs-css' href='https://eastersealsport.com/wp-content/themes/enfold/css/shortcodes.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-fold-unfold-css' href='https://eastersealsport.com/wp-content/themes/enfold/css/avia-snippet-fold-unfold.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-popup-css-css' href='https://eastersealsport.com/wp-content/themes/enfold/js/aviapopup/magnific-popup.min.css?ver=7.1.2' type='text/css' media='screen' />
+<link rel='stylesheet' id='avia-lightbox-css' href='https://eastersealsport.com/wp-content/themes/enfold/css/avia-snippet-lightbox.css?ver=7.1.2' type='text/css' media='screen' />
+<link rel='stylesheet' id='avia-widget-css-css' href='https://eastersealsport.com/wp-content/themes/enfold/css/avia-snippet-widget.css?ver=7.1.2' type='text/css' media='screen' />
+<link rel='stylesheet' id='avia-dynamic-css' href='https://eastersealsport.com/wp-content/uploads/dynamic_avia/easterseals.css?ver=68dcccef76dbe' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-custom-css' href='https://eastersealsport.com/wp-content/themes/enfold/css/custom.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-events-cal-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-events-calendar/event-mod.css?ver=7.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-gravity-css' href='https://eastersealsport.com/wp-content/themes/enfold/config-gravityforms/gravity-mod.css?ver=7.1.2' type='text/css' media='screen' />
+<link rel='stylesheet' id='avia-child-css' href='https://eastersealsport.com/wp-content/themes/easterseals/style.css?ver=1.0.7' type='text/css' media='all' />
+<script type="text/javascript" id="jquery-core-js-extra">
+/* <![CDATA[ */
+var pysFacebookRest = {"restApiUrl":"https:\/\/eastersealsport.com\/wp-json\/pys-facebook\/v1\/event","debug":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/plugins/google-analytics-premium/assets/js/frontend-gtag.min.js?ver=9.6.0" id="monsterinsights-frontend-script-js" async="async" data-wp-strategy="async"></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='monsterinsights-frontend-script-js-extra'>/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/eastersealsport.com","hash_tracking":"false","v4_id":"G-FQQ4KHMH9X"};/* ]]> */
+</script>
+<script type="text/javascript" id="breeze-prefetch-js-extra">
+/* <![CDATA[ */
+var breeze_prefetch = {"local_url":"https:\/\/eastersealsport.com","ignore_remote_prefetch":"1","ignore_list":["\/careers\/(.)","\/job-search\/","wp-admin","wp-login.php"]};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/plugins/breeze/assets/js/js-front-end/breeze-prefetch-links.min.js?ver=2.2.20" id="breeze-prefetch-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/js/avia-js.js?ver=7.1.2" id="avia-js-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/js/avia-compat.js?ver=7.1.2" id="avia-compat-js"></script>
+<link rel="https://api.w.org/" href="https://eastersealsport.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://eastersealsport.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.3" />
+<meta name="cdp-version" content="1.5.0" /><!-- Custom Facebook Feed JS vars -->
+<script type="text/javascript">
+var cffsiteurl = "https://eastersealsport.com/wp-content/plugins";
+var cffajaxurl = "https://eastersealsport.com/wp-admin/admin-ajax.php";
+
+
+var cfflinkhashtags = "false";
+</script>
+<style type="text/css">.eic-image .eic-image-caption {bottom: 0;left: 0;right: 0;text-align: left;font-size: 12px;color: rgba(255,255,255,1);background-color: rgba(0,0,0,0.7);}</style><meta name="facebook-domain-verification" content="tjh206ux30gy4b1kqxt2h1hp9l8e7o" /><meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://eastersealsport.com"><link rel="alternate" href="https://eastersealsport.com/wp-json/tribe/events/v1/" />
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- GTM Container placement set to footer -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+	var dataLayer_content = {"pagePostType":"404-error"};
+	dataLayer.push( dataLayer_content );
+</script>
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NX68X93');
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->	
+	<script>
+	!function(f,b,e,v,n,t,s)
+	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];
+	s.parentNode.insertBefore(t,s)}(window, document,'script',
+	'https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '1262657930826333');
+	fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+	src="https://www.facebook.com/tr?id=1262657930826333&ev=PageView&noscript=1"
+	/></noscript>
+	
+<link rel="icon" href="https://eastersealsport.com/wp-content/uploads/2022/01/favicon-new.ico" type="image/x-icon">
+<!--[if lt IE 9]><script src="https://eastersealsport.com/wp-content/themes/enfold/js/html5shiv.js"></script><![endif]--><link rel="profile" href="https://gmpg.org/xfn/11" />
+<link rel="alternate" type="application/rss+xml" title="Easterseals PORT Health RSS2 Feed" href="https://eastersealsport.com/feed/" />
+<link rel="pingback" href="https://eastersealsport.com/xmlrpc.php" />
+
+<style type='text/css' media='screen'>
+ #top #header_main > .container, #top #header_main > .container .main_menu  .av-main-nav > li > a, #top #header_main #menu-item-shop .cart_dropdown_link{ height:110px; line-height: 110px; }
+ .html_top_nav_header .av-logo-container{ height:110px;  }
+ .html_header_top.html_header_sticky #top #wrap_all #main{ padding-top:110px; } 
+</style>
+<link rel="icon" href="https://eastersealsport.com/wp-content/uploads/2024/07/cropped-ESPH-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://eastersealsport.com/wp-content/uploads/2024/07/cropped-ESPH-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://eastersealsport.com/wp-content/uploads/2024/07/cropped-ESPH-180x180.png" />
+<meta name="msapplication-TileImage" content="https://eastersealsport.com/wp-content/uploads/2024/07/cropped-ESPH-270x270.png" />
+<style type="text/css">
+		@font-face {font-family: 'entypo-fontello-enfold'; font-weight: normal; font-style: normal; font-display: auto;
+		src: url('https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello-enfold/entypo-fontello-enfold.woff2') format('woff2'),
+		url('https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello-enfold/entypo-fontello-enfold.woff') format('woff'),
+		url('https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello-enfold/entypo-fontello-enfold.ttf') format('truetype'),
+		url('https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello-enfold/entypo-fontello-enfold.svg#entypo-fontello-enfold') format('svg'),
+		url('https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello-enfold/entypo-fontello-enfold.eot'),
+		url('https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello-enfold/entypo-fontello-enfold.eot?#iefix') format('embedded-opentype');
+		}
+
+		#top .avia-font-entypo-fontello-enfold, body .avia-font-entypo-fontello-enfold, html body [data-av_iconfont='entypo-fontello-enfold']:before{ font-family: 'entypo-fontello-enfold'; }
+		
+		@font-face {font-family: 'entypo-fontello'; font-weight: normal; font-style: normal; font-display: auto;
+		src: url('https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello/entypo-fontello.woff2') format('woff2'),
+		url('https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello/entypo-fontello.woff') format('woff'),
+		url('https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello/entypo-fontello.ttf') format('truetype'),
+		url('https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello/entypo-fontello.svg#entypo-fontello') format('svg'),
+		url('https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello/entypo-fontello.eot'),
+		url('https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello/entypo-fontello.eot?#iefix') format('embedded-opentype');
+		}
+
+		#top .avia-font-entypo-fontello, body .avia-font-entypo-fontello, html body [data-av_iconfont='entypo-fontello']:before{ font-family: 'entypo-fontello'; }
+		
+		@font-face {font-family: 'x'; font-weight: normal; font-style: normal; font-display: auto;
+		src: url('https://eastersealsport.com/wp-content/uploads/dynamic_avia/avia_icon_fonts/x/x.woff2') format('woff2'),
+		url('https://eastersealsport.com/wp-content/uploads/dynamic_avia/avia_icon_fonts/x/x.woff') format('woff'),
+		url('https://eastersealsport.com/wp-content/uploads/dynamic_avia/avia_icon_fonts/x/x.ttf') format('truetype'),
+		url('https://eastersealsport.com/wp-content/uploads/dynamic_avia/avia_icon_fonts/x/x.svg#x') format('svg'),
+		url('https://eastersealsport.com/wp-content/uploads/dynamic_avia/avia_icon_fonts/x/x.eot'),
+		url('https://eastersealsport.com/wp-content/uploads/dynamic_avia/avia_icon_fonts/x/x.eot?#iefix') format('embedded-opentype');
+		}
+
+		#top .avia-font-x, body .avia-font-x, html body [data-av_iconfont='x']:before{ font-family: 'x'; }
+		</style>
+
+<!--
+Debugging Info for Theme support: 
+
+Theme: Enfold
+Version: 7.1.2
+Installed: enfold
+AviaFramework Version: 5.6
+AviaBuilder Version: 6.0
+aviaElementManager Version: 1.0.1
+- - - - - - - - - - -
+ChildTheme: Easterseals
+ChildTheme Version: 1.0
+ChildTheme Installed: enfold
+
+- - - - - - - - - - -
+ML:512-PU:52-PLA:28
+WP:6.8.3
+Compress: CSS:disabled - JS:disabled
+Updates: enabled - token has changed and not verified
+PLAu:28
+-->
+</head>
+
+<body id="top" class="error404 wp-theme-enfold wp-child-theme-easterseals stretched rtl_columns av-curtain-numeric montserrat tribe-no-js avia-responsive-images-support" itemscope="itemscope" itemtype="https://schema.org/WebPage" >
+
+	
+	<div id='wrap_all'>
+
+	
+<header id='header' class='all_colors header_color light_bg_color  av_header_top av_logo_left av_main_nav_header av_menu_right av_custom av_header_sticky av_header_shrinking_disabled av_header_stretch_disabled av_mobile_menu_tablet av_header_searchicon av_header_unstick_top_disabled av_bottom_nav_disabled  av_header_border_disabled'  data-av_shrink_factor='50' role="banner" itemscope="itemscope" itemtype="https://schema.org/WPHeader" >
+
+		<div  id='header_main' class='container_wrap container_wrap_logo'>
+
+        <div class='container av-logo-container'><div class='inner-container'><span class='logo avia-standard-logo'><a href='https://eastersealsport.com/' class='' aria-label='Easterseals-Port' title='Easterseals-Port'><img src="https://eastersealsport.com/wp-content/uploads/2024/07/Easterseals-Port.png" height="100" width="300" alt='Easterseals PORT Health' title='Easterseals-Port' /></a></span><nav class='main_menu' data-selectname='Select a page'  role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" ><div class="avia-menu av-main-nav-wrap"><ul role="menu" class="menu av-main-nav" id="avia-menu"><li role="menuitem" id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-top-level menu-item-top-level-1"><a href="/who-we-are" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Who We Are</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li role="menuitem" id="menu-item-10968" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/our-history/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Our History</span></a></li>
+	<li role="menuitem" id="menu-item-19912" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/our-culture/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Our Culture</span></a></li>
+	<li role="menuitem" id="menu-item-1144" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/meet-the-team/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Meet the Team</span></a></li>
+	<li role="menuitem" id="menu-item-3260" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent"><a href="https://eastersealsport.com/insights-and-news/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Insights + News</span></a></li>
+</ul>
+</li>
+<li role="menuitem" id="menu-item-23" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-mega-parent  menu-item-top-level menu-item-top-level-2"><a href="/services" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Services</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+<div class='avia_mega_div avia_mega2 six units'>
+
+<ul class="sub-menu">
+	<li role="menuitem" id="menu-item-19903" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children avia_mega_menu_columns_2 three units  avia_mega_menu_columns_first">
+	<ul class="sub-menu">
+		<li role="menuitem" id="menu-item-3551" class="eucp-menu-tab tab-autism menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/autism-and-aba-services/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Autism + ABA Services</span></a></li>
+		<li role="menuitem" id="menu-item-10972" class="eucp-menu-tab tab-camp-adults menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/camp-recreation-for-adults/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Camp + Recreation for Adults</span></a></li>
+		<li role="menuitem" id="menu-item-10971" class="eucp-menu-tab tab-camp-youth menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/camp-recreation-for-youth/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Camp + Recreation for Youth</span></a></li>
+		<li role="menuitem" id="menu-item-10970" class="eucp-menu-tab tab-cerebral-palsy menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/cerebral-palsy-services/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Cerebral Palsy Services</span></a></li>
+		<li role="menuitem" id="menu-item-10977" class="eucp-menu-tab tab-child-development menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/child-development-services/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Child Development</span></a></li>
+		<li role="menuitem" id="menu-item-275763" class="eucp-menu-tab tab-culinary-arts menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/culinary-arts/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Culinary Arts Therapy</span></a></li>
+		<li role="menuitem" id="menu-item-10983" class="eucp-menu-tab tab-employment menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/employment-services/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Employment Services</span></a></li>
+		<li role="menuitem" id="menu-item-21078" class="eucp-menu-tab tab-foster-care menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/foster-care-services/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Foster Care Services</span></a></li>
+		<li role="menuitem" id="menu-item-10976" class="eucp-menu-tab tab-home-services menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/individual-and-community-services/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Individual + Community Services</span></a></li>
+		<li role="menuitem" id="menu-item-10975" class="eucp-menu-tab tab-mental-health-youth menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/mental-health-for-youth/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Mental Health for Youth</span></a></li>
+		<li role="menuitem" id="menu-item-10974" class="eucp-menu-tab tab-mental-health-adults menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/mental-health-for-adults/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Mental Health for Adults</span></a></li>
+		<li role="menuitem" id="menu-item-348486" class="eucp-menu-tab tab-outpatient-treatment menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/outpatient-treatment/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Outpatient Treatment</span></a></li>
+		<li role="menuitem" id="menu-item-10973" class="eucp-menu-tab tab-residential menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/residential-services/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Residential Services</span></a></li>
+		<li role="menuitem" id="menu-item-329277" class="eucp-menu-tab tab-substance menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/substance-use/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Substance Use Services</span></a></li>
+		<li role="menuitem" id="menu-item-10909" class="eucp-menu-tab tab-tech menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/technology-resources/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Technology + Resources</span></a></li>
+	</ul>
+</li>
+	<li role="menuitem" id="menu-item-338" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children avia_mega_menu_columns_2 three units avia_mega_menu_columns_last">
+	<ul class="sub-menu">
+		<li role="menuitem" id="menu-item-18713" class="eucp-tab-item item-autism menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/autism-services/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Autism Services</span></a></li>
+		<li role="menuitem" id="menu-item-18714" class="eucp-tab-item item-autism menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/applied-behavior-analysis/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Applied Behavior Analysis</span></a></li>
+		<li role="menuitem" id="menu-item-10989" class="eucp-tab-item item-camp-adults menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/camp-easterseals/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Camp Easterseals Virginia</span></a></li>
+		<li role="menuitem" id="menu-item-10992" class="eucp-tab-item item-camp-adults menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/empower-adult-wellness-recreation/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">EMPOWER Adult Wellness + Recreation</span></a></li>
+		<li role="menuitem" id="menu-item-11042" class="eucp-tab-item item-camp-youth menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/camp-easterseals/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Camp Easterseals Virginia</span></a></li>
+		<li role="menuitem" id="menu-item-11044" class="eucp-tab-item item-camp-youth menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/empower-after-school/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">EMPOWER After School</span></a></li>
+		<li role="menuitem" id="menu-item-11045" class="eucp-tab-item item-camp-youth menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/empower-summer-camp/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">EMPOWER Summer Camp</span></a></li>
+		<li role="menuitem" id="menu-item-11047" class="eucp-tab-item item-child-development menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/busy-beats-music-group/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Busy Beats Music Group</span></a></li>
+		<li role="menuitem" id="menu-item-11048" class="eucp-tab-item item-child-development menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/early-intervention/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Early Intervention</span></a></li>
+		<li role="menuitem" id="menu-item-275819" class="eucp-tab-item item-culinary-arts menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/culinary-connections/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Culinary Connections</span></a></li>
+		<li role="menuitem" id="menu-item-11076" class="eucp-tab-item item-employment menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/agrability/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">AgrAbility Virginia</span></a></li>
+		<li role="menuitem" id="menu-item-11051" class="eucp-tab-item item-employment menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/individual-placement-support/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Individual Placement + Support</span></a></li>
+		<li role="menuitem" id="menu-item-28775" class="eucp-tab-item item-employment menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/supported-employment/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Supported Employment</span></a></li>
+		<li role="menuitem" id="menu-item-11052" class="eucp-tab-item item-employment menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/transition-to-employment/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Transition to Employment</span></a></li>
+		<li role="menuitem" id="menu-item-21520" class="eucp-tab-item item-foster-care menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/foster-care/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Foster Care</span></a></li>
+		<li role="menuitem" id="menu-item-296601" class="eucp-tab-item item-foster-care menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/become-a-foster-parent/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Become a Foster Parent</span></a></li>
+		<li role="menuitem" id="menu-item-25613" class="eucp-tab-item item-home-services menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/community-living-supports/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Community Living + Supports</span></a></li>
+		<li role="menuitem" id="menu-item-25614" class="eucp-tab-item item-home-services menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/community-living-facilities-and-supports/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Community Living Facilities + Supports</span></a></li>
+		<li role="menuitem" id="menu-item-25618" class="eucp-tab-item item-home-services menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/community-networking/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Community Networking</span></a></li>
+		<li role="menuitem" id="menu-item-53149" class="eucp-tab-item item-home-services menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/peer-support/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">DD Peer Support Mentors</span></a></li>
+		<li role="menuitem" id="menu-item-25617" class="eucp-tab-item item-home-services menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/developmental-therapy/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Developmental Therapy</span></a></li>
+		<li role="menuitem" id="menu-item-142746" class="eucp-tab-item item-home-services menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/family-navigator/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Family Navigator</span></a></li>
+		<li role="menuitem" id="menu-item-25616" class="eucp-tab-item item-home-services menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/in-home-skill-building/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">In-Home Skill Building</span></a></li>
+		<li role="menuitem" id="menu-item-25615" class="eucp-tab-item item-home-services menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/respite/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Respite</span></a></li>
+		<li role="menuitem" id="menu-item-52211" class="eucp-tab-item item-home-services menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/specialized-consultative-services/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Specialized Consultative Services</span></a></li>
+		<li role="menuitem" id="menu-item-246023" class="eucp-tab-item item-mental-health-youth menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/building-bridges/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Building Bridges</span></a></li>
+		<li role="menuitem" id="menu-item-11059" class="eucp-tab-item item-mental-health-youth menu-item menu-item-type-post_type menu-item-object-page"><a title="eucp-menu-tab tab-mental-health-youth" href="https://eastersealsport.com/cares-program/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">CARES Program</span></a></li>
+		<li role="menuitem" id="menu-item-11060" class="eucp-tab-item item-mental-health-youth menu-item menu-item-type-post_type menu-item-object-page"><a title="eucp-menu-tab tab-mental-health-youth" href="https://eastersealsport.com/child-first-nc/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Child First NC</span></a></li>
+		<li role="menuitem" id="menu-item-21527" class="eucp-tab-item item-mental-health-youth menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/nc-start/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Crisis NC START</span></a></li>
+		<li role="menuitem" id="menu-item-445715" class="eucp-tab-item item-mental-health-youth menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/cr2/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Community Regional Crisis Response</span></a></li>
+		<li role="menuitem" id="menu-item-21528" class="eucp-tab-item item-mental-health-youth menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/va-reach/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Crisis VA REACH</span></a></li>
+		<li role="menuitem" id="menu-item-11066" class="eucp-tab-item item-mental-health-youth menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/wraparound-program/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">High Fidelity Wraparound Program</span></a></li>
+		<li role="menuitem" id="menu-item-11061" class="eucp-tab-item item-mental-health-youth menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/intensive-in-home-program/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Intensive In-Home Program</span></a></li>
+		<li role="menuitem" id="menu-item-348477" class="eucp-tab-item item-mental-health-youth menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/med-management/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Medication Management</span></a></li>
+		<li role="menuitem" id="menu-item-11063" class="eucp-tab-item item-mental-health-youth menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/multisystemic-therapy/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Multisystemic Therapy</span></a></li>
+		<li role="menuitem" id="menu-item-11062" class="eucp-tab-item item-mental-health-youth menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/mobile-crisis-management/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Mobile Crisis Management</span></a></li>
+		<li role="menuitem" id="menu-item-286617" class="eucp-tab-item item-mental-health-youth menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/mores/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Mobile Outreach for Youth</span></a></li>
+		<li role="menuitem" id="menu-item-11064" class="eucp-tab-item item-mental-health-youth menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/outpatient/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Outpatient Services</span></a></li>
+		<li role="menuitem" id="menu-item-262130" class="eucp-tab-item item-mental-health-youth menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/tcm/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Tailored Care Management</span></a></li>
+		<li role="menuitem" id="menu-item-11067" class="eucp-tab-item item-mental-health-adults menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/assertive-community-treatment/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Assertive Community Treatment</span></a></li>
+		<li role="menuitem" id="menu-item-11068" class="eucp-tab-item item-mental-health-adults menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/community-support/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Community Support Team</span></a></li>
+		<li role="menuitem" id="menu-item-445714" class="eucp-tab-item item-mental-health-adults menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/cr2/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Community Regional Crisis Response</span></a></li>
+		<li role="menuitem" id="menu-item-39437" class="eucp-tab-item item-mental-health-adults menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/nc-start/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Crisis NC START</span></a></li>
+		<li role="menuitem" id="menu-item-39436" class="eucp-tab-item item-mental-health-adults menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/va-reach/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Crisis VA REACH</span></a></li>
+		<li role="menuitem" id="menu-item-348478" class="eucp-tab-item item-mental-health-adults menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/med-management/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Medication Management</span></a></li>
+		<li role="menuitem" id="menu-item-381702" class="eucp-tab-item item-substance menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/mobile-clinic/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Mobile Outpatient Clinic</span></a></li>
+		<li role="menuitem" id="menu-item-11069" class="eucp-tab-item item-mental-health-adults menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/mobile-crisis-management/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Mobile Crisis Management</span></a></li>
+		<li role="menuitem" id="menu-item-124362" class="eucp-tab-item item-mental-health-adults menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/adult-peer-support/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Peer Support</span></a></li>
+		<li role="menuitem" id="menu-item-21524" class="eucp-tab-item item-cerebral-palsy menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/early-signs-of-cerebral-palsy/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Early Signs of Cerebral Palsy</span></a></li>
+		<li role="menuitem" id="menu-item-11070" class="eucp-tab-item item-mental-health-adults menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/outpatient/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Outpatient Services</span></a></li>
+		<li role="menuitem" id="menu-item-262131" class="eucp-tab-item item-mental-health-adults menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/tcm/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Tailored Care Management</span></a></li>
+		<li role="menuitem" id="menu-item-11072" class="eucp-tab-item item-residential menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/alternative-family-living/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Alternative Family Living</span></a></li>
+		<li role="menuitem" id="menu-item-38712" class="eucp-tab-item item-residential menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/community-living-facilities-and-supports/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Community Living Facilities + Supports</span></a></li>
+		<li role="menuitem" id="menu-item-11073" class="eucp-tab-item item-residential menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/homes/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Group Homes</span></a></li>
+		<li role="menuitem" id="menu-item-332022" class="eucp-tab-item item-residential menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/stepping-stone/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Stepping Stone Manor</span></a></li>
+		<li role="menuitem" id="menu-item-11074" class="eucp-tab-item item-residential menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/supervised-apartments/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Supervised Apartments</span></a></li>
+		<li role="menuitem" id="menu-item-332021" class="eucp-tab-item item-residential menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/teen-residential/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Teen Substance Use Treatment Residential</span></a></li>
+		<li role="menuitem" id="menu-item-11075" class="eucp-tab-item item-residential menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/transition-to-independent-living/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Transition to Independent Living</span></a></li>
+		<li role="menuitem" id="menu-item-322798" class="eucp-tab-item item-substance menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/fbc/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Facility Based Crisis</span></a></li>
+		<li role="menuitem" id="menu-item-329281" class="eucp-tab-item item-substance menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/mat/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Medication Assisted Treatment</span></a></li>
+		<li role="menuitem" id="menu-item-381703" class="eucp-tab-item item-mental-health-adults menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/mobile-clinic/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Mobile Outpatient Clinic</span></a></li>
+		<li role="menuitem" id="menu-item-329280" class="eucp-tab-item item-substance menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/opioid-treatment/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Opioid Treatment Program</span></a></li>
+		<li role="menuitem" id="menu-item-332019" class="eucp-tab-item item-substance menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/stepping-stone/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Stepping Stone Manor</span></a></li>
+		<li role="menuitem" id="menu-item-329278" class="eucp-tab-item item-substance menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/prevention/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Substance Use Prevention</span></a></li>
+		<li role="menuitem" id="menu-item-329279" class="eucp-tab-item item-substance menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/teen-residential/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Teen Substance Use Treatment Residential</span></a></li>
+		<li role="menuitem" id="menu-item-11077" class="eucp-tab-item item-tech menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/assistive-technology/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Assistive Technology + Resources</span></a></li>
+		<li role="menuitem" id="menu-item-11078" class="eucp-tab-item item-tech menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/info/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Information + Referrals</span></a></li>
+		<li role="menuitem" id="menu-item-351578" class="eucp-tab-item item-outpatient-treatment menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/mat/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Medication Assisted Treatment</span></a></li>
+		<li role="menuitem" id="menu-item-351579" class="eucp-tab-item item-outpatient-treatment menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/med-management/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Medication Management</span></a></li>
+		<li role="menuitem" id="menu-item-351581" class="eucp-tab-item item-outpatient-treatment menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/mobile-crisis-management/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Mobile Crisis Management</span></a></li>
+		<li role="menuitem" id="menu-item-351580" class="eucp-tab-item item-outpatient-treatment menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/opioid-treatment/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Opioid Treatment Program</span></a></li>
+	</ul>
+</li>
+</ul>
+
+</div>
+</li>
+<li role="menuitem" id="menu-item-27570" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-top-level menu-item-top-level-3"><a href="https://eastersealsport.com/careers/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Careers</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li role="menuitem" id="menu-item-31193" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/we-want-you" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">We Want YOU!</span></a></li>
+	<li role="menuitem" id="menu-item-27571" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/job-search/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Job Search</span></a></li>
+</ul>
+</li>
+<li role="menuitem" id="menu-item-44175" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-top-level menu-item-top-level-4"><a href="/contact-us/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Contact Us</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li role="menuitem" id="menu-item-352993" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/resources/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Resources</span></a></li>
+</ul>
+</li>
+<li role="menuitem" id="menu-item-19901" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-top-level menu-item-top-level-5"><a href="https://eastersealsport.com/get-involved/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Get Involved</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li role="menuitem" id="menu-item-45251" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="/events" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Events</span></a>
+	<ul class="sub-menu">
+		<li role="menuitem" id="menu-item-471631" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/chef-fest-2026/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Chef Fest 2026</span></a></li>
+		<li role="menuitem" id="menu-item-266916" class="eucp-menu-tab tab-events menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/glow-run-new-bern/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Glow Run</span></a></li>
+		<li role="menuitem" id="menu-item-275794" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/miracle-moments-2024/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Miracle Moments Luncheon</span></a></li>
+	</ul>
+</li>
+	<li role="menuitem" id="menu-item-41678" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/volunteer" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Volunteer</span></a></li>
+	<li role="menuitem" id="menu-item-41677" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/fundraise" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Fundraise</span></a></li>
+	<li role="menuitem" id="menu-item-41676" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/advocacy" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Advocacy</span></a></li>
+</ul>
+</li>
+<li role="menuitem" id="menu-item-41670" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-top-level menu-item-top-level-6"><a href="/ways-to-give" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Ways to Give</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li role="menuitem" id="menu-item-129266" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/campaigns/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Campaigns</span></a></li>
+	<li role="menuitem" id="menu-item-44852" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/donate-now" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Donate Now</span></a></li>
+	<li role="menuitem" id="menu-item-57482" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/donate-property/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Donate Property</span></a></li>
+	<li role="menuitem" id="menu-item-57485" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/donate-vehicle/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Donate Vehicle</span></a></li>
+	<li role="menuitem" id="menu-item-44853" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/monthly-giving" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Monthly Giving</span></a></li>
+	<li role="menuitem" id="menu-item-44854" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/presidents-council" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">President&#8217;s Council</span></a></li>
+	<li role="menuitem" id="menu-item-44856" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/workplace-giving" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Workplace Giving</span></a></li>
+	<li role="menuitem" id="menu-item-44855" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/matching-gifts" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Matching Gifts</span></a></li>
+	<li role="menuitem" id="menu-item-44857" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/estate-planning-legacy-giving" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Estate Planning/Legacy Giving</span></a></li>
+	<li role="menuitem" id="menu-item-44858" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/donate-stock" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Donate Stock</span></a></li>
+</ul>
+</li>
+<li role="menuitem" id="menu-item-163" class="menu-item menu-item-type-post_type menu-item-object-page av-menu-button av-menu-button-colored menu-item-top-level menu-item-top-level-7"><a href="https://eastersealsport.com/donate/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Donate</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li id="menu-item-search" class="noMobile menu-item menu-item-search-dropdown menu-item-avia-special" role="menuitem"><a class="avia-svg-icon avia-font-svg_entypo-fontello" aria-label="Search" href="?s=" rel="nofollow" title="Click to open the search input field" data-avia-search-tooltip="
+&lt;search&gt;
+	&lt;form role=&quot;search&quot; action=&quot;https://eastersealsport.com/&quot; id=&quot;searchform&quot; method=&quot;get&quot; class=&quot;&quot;&gt;
+		&lt;div&gt;
+&lt;span class=&#039;av_searchform_search avia-svg-icon avia-font-svg_entypo-fontello&#039; data-av_svg_icon=&#039;search&#039; data-av_iconset=&#039;svg_entypo-fontello&#039;&gt;&lt;svg version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;25&quot; height=&quot;32&quot; viewBox=&quot;0 0 25 32&quot; preserveAspectRatio=&quot;xMidYMid meet&quot; aria-labelledby=&#039;av-svg-title-1&#039; aria-describedby=&#039;av-svg-desc-1&#039; role=&quot;graphics-symbol&quot; aria-hidden=&quot;true&quot;&gt;
+&lt;title id=&#039;av-svg-title-1&#039;&gt;Search&lt;/title&gt;
+&lt;desc id=&#039;av-svg-desc-1&#039;&gt;Search&lt;/desc&gt;
+&lt;path d=&quot;M24.704 24.704q0.96 1.088 0.192 1.984l-1.472 1.472q-1.152 1.024-2.176 0l-6.080-6.080q-2.368 1.344-4.992 1.344-4.096 0-7.136-3.040t-3.040-7.136 2.88-7.008 6.976-2.912 7.168 3.040 3.072 7.136q0 2.816-1.472 5.184zM3.008 13.248q0 2.816 2.176 4.992t4.992 2.176 4.832-2.016 2.016-4.896q0-2.816-2.176-4.96t-4.992-2.144-4.832 2.016-2.016 4.832z&quot;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/span&gt;			&lt;input type=&quot;submit&quot; value=&quot;&quot; id=&quot;searchsubmit&quot; class=&quot;button&quot; title=&quot;Enter at least 3 characters to show search results in a dropdown or click to route to search result page to show all results&quot; /&gt;
+			&lt;input type=&quot;search&quot; id=&quot;s&quot; name=&quot;s&quot; value=&quot;&quot; aria-label=&#039;Search&#039; placeholder=&#039;Search&#039; required /&gt;
+		&lt;/div&gt;
+	&lt;/form&gt;
+&lt;/search&gt;
+" data-av_svg_icon='search' data-av_iconset='svg_entypo-fontello'><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="25" height="32" viewBox="0 0 25 32" preserveAspectRatio="xMidYMid meet" aria-labelledby='av-svg-title-2' aria-describedby='av-svg-desc-2' role="graphics-symbol" aria-hidden="true">
+<title id='av-svg-title-2'>Click to open the search input field</title>
+<desc id='av-svg-desc-2'>Click to open the search input field</desc>
+<path d="M24.704 24.704q0.96 1.088 0.192 1.984l-1.472 1.472q-1.152 1.024-2.176 0l-6.080-6.080q-2.368 1.344-4.992 1.344-4.096 0-7.136-3.040t-3.040-7.136 2.88-7.008 6.976-2.912 7.168 3.040 3.072 7.136q0 2.816-1.472 5.184zM3.008 13.248q0 2.816 2.176 4.992t4.992 2.176 4.832-2.016 2.016-4.896q0-2.816-2.176-4.96t-4.992-2.144-4.832 2.016-2.016 4.832z"></path>
+</svg><span class="avia_hidden_link_text">Search</span></a></li><li class="av-burger-menu-main menu-item-avia-special " role="menuitem">
+	        			<a href="#" aria-label="Menu" aria-hidden="false">
+							<span class="av-hamburger av-hamburger--spin av-js-hamburger">
+								<span class="av-hamburger-box">
+						          <span class="av-hamburger-inner"></span>
+						          <strong>Menu</strong>
+								</span>
+							</span>
+							<span class="avia_hidden_link_text">Menu</span>
+						</a>
+	        		   </li></ul></div></nav></div> </div> 
+		<!-- end container_wrap-->
+		</div>
+<div id="avia_alternate_menu_container" style="display: none;"><nav class='main_menu' data-selectname='Select a page'  role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" ><div class="avia_alternate_menu av-main-nav-wrap"><ul id="avia_alternate_menu" class="menu av-main-nav"><li role="menuitem" id="menu-item-105" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-top-level menu-item-top-level-1"><a href="#" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Services</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li role="menuitem" id="menu-item-27188" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/autism-and-aba-services/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Autism + ABA Services</span></a></li>
+	<li role="menuitem" id="menu-item-27189" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/camp-recreation-for-adults/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Camp + Recreation for Adults</span></a></li>
+	<li role="menuitem" id="menu-item-27190" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/camp-recreation-for-youth/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Camp + Recreation for Youth</span></a></li>
+	<li role="menuitem" id="menu-item-27191" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/cerebral-palsy-services/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Cerebral Palsy Services</span></a></li>
+	<li role="menuitem" id="menu-item-27192" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/child-development-services/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Child Development</span></a></li>
+	<li role="menuitem" id="menu-item-277736" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://eastersealsport.com/culinary-connections/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Culinary Connections</span></a>
+	<ul class="sub-menu">
+		<li role="menuitem" id="menu-item-277735" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/culinary-arts/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Culinary Arts Therapy</span></a></li>
+	</ul>
+</li>
+	<li role="menuitem" id="menu-item-27193" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/employment-services/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Employment Services</span></a></li>
+	<li role="menuitem" id="menu-item-27194" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/foster-care-services/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Foster Care Services</span></a></li>
+	<li role="menuitem" id="menu-item-27195" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/individual-and-community-services/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Individual + Community Services</span></a></li>
+	<li role="menuitem" id="menu-item-27196" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/mental-health-for-adults/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Mental Health for Adults</span></a></li>
+	<li role="menuitem" id="menu-item-27197" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/mental-health-for-youth/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Mental Health for Youth</span></a></li>
+	<li role="menuitem" id="menu-item-27198" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/residential-services/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Residential Services</span></a></li>
+	<li role="menuitem" id="menu-item-329276" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/substance-use/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Substance Use Treatment</span></a></li>
+	<li role="menuitem" id="menu-item-27199" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/technology-resources/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Technology + Resources</span></a></li>
+</ul>
+</li>
+<li role="menuitem" id="menu-item-109" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-top-level menu-item-top-level-2"><a href="#" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Who We Are</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li role="menuitem" id="menu-item-35965" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/who-we-are" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">About Us</span></a></li>
+	<li role="menuitem" id="menu-item-108" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/our-culture" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Our Culture</span></a></li>
+	<li role="menuitem" id="menu-item-27200" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/our-history" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Our History</span></a></li>
+	<li role="menuitem" id="menu-item-107" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/meet-the-team/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Meet the Team</span></a></li>
+	<li role="menuitem" id="menu-item-110" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/insights-and-news" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Insights + News</span></a></li>
+</ul>
+</li>
+<li role="menuitem" id="menu-item-27569" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-top-level menu-item-top-level-3"><a href="/careers" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Careers</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li role="menuitem" id="menu-item-35964" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/careers" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Join Our Team</span></a></li>
+	<li role="menuitem" id="menu-item-27567" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/job-search" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Job Search</span></a></li>
+	<li role="menuitem" id="menu-item-31192" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/we-want-you" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">We Want YOU</span></a></li>
+</ul>
+</li>
+<li role="menuitem" id="menu-item-44176" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-top-level menu-item-top-level-4"><a href="/contact-us/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Contact Us</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li role="menuitem" id="menu-item-352994" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/resources/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Resources</span></a></li>
+</ul>
+</li>
+<li role="menuitem" id="menu-item-119" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-top-level menu-item-top-level-5"><a href="/get-involved" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Get Involved</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li role="menuitem" id="menu-item-27201" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="/events" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Events</span></a>
+	<ul class="sub-menu">
+		<li role="menuitem" id="menu-item-341498" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/chef-fest-2025/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Chef Fest 2025</span></a></li>
+		<li role="menuitem" id="menu-item-275818" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/glow-run-new-bern/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Glow Run New Bern</span></a></li>
+		<li role="menuitem" id="menu-item-275817" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/miracle-moments-2024/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Miracle Moments Luncheon</span></a></li>
+	</ul>
+</li>
+	<li role="menuitem" id="menu-item-41673" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/volunteer" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Volunteer</span></a></li>
+	<li role="menuitem" id="menu-item-41674" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/fundraise" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Fundraise</span></a></li>
+	<li role="menuitem" id="menu-item-41675" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/advocacy" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Advocacy</span></a></li>
+</ul>
+</li>
+<li role="menuitem" id="menu-item-41669" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-top-level menu-item-top-level-6"><a href="/ways%20to%20give" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Ways to Give</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li role="menuitem" id="menu-item-129598" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/campaigns/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Campaigns</span></a></li>
+	<li role="menuitem" id="menu-item-129599" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/donate-now/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Donate Now</span></a></li>
+	<li role="menuitem" id="menu-item-129600" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/donate-property/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Donate Property</span></a></li>
+	<li role="menuitem" id="menu-item-129602" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/donate-vehicle/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Donate Vehicle</span></a></li>
+	<li role="menuitem" id="menu-item-129603" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/monthly-giving/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Monthly Giving</span></a></li>
+	<li role="menuitem" id="menu-item-129604" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/presidents-council/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">President’s Council</span></a></li>
+	<li role="menuitem" id="menu-item-129605" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/workplace-giving/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Workplace Giving</span></a></li>
+	<li role="menuitem" id="menu-item-129606" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/matching-gifts/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Matching Gifts</span></a></li>
+	<li role="menuitem" id="menu-item-129607" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/estate-planning-legacy-giving/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Estate Planning + Legacy Giving</span></a></li>
+	<li role="menuitem" id="menu-item-129601" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://eastersealsport.com/donate-stock/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Donate Stock</span></a></li>
+</ul>
+</li>
+<li role="menuitem" id="menu-item-120" class="eucp-menu-bottom menu-item menu-item-type-custom menu-item-object-custom menu-item-top-level menu-item-top-level-7"><a href="/donate" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Donate</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li role="menuitem" id="menu-item-121" class="eucp-menu-bottom menu-item menu-item-type-custom menu-item-object-custom menu-item-top-level menu-item-top-level-8"><a href="#" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Privacy Policy</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li role="menuitem" id="menu-item-122" class="eucp-menu-social eucp-menu-social-first menu-item menu-item-type-custom menu-item-object-custom menu-item-top-level menu-item-top-level-9"><a target="_blank" href="https://www.facebook.com/eastersealsucp" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Facebook</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li role="menuitem" id="menu-item-123" class="eucp-menu-social menu-item menu-item-type-custom menu-item-object-custom menu-item-top-level menu-item-top-level-10"><a target="_blank" href="https://www.linkedin.com/company/eastersealsucp" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">LinkedIn</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li role="menuitem" id="menu-item-124" class="eucp-menu-social menu-item menu-item-type-custom menu-item-object-custom menu-item-top-level menu-item-top-level-11"><a target="_blank" href="https://twitter.com/eastersealsucp" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Twitter</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+</ul></div></nav></div><div class="header_bg"></div>
+<!-- end header -->
+</header>
+
+	<div id='main' class='all_colors' data-scroll-offset='110'>
+	
+	<div id="eucp-title-wrap">
+	<div id="eucp-header-color-line" class="eucp-color-line">
+		<span class="eucp-bg-blue"></span><span class="eucp-bg-green"></span><span class="eucp-bg-yellow"></span><span class="eucp-bg-purple"></span>	</div>
+	<div class="container">
+		<h1>
+			Page Not Found		</h1>
+	</div>
+</div>
+
+			<div class='container_wrap container_wrap_first main_color fullsize'>
+
+			
+			<div class='container'>
+
+				<main class='template-page content av-content-full alpha units av-main-404'  role="main" itemprop="mainContentOfPage" >
+
+                    <div class="entry entry-content-wrapper clearfix" id='search-fail'>
+                    
+<p class='entry-content'><strong>Nothing Found</strong><br/>
+
+Sorry, the post you are looking for is not available. Maybe you want to perform a search?</p>
+
+<search>
+	<form action="https://eastersealsport.com/" id="searchform" method="get" class="av_disable_ajax_search">
+		<div>
+<span class='av_searchform_search avia-svg-icon avia-font-svg_entypo-fontello' data-av_svg_icon='search' data-av_iconset='svg_entypo-fontello'><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="25" height="32" viewBox="0 0 25 32" preserveAspectRatio="xMidYMid meet" aria-labelledby='av-svg-title-3' aria-describedby='av-svg-desc-3' role="graphics-symbol" aria-hidden="true">
+<title id='av-svg-title-3'>Search</title>
+<desc id='av-svg-desc-3'>Search</desc>
+<path d="M24.704 24.704q0.96 1.088 0.192 1.984l-1.472 1.472q-1.152 1.024-2.176 0l-6.080-6.080q-2.368 1.344-4.992 1.344-4.096 0-7.136-3.040t-3.040-7.136 2.88-7.008 6.976-2.912 7.168 3.040 3.072 7.136q0 2.816-1.472 5.184zM3.008 13.248q0 2.816 2.176 4.992t4.992 2.176 4.832-2.016 2.016-4.896q0-2.816-2.176-4.96t-4.992-2.144-4.832 2.016-2.016 4.832z"></path>
+</svg></span>			<input type="submit" value="" id="searchsubmit" class="button" title="Click to start search" />
+			<input type="search" id="s" name="s" value="" aria-label='Search' placeholder='Search' required />
+		</div>
+	</form>
+</search>
+
+
+
+<div class='hr_invisible'></div>
+
+<section class="404_recommendation">
+    <p><strong>For best search results, mind the following suggestions:</strong></p>
+    <ul class='borderlist-not'>
+        <li>Always double check your spelling.</li>
+        <li>Try similar keywords, for example: tablet instead of laptop.</li>
+        <li>Try using more than one keyword.</li>
+    </ul>
+
+    <div class='hr_invisible'></div>
+
+    </section>
+                    </div>
+
+				<!--end content-->
+				</main>
+
+				
+			</div><!--end container-->
+
+		</div><!-- close default .container_wrap element -->
+
+<div id="eucp-footer-color-line" class="eucp-color-line"><span class="eucp-bg-blue"></span><span class="eucp-bg-green"></span><span class="eucp-bg-yellow"></span><span class="eucp-bg-purple"></span></div><div id="eucp-footer-wrap">				<div class='container_wrap footer_color' id='footer'>
+
+					<div class='container'>
+
+						<div class='flex_column av_one_fourth  first el_before_av_one_fourth'><section id="custom_html-2" class="widget_text widget clearfix widget_custom_html"><h3 class="widgettitle">Newsletter</h3><div class="textwidget custom-html-widget">
+                <div class='gf_browser_unknown gform_wrapper gravity-theme gform-theme--no-framework' data-form-theme='gravity-theme' data-form-index='0' id='gform_wrapper_1' ><div id='gf_1' class='gform_anchor' tabindex='-1'></div>
+                        <div class='gform_heading'>
+							<p class='gform_required_legend'>&quot;<span class="gfield_required gfield_required_asterisk">*</span>&quot; indicates required fields</p>
+                        </div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_1' id='gform_1'  action='/wp-content/uploads/2019/09/esucp-logo.png#gf_1' data-formid='1' novalidate>
+                        <div class='gform-body gform_body'><div id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below validation_below'><div id="field_1_1" class="gfield gfield--type-email gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_above field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_1'>Sign up to receive updates!<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_1' id='input_1_1' type='email' value='' class='large'   placeholder='Your e-mail' aria-required="true" aria-invalid="false"  />
+                        </div></div><div id="field_1_2" class="gfield gfield--type-captcha gfield--width-full field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_2'>I&#039;m not a robot</label><div id='input_1_2' class='ginput_container ginput_recaptcha' data-sitekey='6Le8N80qAAAAAAhn8MwWijo-Mgq55oCG55L-1de3'  data-theme='light' data-tabindex='0'  data-badge=''></div></div><div id="field_submit" class="gfield gfield--type-submit gfield--width-full field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  data-field-class="gform_editor_submit_container" data-field-position="inline" ><input type='submit' id='gform_submit_button_1' class='gform-button gform-button--white  button' onclick='gform.submission.handleButtonClick(this);' data-submission-type='submit' value='Sign Up'  /></div></div></div>
+        <div class='gform-footer gform_footer top_label'>  <input type='hidden' name='gform_ajax' value='form_id=1&amp;title=&amp;description=&amp;tabindex=0&amp;theme=gravity-theme&amp;styles=[]&amp;hash=f821c3000f9b960dfdfe1b8b94a1186e' />
+            <input type='hidden' class='gform_hidden' name='gform_submission_method' data-js='gform_submission_method_1' value='iframe' />
+            <input type='hidden' class='gform_hidden' name='gform_theme' data-js='gform_theme_1' id='gform_theme_1' value='gravity-theme' />
+            <input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_1' id='gform_style_settings_1' value='[]' />
+            <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_1' value='WyJbXSIsImYyMDViZjE2NmE0YjFlMjcwN2FiMTA1Nzk5NTViZDJkIl0=' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>
+		                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_1' id='gform_ajax_frame_1' title='This iframe contains the logic required to handle Ajax powered Gravity Forms.'></iframe>
+		                <script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {gformInitSpinner( 1, 'https://eastersealsport.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_1').offset().top - mt); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, 'https://eastersealsport.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_1').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_1').text());}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 1, current_page );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} ); 
+/* ]]> */
+</script>
+</div><span class="seperator extralight-border"></span></section><section id="custom_html-3" class="widget_text widget clearfix widget_custom_html"><div class="textwidget custom-html-widget"><a class="eucp-footer-social" href="https://www.facebook.com/eastersealsPORT" target="blank"><span class="av-icon-char" aria-hidden="true" data-av_icon="" data-av_iconfont="entypo-fontello"></span></a>
+<a class="eucp-footer-social" href="https://www.instagram.com/eastersealsucp/?hl=en" target="blank"><span class="av-icon-char" aria-hidden="true" data-av_icon="" data-av_iconfont="entypo-fontello"></span></a>
+<a class="eucp-footer-social" href="https://twitter.com/EastersealsPORT" target="blank"><span class="av-icon-char " aria-hidden="true" data-av_icon="" data-av_iconfont="x"></span></a>
+<a class="eucp-footer-social" href="https://www.linkedin.com/company/eastersealsport" target="blank"><span class="av-icon-char" aria-hidden="true" data-av_icon="" data-av_iconfont="entypo-fontello"></span></a>
+<a class="eucp-footer-social" href="https://youtube.com/eastersealsucp" target="blank"><span class="av-icon-char" aria-hidden="true" data-av_icon="" data-av_iconfont="entypo-fontello"></span></a></div><span class="seperator extralight-border"></span></section></div><div class='flex_column av_one_fourth  el_after_av_one_fourth el_before_av_one_fourth '><section id="custom_html-6" class="widget_text widget clearfix widget_custom_html"><div class="textwidget custom-html-widget"></div><span class="seperator extralight-border"></span></section></div><div class='flex_column av_one_fourth  el_after_av_one_fourth el_before_av_one_fourth '><section id="custom_html-4" class="widget_text widget clearfix widget_custom_html"><h3 class="widgettitle">Contact Us</h3><div class="textwidget custom-html-widget"><p>5171 Glenwood Ave #211<br>
+Raleigh, NC 27612</p>
+
+<p><a href="tel:8006627119" target="blank" aria-label="Call 800-662-7119 (opens in a new tab)">800-662-7119</a></p>
+
+<p><a href="mailto:info@eastersealsport.com" target="_blank" aria-label="Email info@eastersealsport.com (opens in a new tab)">info@eastersealsPORT.com</a>
+</p></div><span class="seperator extralight-border"></span></section><section id="custom_html-7" class="widget_text widget clearfix widget_custom_html"><div class="textwidget custom-html-widget"><a class="eucp-footer-btn" href="https://link.zixcentral.com/u/38ce9e39/mh-P16347BGu5n8oh3soMg?u=https%3A%2F%2Fsecure.ethicspoint.com%2Fdomain%2Fmedia%2Fen%2Fgui%2F82882%2Findex.html" target="_blank" aria-label="File a complaint (opens in a new tab)">File a complaint</a>
+
+<a class="eucp-footer-btn" href="https://link.zixcentral.com/u/38ce9e39/mh-P16347BGu5n8oh3soMg?u=https%3A%2F%2Fsecure.ethicspoint.com%2Fdomain%2Fmedia%2Fen%2Fgui%2F82882%2Findex.html" target="_blank" aria-label="Report fraud, waste or abuse (opens in a new tab)">Report fraud, waste or abuse</a>
+
+<p>Or call our hotline at <a href="tel:866-730-0038" target="_blank" aria-label="Call 866-730-0038 (opens in a new tab)">866-730-0038</a>.</p></div><span class="seperator extralight-border"></span></section></div><div class='flex_column av_one_fourth  el_after_av_one_fourth el_before_av_one_fourth '><section id="nav_menu-3" class="widget clearfix widget_nav_menu"><h3 class="widgettitle">Quick Links</h3><div class="menu-footer-quick-links-container"><ul id="menu-footer-quick-links" class="menu"><li id="menu-item-24979" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24979"><a href="/faqs">Easterseals PORT Health FAQs</a></li>
+<li id="menu-item-24978" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24978"><a href="/events/">Events</a></li>
+<li id="menu-item-34" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="/careers/">Careers</a></li>
+<li id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="/donate/">Donate</a></li>
+<li id="menu-item-37" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37"><a href="/volunteer/">Volunteer</a></li>
+<li id="menu-item-152902" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-152902"><a href="https://esucp.sharepoint.com/">SharePoint</a></li>
+<li id="menu-item-38" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38"><a href="/contact-us/">Contact Us</a></li>
+<li id="menu-item-456600" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-456600"><a href="https://eastersealsport.com/wp-content/uploads/2025/08/Langdon-Co-LLP-Easterseals-WEBSITE-Notice_8.1.2536601631.1-002.pdf">Langdon &#038; Co. LLP Notice of Data Breach</a></li>
+</ul></div><span class="seperator extralight-border"></span></section></div>
+					</div>
+
+				<!-- ####### END FOOTER CONTAINER ####### -->
+				</div>
+
+	
+
+	
+				<footer class='container_wrap socket_color' id='socket'  role="contentinfo" itemscope="itemscope" itemtype="https://schema.org/WPFooter" aria-label="Copyright and company info" >
+                    <div class='container'>
+
+                        <span class='copyright'> <img alt="Easterseals PORT Health" src="/wp-content/uploads/2024/07/Easterseals-PORT-white.png"></span>
+
+                        <nav class='sub_menu_socket'  role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" ><div class="avia3-menu"><ul role="menu" class="menu" id="avia3-menu"><li role="menuitem" id="menu-item-24979" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-top-level menu-item-top-level-1"><a href="/faqs" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Easterseals PORT Health FAQs</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li role="menuitem" id="menu-item-24978" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-top-level menu-item-top-level-2"><a href="/events/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Events</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li role="menuitem" id="menu-item-34" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-top-level menu-item-top-level-3"><a href="/careers/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Careers</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li role="menuitem" id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-top-level menu-item-top-level-4"><a href="/donate/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Donate</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li role="menuitem" id="menu-item-37" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-top-level menu-item-top-level-5"><a href="/volunteer/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Volunteer</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li role="menuitem" id="menu-item-152902" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-top-level menu-item-top-level-6"><a href="https://esucp.sharepoint.com/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">SharePoint</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li role="menuitem" id="menu-item-38" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-top-level menu-item-top-level-7"><a href="/contact-us/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Contact Us</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li role="menuitem" id="menu-item-456600" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-top-level menu-item-top-level-8"><a href="https://eastersealsport.com/wp-content/uploads/2025/08/Langdon-Co-LLP-Easterseals-WEBSITE-Notice_8.1.2536601631.1-002.pdf" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Langdon &#038; Co. LLP Notice of Data Breach</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+</ul></div></nav>
+                    </div>
+
+	            <!-- ####### END SOCKET CONTAINER ####### -->
+				</footer>
+
+
+			</div>		<!-- end main -->
+		</div>
+
+		<!-- end wrap_all --></div>
+<a href='#top' title='Scroll to top' id='scroll-top-link' class='avia-svg-icon avia-font-svg_entypo-fontello' data-av_svg_icon='up-open' data-av_iconset='svg_entypo-fontello' tabindex='-1' aria-hidden='true'>
+	<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="19" height="32" viewBox="0 0 19 32" preserveAspectRatio="xMidYMid meet" aria-labelledby='av-svg-title-4' aria-describedby='av-svg-desc-4' role="graphics-symbol" aria-hidden="true">
+<title id='av-svg-title-4'>Scroll to top</title>
+<desc id='av-svg-desc-4'>Scroll to top</desc>
+<path d="M18.048 18.24q0.512 0.512 0.512 1.312t-0.512 1.312q-1.216 1.216-2.496 0l-6.272-6.016-6.272 6.016q-1.28 1.216-2.496 0-0.512-0.512-0.512-1.312t0.512-1.312l7.488-7.168q0.512-0.512 1.28-0.512t1.28 0.512z"></path>
+</svg>	<span class="avia_hidden_link_text">Scroll to top</span>
+</a>
+
+<div id="fb-root"></div>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/easterseals\/*","\/wp-content\/themes\/enfold\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script>(function(){var s=document.createElement('script');var e = !document.body ? document.querySelector('head'):document.body;s.src='https://acsbapp.com/apps/app/dist/js/app.js';s.setAttribute('data-source', 'WordPress');s.setAttribute('data-plugin-version', '2.7');s.defer=true;s.onload=function(){acsbJS.init({
+                statementLink     : '',
+                footerHtml        : '',
+                hideMobile        : false,
+                hideTrigger       : false,
+                language          : 'en',
+                position          : 'left',
+                leadColor         : '#083b72',
+                triggerColor      : '#083b72',
+                triggerRadius     : '50%',
+                triggerPositionX  : 'left',
+                triggerPositionY  : 'bottom',
+                triggerIcon       : 'people',
+                triggerSize       : 'medium',
+                triggerOffsetX    : 20,
+                triggerOffsetY    : 20,
+                mobile            : {
+                    triggerSize       : 'small',
+                    triggerPositionX  : 'right',
+                    triggerPositionY  : 'bottom',
+                    triggerOffsetX    : 10,
+                    triggerOffsetY    : 10,
+                    triggerRadius     : '50%'
+                }
+            });
+        };
+    e.appendChild(s);}());</script>		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		
+<!-- GTM Container placement set to footer -->
+<!-- Google Tag Manager (noscript) -->
+				<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NX68X93" height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><div id="bravepop_element_tooltip"></div><div id="bravepop_element_lightbox"><div id="bravepop_element_lightbox_close" onclick="brave_lightbox_close()"></div><div id="bravepop_element_lightbox_content"></div></div>	<script>
+		(function($){
+						
+				$( '.facetwp-reset' ).click();
+			
+		})(jQuery);
+	</script>
+		<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/c287dff631fcd26410ad1a454/c4a64eee9c32dd29c502649cf.js");</script>
+	
+ <script type='text/javascript'>
+ /* <![CDATA[ */  
+var avia_framework_globals = avia_framework_globals || {};
+    avia_framework_globals.frameworkUrl = 'https://eastersealsport.com/wp-content/themes/enfold/framework/';
+    avia_framework_globals.installedAt = 'https://eastersealsport.com/wp-content/themes/enfold/';
+    avia_framework_globals.ajaxurl = 'https://eastersealsport.com/wp-admin/admin-ajax.php';
+/* ]]> */ 
+</script>
+ 
+ <!-- Custom Feeds for Instagram JS -->
+<script type="text/javascript">
+var sbiajaxurl = "https://eastersealsport.com/wp-admin/admin-ajax.php";
+
+</script>
+<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script><script type="text/javascript">
+		/* MonsterInsights Scroll Tracking */
+		if ( typeof(jQuery) !== 'undefined' ) {
+		jQuery( document ).ready(function(){
+		function monsterinsights_scroll_tracking_load() {
+		if ( ( typeof(__gaTracker) !== 'undefined' && __gaTracker && __gaTracker.hasOwnProperty( "loaded" ) && __gaTracker.loaded == true ) || ( typeof(__gtagTracker) !== 'undefined' && __gtagTracker ) ) {
+		(function(factory) {
+		factory(jQuery);
+		}(function($) {
+
+		/* Scroll Depth */
+		"use strict";
+		var defaults = {
+		percentage: true
+		};
+
+		var $window = $(window),
+		cache = [],
+		scrollEventBound = false,
+		lastPixelDepth = 0;
+
+		/*
+		* Plugin
+		*/
+
+		$.scrollDepth = function(options) {
+
+		var startTime = +new Date();
+
+		options = $.extend({}, defaults, options);
+
+		/*
+		* Functions
+		*/
+
+		function sendEvent(action, label, scrollDistance, timing) {
+		if ( 'undefined' === typeof MonsterInsightsObject || 'undefined' === typeof MonsterInsightsObject.sendEvent ) {
+		return;
+		}
+			var paramName = action.toLowerCase();
+	var fieldsArray = {
+	send_to: 'G-FQQ4KHMH9X',
+	non_interaction: true
+	};
+	fieldsArray[paramName] = label;
+
+	if (arguments.length > 3) {
+	fieldsArray.scroll_timing = timing
+	MonsterInsightsObject.sendEvent('event', 'scroll_depth', fieldsArray);
+	} else {
+	MonsterInsightsObject.sendEvent('event', 'scroll_depth', fieldsArray);
+	}
+			}
+
+		function calculateMarks(docHeight) {
+		return {
+		'25%' : parseInt(docHeight * 0.25, 10),
+		'50%' : parseInt(docHeight * 0.50, 10),
+		'75%' : parseInt(docHeight * 0.75, 10),
+		/* Cushion to trigger 100% event in iOS */
+		'100%': docHeight - 5
+		};
+		}
+
+		function checkMarks(marks, scrollDistance, timing) {
+		/* Check each active mark */
+		$.each(marks, function(key, val) {
+		if ( $.inArray(key, cache) === -1 && scrollDistance >= val ) {
+		sendEvent('Percentage', key, scrollDistance, timing);
+		cache.push(key);
+		}
+		});
+		}
+
+		function rounded(scrollDistance) {
+		/* Returns String */
+		return (Math.floor(scrollDistance/250) * 250).toString();
+		}
+
+		function init() {
+		bindScrollDepth();
+		}
+
+		/*
+		* Public Methods
+		*/
+
+		/* Reset Scroll Depth with the originally initialized options */
+		$.scrollDepth.reset = function() {
+		cache = [];
+		lastPixelDepth = 0;
+		$window.off('scroll.scrollDepth');
+		bindScrollDepth();
+		};
+
+		/* Add DOM elements to be tracked */
+		$.scrollDepth.addElements = function(elems) {
+
+		if (typeof elems == "undefined" || !$.isArray(elems)) {
+		return;
+		}
+
+		$.merge(options.elements, elems);
+
+		/* If scroll event has been unbound from window, rebind */
+		if (!scrollEventBound) {
+		bindScrollDepth();
+		}
+
+		};
+
+		/* Remove DOM elements currently tracked */
+		$.scrollDepth.removeElements = function(elems) {
+
+		if (typeof elems == "undefined" || !$.isArray(elems)) {
+		return;
+		}
+
+		$.each(elems, function(index, elem) {
+
+		var inElementsArray = $.inArray(elem, options.elements);
+		var inCacheArray = $.inArray(elem, cache);
+
+		if (inElementsArray != -1) {
+		options.elements.splice(inElementsArray, 1);
+		}
+
+		if (inCacheArray != -1) {
+		cache.splice(inCacheArray, 1);
+		}
+
+		});
+
+		};
+
+		/*
+		* Throttle function borrowed from:
+		* Underscore.js 1.5.2
+		* http://underscorejs.org
+		* (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+		* Underscore may be freely distributed under the MIT license.
+		*/
+
+		function throttle(func, wait) {
+		var context, args, result;
+		var timeout = null;
+		var previous = 0;
+		var later = function() {
+		previous = new Date;
+		timeout = null;
+		result = func.apply(context, args);
+		};
+		return function() {
+		var now = new Date;
+		if (!previous) previous = now;
+		var remaining = wait - (now - previous);
+		context = this;
+		args = arguments;
+		if (remaining <= 0) {
+		clearTimeout(timeout);
+		timeout = null;
+		previous = now;
+		result = func.apply(context, args);
+		} else if (!timeout) {
+		timeout = setTimeout(later, remaining);
+		}
+		return result;
+		};
+		}
+
+		/*
+		* Scroll Event
+		*/
+
+		function bindScrollDepth() {
+
+		scrollEventBound = true;
+
+		$window.on('scroll.scrollDepth', throttle(function() {
+		/*
+		* We calculate document and window height on each scroll event to
+		* account for dynamic DOM changes.
+		*/
+
+		var docHeight = $(document).height(),
+		winHeight = window.innerHeight ? window.innerHeight : $window.height(),
+		scrollDistance = $window.scrollTop() + winHeight,
+
+		/* Recalculate percentage marks */
+		marks = calculateMarks(docHeight),
+
+		/* Timing */
+		timing = +new Date - startTime;
+
+		checkMarks(marks, scrollDistance, timing);
+		}, 500));
+
+		}
+
+		init();
+		};
+
+		/* UMD export */
+		return $.scrollDepth;
+
+		}));
+
+		jQuery.scrollDepth();
+		} else {
+		setTimeout(monsterinsights_scroll_tracking_load, 200);
+		}
+		}
+		monsterinsights_scroll_tracking_load();
+		});
+		}
+		/* End MonsterInsights Scroll Tracking */
+		
+</script><link rel='stylesheet' id='gform_basic-css' href='https://eastersealsport.com/wp-content/plugins/gravityforms/assets/css/dist/basic.min.css?ver=2.9.18' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme_components-css' href='https://eastersealsport.com/wp-content/plugins/gravityforms/assets/css/dist/theme-components.min.css?ver=2.9.18' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme-css' href='https://eastersealsport.com/wp-content/plugins/gravityforms/assets/css/dist/theme.min.css?ver=2.9.18' type='text/css' media='all' />
+<link rel='stylesheet' id='bravepop_front_css-css' href='https://eastersealsport.com/wp-content/plugins/brave-popup-builder/assets/css/frontend.min.css?ver=6.8.3' type='text/css' media='all' />
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/js/waypoints/waypoints.min.js?ver=7.1.2" id="avia-waypoints-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/js/avia.js?ver=7.1.2" id="avia-default-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/js/shortcodes.js?ver=7.1.2" id="avia-shortcodes-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/tabs/tabs.js?ver=6.8.3" id="avia-module-tabs-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/gallery/gallery.js?ver=7.1.2" id="avia-module-gallery-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow/slideshow.js?ver=7.1.2" id="avia-module-slideshow-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/portfolio/isotope.min.js?ver=7.1.2" id="avia-module-isotope-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/masonry_entries/masonry_entries.js?ver=7.1.2" id="avia-module-masonry-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/numbers/numbers.js?ver=7.1.2" id="avia-module-numbers-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow_accordion/slideshow_accordion.js?ver=7.1.2" id="avia-module-slideshow-accordion-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow_fullscreen/slideshow_fullscreen.js?ver=7.1.2" id="avia-module-slideshow-fullscreen-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow/slideshow-video.js?ver=7.1.2" id="avia-module-slideshow-video-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/testimonials/testimonials.js?ver=7.1.2" id="avia-module-testimonials-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/toggles/toggles.js?ver=7.1.2" id="avia-module-toggles-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/video/video.js?ver=7.1.2" id="avia-module-video-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/plugins/the-events-calendar/common/build/js/user-agent.js?ver=da75d0bdea6dde3898df" id="tec-user-agent-js"></script>
+<script type="text/javascript" id="eic_public-js-extra">
+/* <![CDATA[ */
+var eic_public = {"responsive_breakpoint":"300","responsive_layout":"0"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/plugins/easy-image-collage/js/public.js?ver=1.13.6" id="eic_public-js"></script>
+<script type="text/javascript" id="cffscripts-js-extra">
+/* <![CDATA[ */
+var cffOptions = {"placeholder":"https:\/\/eastersealsport.com\/wp-content\/plugins\/custom-facebook-feed-pro\/assets\/img\/placeholder.png","resized_url":"https:\/\/eastersealsport.com\/wp-content\/uploads\/sb-facebook-feed-images\/","nonce":"d812ce34ac"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/plugins/custom-facebook-feed-pro/assets/js/cff-scripts.min.js?ver=4.6.4" id="cffscripts-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/easterseals/js/menu.js?ver=1.0.5" id="eucp-menu-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/easterseals/js/main.js?ver=1.0.3" id="eucp-main-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/js/avia-snippet-hamburger-menu.js?ver=7.1.2" id="avia-hamburger-menu-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/js/avia-snippet-parallax.js?ver=7.1.2" id="avia-parallax-support-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/js/avia-snippet-fold-unfold.js?ver=7.1.2" id="avia-fold-unfold-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/js/aviapopup/jquery.magnific-popup.min.js?ver=7.1.2" id="avia-popup-js-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/js/avia-snippet-lightbox.js?ver=7.1.2" id="avia-lightbox-activation-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/js/avia-snippet-megamenu.js?ver=7.1.2" id="avia-megamenu-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/js/avia-snippet-sticky-header.js?ver=7.1.2" id="avia-sticky-header-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/js/avia-snippet-footer-effects.js?ver=7.1.2" id="avia-footer-effects-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/js/avia-snippet-widget.js?ver=7.1.2" id="avia-widget-js-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/themes/enfold/framework/js/conditional_load/avia_google_maps_front.js?ver=7.1.2" id="avia_google_maps_front_script-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-includes/js/dist/a11y.min.js?ver=3156534cc54473497e14" id="wp-a11y-js"></script>
+<script type="text/javascript" defer='defer' src="https://eastersealsport.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.9.18" id="gform_json-js"></script>
+<script type="text/javascript" id="gform_gravityforms-js-extra">
+/* <![CDATA[ */
+var gform_i18n = {"datepicker":{"days":{"monday":"Mo","tuesday":"Tu","wednesday":"We","thursday":"Th","friday":"Fr","saturday":"Sa","sunday":"Su"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https:\/\/eastersealsport.com\/wp-content\/plugins\/gravityforms\/images"}};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https:\/\/eastersealsport.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/eastersealsport.com\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","version_hash":"69ddcf7b4283b3dfadc779f9cedea2d5","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://eastersealsport.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.9.18" id="gform_gravityforms-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.google.com/recaptcha/api.js?hl=en&amp;ver=6.8.3#038;render=explicit" id="gform_recaptcha-js"></script>
+<script type="text/javascript" defer='defer' src="https://eastersealsport.com/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.9.18" id="gform_placeholder-js"></script>
+<script type="text/javascript" defer='defer' src="https://eastersealsport.com/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=380b7a5ec0757c78876bc8a59488f2f3" id="gform_gravityforms_utils-js"></script>
+<script type="text/javascript" defer='defer' src="https://eastersealsport.com/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=21e5a4db1670166692ac5745329bfc80" id="gform_gravityforms_theme_vendors-js"></script>
+<script type="text/javascript" id="gform_gravityforms_theme-js-extra">
+/* <![CDATA[ */
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"69ddcf7b4283b3dfadc779f9cedea2d5"},"ajax":{"ajaxurl":"https:\/\/eastersealsport.com\/wp-admin\/admin-ajax.php","ajax_submission_nonce":"a0d12731c5","i18n":{"step_announcement":"Step %1$s of %2$s, %3$s","unknown_error":"There was an unknown error processing your request. Please try again."}}}},"hmr_dev":"","public_path":"https:\/\/eastersealsport.com\/wp-content\/plugins\/gravityforms\/assets\/js\/dist\/","config_nonce":"5fee92cdb8"};
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://eastersealsport.com/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=8fa5e6390c795318e567cd2b080e169b" id="gform_gravityforms_theme-js"></script>
+<script type="text/javascript" id="bravepop_front_js-js-extra">
+/* <![CDATA[ */
+var bravepop_global = {"loggedin":"false","isadmin":"false","referer":"","security":"7ab1c5cfff","goalSecurity":"d0bb30f4ee","couponSecurity":"c1d0cf6552","cartURL":"","checkoutURL":"","ajaxURL":"https:\/\/eastersealsport.com\/wp-admin\/admin-ajax.php","field_required":"Required","no_html_allowed":"No Html Allowed","invalid_number":"Invalid Number","invalid_phone":"Invalid Phone Number","invalid_email":"Invalid Email","invalid_url":"Invalid URL","invalid_date":"Invalid Date","fname_required":"First Name is Required.","lname_required":"Last Name is Required.","username_required":"Username is Required.","email_required":"Email is Required.","email_invalid":"Invalid Email addresss.","pass_required":"Password is Required.","pass_short":"Password is too Short.","yes":"Yes","no":"No","login_error":"Something Went Wrong. Please contact the Site administrator.","pass_reset_success":"Please check your Email for the Password reset link.","customFonts":[],"disableGoogleFonts":"false"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://eastersealsport.com/wp-content/plugins/brave-popup-builder/assets/frontend/brave.js?ver=6.8.3" id="bravepop_front_js-js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 1) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } ); 
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "1", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 1, 1 );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } ); 
+/* ]]> */
+</script>
+
+<script type='text/javascript'>
+
+	(function($) {
+
+			/*	check if google analytics tracking is disabled by user setting via cookie - or user must opt in.	*/
+
+			var analytics_code = "<!-- Google tag (gtag.js) -->\n<script async src=\"https:\/\/www.googletagmanager.com\/gtag\/js?id=G-V7L7MDGY7G\"><\/script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n  gtag('config', 'G-V7L7MDGY7G');\n<\/script>".replace(/\"/g, '"' );
+			var html = document.getElementsByTagName('html')[0];
+
+			$('html').on( 'avia-cookie-settings-changed', function(e)
+			{
+					var cookie_check = html.className.indexOf('av-cookies-needs-opt-in') >= 0 || html.className.indexOf('av-cookies-can-opt-out') >= 0;
+					var allow_continue = true;
+					var silent_accept_cookie = html.className.indexOf('av-cookies-user-silent-accept') >= 0;
+					var script_loaded = $( 'script.google_analytics_scripts' );
+
+					if( cookie_check && ! silent_accept_cookie )
+					{
+						if( ! document.cookie.match(/aviaCookieConsent/) || html.className.indexOf('av-cookies-session-refused') >= 0 )
+						{
+							allow_continue = false;
+						}
+						else
+						{
+							if( ! document.cookie.match(/aviaPrivacyRefuseCookiesHideBar/) )
+							{
+								allow_continue = false;
+							}
+							else if( ! document.cookie.match(/aviaPrivacyEssentialCookiesEnabled/) )
+							{
+								allow_continue = false;
+							}
+							else if( document.cookie.match(/aviaPrivacyGoogleTrackingDisabled/) )
+							{
+								allow_continue = false;
+							}
+						}
+					}
+
+					//	allow 3-rd party plugins to hook (see enfold\config-cookiebot\cookiebot.js)
+					if( window['wp'] && wp.hooks )
+					{
+						allow_continue = wp.hooks.applyFilters( 'aviaCookieConsent_allow_continue', allow_continue );
+					}
+
+					if( ! allow_continue )
+					{
+//						window['ga-disable-G-V7L7MDGY7G'] = true;
+						if( script_loaded.length > 0 )
+						{
+							script_loaded.remove();
+						}
+					}
+					else
+					{
+						if( script_loaded.length == 0 )
+						{
+							$('head').append( analytics_code );
+						}
+					}
+			});
+
+			$('html').trigger( 'avia-cookie-settings-changed' );
+
+	})( jQuery );
+
+</script></body>
+</html>

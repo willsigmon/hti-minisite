@@ -2,6 +2,8 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+For contributor workflow details, start with `AGENTS.md` (`Repository Guidelines`) and then return here for Claude-specific notes.
+
 ## Project Overview
 
 This is a single-page HTML promotional website for the HUBZone Technology Initiative (HTI), a 501(c)(3) organization focused on closing North Carolina's digital divide by providing refurbished Chromebooks to families in need.
