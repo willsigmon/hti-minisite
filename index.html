@@ -2101,19 +2101,23 @@
             const closeBtn = document.getElementById('closePopover');
             const exploreBtn = document.getElementById('exploreBtn');
 
-            // Check if today is October 9, 2025
+            // Check if today is October 9, 2025 (any timezone)
             const today = new Date();
-            const targetDate = new Date('2025-10-09');
+            const year = today.getFullYear();
+            const month = today.getMonth(); // 0-indexed (9 = October)
+            const day = today.getDate();
 
-            const isTargetDate =
-                today.getFullYear() === targetDate.getFullYear() &&
-                today.getMonth() === targetDate.getMonth() &&
-                today.getDate() === targetDate.getDate();
+            // Check for October 9, 2025
+            const isTargetDate = (year === 2025 && month === 9 && day === 9);
+
+            console.log('Today:', year, month, day, 'Target: 2025, 9, 9', 'Match:', isTargetDate);
 
             // Show popover if it's the target date
             if (isTargetDate) {
                 setTimeout(() => {
-                    popoverOverlay.classList.add('active');
+                    if (popoverOverlay) {
+                        popoverOverlay.classList.add('active');
+                    }
                 }, 500); // Small delay for page load
             }
 
