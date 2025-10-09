@@ -229,6 +229,377 @@
             border: 2px solid rgba(255,255,255,0.3);
         }
 
+        /* Hero Stats */
+        .hero-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin: 30px 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-stat {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            border-radius: 16px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .hero-stat-number {
+            display: block;
+            font-size: 32px;
+            font-weight: 900;
+            font-family: 'Lato', sans-serif;
+            color: #fdb715;
+            margin-bottom: 5px;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }
+
+        .hero-stat-label {
+            display: block;
+            font-size: 13px;
+            font-family: 'PT Sans', sans-serif;
+            opacity: 0.95;
+        }
+
+        /* Hero CTA Group */
+        .hero-cta-group {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 30px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .btn-large {
+            font-size: 20px;
+            padding: 20px 35px;
+        }
+
+        /* Quick Impact Section */
+        .quick-impact {
+            background: linear-gradient(135deg, #fffbf0 0%, #fff8e6 100%);
+        }
+
+        .impact-intro {
+            font-size: 18px;
+            color: #4a4a4a;
+            margin-bottom: 30px;
+            font-family: 'PT Sans', sans-serif;
+            line-height: 1.6;
+        }
+
+        .impact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .impact-card {
+            background: white;
+            padding: 25px 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(245, 132, 32, 0.08);
+            transition: all 0.3s ease;
+            will-change: transform;
+        }
+
+        .impact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(245, 132, 32, 0.15);
+        }
+
+        .impact-icon {
+            font-size: 36px;
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        .impact-card h3 {
+            font-size: 18px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+
+        .impact-card p {
+            font-size: 14px;
+            font-family: 'PT Sans', sans-serif;
+            color: #4a4a4a;
+            line-height: 1.6;
+        }
+
+        /* Testimonial Carousel */
+        .testimonials {
+            background: white;
+            overflow: hidden;
+        }
+
+        .carousel-container {
+            position: relative;
+            padding-bottom: 50px;
+        }
+
+        .carousel-track {
+            display: flex;
+            transition: transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+            will-change: transform;
+        }
+
+        .carousel-slide {
+            min-width: 100%;
+            flex-shrink: 0;
+        }
+
+        .testimonial-card {
+            background: linear-gradient(135deg, #fffbf0, #fff4e0);
+            padding: 30px 25px;
+            border-radius: 20px;
+            margin: 0 10px;
+            box-shadow: 0 6px 18px rgba(245, 132, 32, 0.12);
+            position: relative;
+            border: 2px solid rgba(253, 183, 21, 0.2);
+        }
+
+        .testimonial-card::before {
+            content: '"';
+            position: absolute;
+            left: 20px;
+            top: 15px;
+            font-size: 60px;
+            color: #f58420;
+            opacity: 0.15;
+            font-family: Georgia, serif;
+            line-height: 1;
+        }
+
+        .testimonial-text {
+            font-size: 16px;
+            color: #2c2c2c;
+            line-height: 1.7;
+            margin-bottom: 20px;
+            font-family: 'PT Sans', sans-serif;
+            position: relative;
+            z-index: 1;
+        }
+
+        .testimonial-author {
+            font-size: 15px;
+            font-weight: 700;
+            color: #1a1a1a;
+            font-family: 'Lato', sans-serif;
+            margin-bottom: 5px;
+        }
+
+        .testimonial-role {
+            font-size: 13px;
+            color: #f58420;
+            font-family: 'PT Sans', sans-serif;
+            font-style: italic;
+        }
+
+        .carousel-dots {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 25px;
+        }
+
+        .carousel-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #d0d0d0;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .carousel-dot.active {
+            width: 24px;
+            border-radius: 4px;
+            background: linear-gradient(90deg, #fdb715, #f58420);
+        }
+
+        .carousel-arrows {
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            transform: translateY(-50%);
+            pointer-events: none;
+            z-index: 2;
+        }
+
+        .carousel-arrow {
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.95);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            color: #f58420;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            pointer-events: all;
+            transition: all 0.3s ease;
+        }
+
+        .carousel-arrow:active {
+            transform: scale(0.9);
+            background: #f58420;
+            color: white;
+        }
+
+        /* Donation Hub */
+        .donate-hub {
+            background: linear-gradient(135deg, #fffbf0 0%, #fff8e6 100%);
+        }
+
+        .donation-cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .donation-card {
+            background: white;
+            padding: 25px 20px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(245, 132, 32, 0.1);
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .donation-card:active {
+            transform: scale(0.98);
+            border-color: #f58420;
+        }
+
+        .donation-card.primary {
+            grid-column: 1 / -1;
+            background: linear-gradient(135deg, #fff4e0, #ffe8c0);
+            border: 2px solid #f58420;
+        }
+
+        .donation-icon-large {
+            font-size: 48px;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .donation-icon {
+            font-size: 36px;
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        .donation-card h3 {
+            font-size: 20px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+
+        .donation-card p {
+            font-size: 14px;
+            font-family: 'PT Sans', sans-serif;
+            color: #4a4a4a;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        .donation-impact {
+            font-size: 13px;
+            color: #f58420;
+            font-weight: 700;
+            font-family: 'Lato', sans-serif;
+            margin-bottom: 15px;
+        }
+
+        /* Expandable Sections */
+        .expandable {
+            margin-bottom: 15px;
+        }
+
+        .expand-header {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+            border-left: 4px solid #f58420;
+        }
+
+        .expand-header:active {
+            transform: scale(0.98);
+            box-shadow: 0 5px 15px rgba(245, 132, 32, 0.15);
+        }
+
+        .expand-header h3 {
+            font-size: 18px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin: 0;
+        }
+
+        .expand-icon {
+            font-size: 24px;
+            color: #f58420;
+            transition: transform 0.3s ease;
+        }
+
+        .expand-icon.open {
+            transform: rotate(180deg);
+        }
+
+        .expand-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+        }
+
+        .expand-content.open {
+            max-height: 2000px;
+        }
+
+        .expand-inner {
+            padding: 20px;
+            background: #fafafa;
+            border-radius: 0 0 15px 15px;
+            font-family: 'PT Sans', sans-serif;
+            color: #4a4a4a;
+            line-height: 1.7;
+        }
+
+        .expand-inner ul {
+            padding-left: 20px;
+            margin: 15px 0;
+        }
+
+        .expand-inner li {
+            margin-bottom: 10px;
+        }
+
         /* Mission Section */
         .mission {
             background: white;
@@ -775,54 +1146,307 @@
 <body>
     <div class="scroll-progress"></div>
     <div class="container">
-        <!-- Wake Forest Kiwanis Thank You -->
-        <section class="kiwanis-thanks">
-            <img src="https://www.kiwanis.org/wp-content/uploads/2023/06/KI_logo_blue_4C.png" alt="Kiwanis International" class="kiwanis-logo">
-            <h2>Thank You, Wake Forest Kiwanis Club</h2>
-            <p>
-                To the members of the <span class="highlight">Wake Forest Kiwanis Club</span>: Thank you for welcoming me to The Forks on October 9th to share HTI's mission. Your nearly 40 years of serving children in Wake Forest—from Kiwanis Park to youth leadership programs—reflects the same commitment that drives our work bridging the digital divide.
-            </p>
-            <p style="margin-top: 15px;">
-                Special thanks to <span class="highlight">Jeff Gonder</span> for making this connection possible. When organizations like Kiwanis and HTI collaborate, we amplify our impact on the young lives we're called to serve.
-            </p>
-        </section>
-
         <!-- Hero Section -->
         <section class="section hero">
             <div class="logo-container">
                 <img src="https://cdn.prod.website-files.com/62ffac304a82537c845d8487/62ffac304a8253698b5d84b7_hti-logo.webp" alt="HTI Logo" class="logo-img">
             </div>
-            <h1>Transforming Young Lives Through Technology</h1>
+            <h1>We Give Free Chromebooks to Children & Families in Need</h1>
             <p class="tagline"><span class="old">old</span> laptops. <span class="new">new</span> opportunities.</p>
-            <p class="subtitle">Closing North Carolina's Digital Divide, One Child at a Time</p>
-            <div class="impact-badge">
-                🎯 2,500 Chromebooks by 2026
+            <p class="subtitle">Bridging the Digital Divide in Henderson, Wake Forest & 15 NC Counties</p>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="hero-stat-number">2,171</span>
+                    <span class="hero-stat-label">Children & Families Served</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number">1,600+</span>
+                    <span class="hero-stat-label">Laptops Saved from Landfills</span>
+                </div>
+            </div>
+            <div class="hero-cta-group">
+                <a href="#donate" class="btn btn-primary btn-large">💝 Help a Child Today</a>
+                <a href="tel:+12525900240" class="btn btn-secondary">📞 Call Us: (252) 590-0240</a>
             </div>
             <div class="scroll-indicator">
                 <div class="arrow-down"></div>
             </div>
         </section>
 
-        <!-- Mission Section -->
+        <!-- Quick Impact Section -->
+        <section class="section quick-impact">
+            <h2 class="section-title">Real Impact in Our Community</h2>
+            <p class="impact-intro">Every Chromebook we provide changes a child's educational future. Here's how we help:</p>
+
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <div class="impact-icon">📚</div>
+                    <h3>Homework for the First Time</h3>
+                    <p>Students without home computers can now complete assignments, access online learning, and keep up with their classmates.</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">🎓</div>
+                    <h3>College Dreams Made Possible</h3>
+                    <p>Teen mothers earning GEDs. High schoolers getting into college. Parents pursuing certifications while raising kids.</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">👨‍👩‍👧‍👦</div>
+                    <h3>Whole Families Empowered</h3>
+                    <p>In families with 5-6 people sharing 1-2 devices, our Chromebooks create equity and opportunity for everyone.</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">🌟</div>
+                    <h3>Special Needs Support</h3>
+                    <p>Children with autism using Chromebooks for ABA therapy and online tutoring. Technology customized for their learning needs.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial Carousel Section -->
+        <section class="section testimonials">
+            <h2 class="section-title">Real Stories, Real Impact</h2>
+            <p class="impact-intro">Hear from the children, families, and partners whose lives have been transformed by HTI Chromebooks.</p>
+
+            <div class="carousel-container">
+                <div class="carousel-arrows">
+                    <button class="carousel-arrow carousel-prev" aria-label="Previous">‹</button>
+                    <button class="carousel-arrow carousel-next" aria-label="Next">›</button>
+                </div>
+
+                <div class="carousel-track">
+                    <!-- Slide 1: DeAndra Jones -->
+                    <div class="carousel-slide">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">"My daughter graduated from high school—that was the happiest day of my life. She kept her grades up while working part-time, and now she's starting college pursuing a Business Administration degree. The Chromebook made all the difference for her education."</p>
+                            <p class="testimonial-author">DeAndra Jones</p>
+                            <p class="testimonial-role">HTI Recipient & Mother | Teen Mother Success Story</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2: Xavier Williams -->
+                    <div class="carousel-slide">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">"The Chromebook has been amazing for my son's online learning, homework, and ABA therapy sessions. He's learned to navigate the internet, use Microsoft Office, and email. Having his own personal computer gives him the flexibility he needs for his therapeutic and educational work."</p>
+                            <p class="testimonial-author">Xavier Williams' Family</p>
+                            <p class="testimonial-role">Parent of Child with Autism | Received December 2022</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3: Shawn Burton -->
+                    <div class="carousel-slide">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">"As a single mother with three children—one with special needs—the HTI Chromebook bridged a critical gap for our family. My children are now excelling in the classroom, and I've learned new computer skills that are helping me provide for them."</p>
+                            <p class="testimonial-author">Shawn Burton</p>
+                            <p class="testimonial-role">Single Mother of Three | Received December 2022</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 4: Shane Hicks -->
+                    <div class="carousel-slide">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">"HTI is inspiring. I see people in the community gaining motivation to work because they didn't have this access before. With these HTI Chromebooks, we've seen clients receive college diplomas, trade school certificates, and get jobs."</p>
+                            <p class="testimonial-author">Shane Hicks</p>
+                            <p class="testimonial-role">Easterseals UCP | Community Partner</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 5: Octavia Jones -->
+                    <div class="carousel-slide">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">"I was unemployed and looking for IT work when I received my Chromebook. It helped me learn Google Drive, Microsoft Office, and internet skills. Now I have an IT Support job at Cox Communications and started my own side business!"</p>
+                            <p class="testimonial-author">Octavia Jones</p>
+                            <p class="testimonial-role">HTI Recipient | Now IT Professional</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 6: Michael Hines -->
+                    <div class="carousel-slide">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">"After overcoming addiction, I needed tools to rebuild my life. The HTI Chromebook enabled me to work from home as a loan officer. Now I'm planning to return to school to continue my education."</p>
+                            <p class="testimonial-author">Michael Hines</p>
+                            <p class="testimonial-role">HTI Recipient | Loan Officer</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 7: Doris Swan -->
+                    <div class="carousel-slide">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">"As a child advocate, the Chromebook transformed how I serve families. I can now type reports, attend Zoom meetings, and receive emails efficiently. This technology helps me help more children in our community."</p>
+                            <p class="testimonial-author">Doris Swan</p>
+                            <p class="testimonial-role">Child Advocate | Community Leader</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 8: Partner Organization -->
+                    <div class="carousel-slide">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">"Many of the people we serve are single mothers and families with children who need this access. In families with 5-6 people sharing just 1-2 devices, competition for screen time means kids fall behind. These HTI Chromebooks create equity and open doors to employment and educational opportunities."</p>
+                            <p class="testimonial-author">HTI Partner Organization</p>
+                            <p class="testimonial-role">Serving Families in Need</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 9: Mark Williams -->
+                    <div class="carousel-slide">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">"If we want to, we can all still stay connected and engaged with each other. HTI exists to ensure that technology isn't a barrier preventing families from achieving their educational and career goals."</p>
+                            <p class="testimonial-author">Mark Williams</p>
+                            <p class="testimonial-role">HTI Executive Director</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 10: Board Member -->
+                    <div class="carousel-slide">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">"To play a small part in helping even one person further their education and achieve their life goals is truly gratifying. When we multiply that impact across thousands of families, we're changing our entire community."</p>
+                            <p class="testimonial-author">HTI Board Member</p>
+                            <p class="testimonial-role">Volunteer Leadership</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-dots"></div>
+            </div>
+        </section>
+
+        <!-- Detailed Programs Section -->
         <section class="section mission">
-            <h2 class="section-title">Our Mission for Children</h2>
-            
-            <div class="mission-card">
-                <div class="mission-icon">📚</div>
-                <h3>Educational Empowerment</h3>
-                <p>Every child deserves equal access to digital learning. We're ensuring students can complete homework, access educational resources, and develop crucial 21st-century skills.</p>
+            <h2 class="section-title">How We Help Children & Families</h2>
+            <p class="impact-intro">Tap any section below to learn the specific ways HTI changes lives in our community:</p>
+
+            <!-- Expandable: Elementary Students -->
+            <div class="expandable">
+                <div class="expand-header">
+                    <h3>📚 Elementary & Middle School Students</h3>
+                    <span class="expand-icon">▼</span>
+                </div>
+                <div class="expand-content">
+                    <div class="expand-inner">
+                        <p><strong>What We Provide:</strong></p>
+                        <ul>
+                            <li>Chromebooks with ChromeOS Flex (fast, secure, kid-friendly)</li>
+                            <li>Access to Google Classroom and educational apps</li>
+                            <li>Internet safety guidance through video tutorials</li>
+                            <li>Microsoft Office skills training</li>
+                        </ul>
+                        <p><strong>Real Impact:</strong> Kids who've never had a computer at home can now complete homework, participate in online learning, and catch up to grade level. For families sharing 1-2 devices among 5-6 people, our Chromebooks end the competition for screen time.</p>
+                    </div>
+                </div>
             </div>
 
-            <div class="mission-card">
-                <div class="mission-icon">🌟</div>
-                <h3>Breaking Barriers</h3>
-                <p>For families in HUBZone communities, a laptop isn't a luxury—it's a lifeline to opportunity. We're removing technology as a barrier to success.</p>
+            <!-- Expandable: High School & College -->
+            <div class="expandable">
+                <div class="expand-header">
+                    <h3>🎓 High School & College Students</h3>
+                    <span class="expand-icon">▼</span>
+                </div>
+                <div class="expand-content">
+                    <div class="expand-inner">
+                        <p><strong>Success Stories Include:</strong></p>
+                        <ul>
+                            <li><strong>DeAndra Jones' daughter:</strong> Graduated high school while working part-time, now pursuing Business Administration degree in college</li>
+                            <li>College diplomas and trade school certificates earned by HTI recipients</li>
+                            <li>Teen mothers earning GEDs while raising children</li>
+                            <li>CNA, Phlebotomist, and Medical Assistant certifications achieved</li>
+                        </ul>
+                        <p><strong>Support We Provide:</strong> Resume writing tools, college application access, online coursework capabilities, job search resources.</p>
+                    </div>
+                </div>
             </div>
 
-            <div class="mission-card">
-                <div class="mission-icon">💚</div>
-                <h3>Environmental Stewardship</h3>
-                <p>Teaching young people about sustainability by transforming e-waste into educational tools. Every laptop saved is a lesson in environmental responsibility.</p>
+            <!-- Expandable: Special Needs -->
+            <div class="expandable">
+                <div class="expand-header">
+                    <h3>🌟 Children with Special Needs</h3>
+                    <span class="expand-icon">▼</span>
+                </div>
+                <div class="expand-content">
+                    <div class="expand-inner">
+                        <p><strong>Specialized Technology Support:</strong></p>
+                        <ul>
+                            <li><strong>Xavier Williams (Autism):</strong> Uses Chromebook for online learning, homework, ABA therapy sessions, and therapeutic work</li>
+                            <li><strong>Shawn Burton's child:</strong> Special needs student now excelling in classroom with dedicated device</li>
+                            <li>Customized learning tools and assistive technology</li>
+                            <li>Flexibility for therapeutic and educational needs</li>
+                        </ul>
+                        <p><strong>Skills Learned:</strong> Internet navigation, Microsoft Office, email, online tutoring platforms—all adapted for individual learning needs.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Expandable: Families in Crisis -->
+            <div class="expandable">
+                <div class="expand-header">
+                    <h3>💙 Families Facing Challenges</h3>
+                    <span class="expand-icon">▼</span>
+                </div>
+                <div class="expand-content">
+                    <div class="expand-inner">
+                        <p><strong>We Serve Families Experiencing:</strong></p>
+                        <ul>
+                            <li><strong>Poverty:</strong> Single mothers and families in HUBZone communities</li>
+                            <li><strong>Homelessness:</strong> Through partners like Passage Home and Salvation Army</li>
+                            <li><strong>Addiction Recovery:</strong> Michael Hines overcame addiction, now works as loan officer from home</li>
+                            <li><strong>Unemployment:</strong> Octavia Jones secured IT Support role at Cox Communications after receiving Chromebook</li>
+                            <li><strong>Digital Inequality:</strong> Families with 5-6 people sharing 1-2 devices</li>
+                        </ul>
+                        <p><strong>Whole-Family Impact:</strong> When we equip a family, children complete homework, parents apply for jobs, and entire households connect to opportunity. Education and employment doors open for everyone.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Expandable: Digital Literacy Training -->
+            <div class="expandable">
+                <div class="expand-header">
+                    <h3>💻 Digital Literacy Training (156+ Hours)</h3>
+                    <span class="expand-icon">▼</span>
+                </div>
+                <div class="expand-content">
+                    <div class="expand-inner">
+                        <p><strong>Self-Guided Video Library:</strong></p>
+                        <ul>
+                            <li>"How To Use ChromeOS Chromebook" (1 minute)</li>
+                            <li>"Got A New Chromebook? 10 Things You Need To Know" (13 minutes)</li>
+                            <li>"Chromebook Basics for Seniors" (60 minutes)</li>
+                        </ul>
+                        <p><strong>Skills Recipients Learn:</strong></p>
+                        <ul>
+                            <li>Google Drive and cloud storage</li>
+                            <li>Microsoft Office Suite (Word, Excel)</li>
+                            <li>Email and internet navigation</li>
+                            <li>Online security basics</li>
+                            <li>Job application and resume tools</li>
+                        </ul>
+                        <p><strong>Ongoing Support:</strong> Tech support available through HTI team. Recipients report gaining confidence and independence in technology use.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partner Organizations -->
+        <section class="section" style="background: white;">
+            <h2 class="section-title">Trusted Community Partners</h2>
+            <p class="impact-intro">HTI works with established organizations to identify families who will benefit most from technology access:</p>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 25px;">
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 12px; text-align: center; font-size: 14px; font-weight: 600; color: #2c2c2c;">Boys & Girls Club</div>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 12px; text-align: center; font-size: 14px; font-weight: 600; color: #2c2c2c;">YMCA</div>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 12px; text-align: center; font-size: 14px; font-weight: 600; color: #2c2c2c;">Salvation Army</div>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 12px; text-align: center; font-size: 14px; font-weight: 600; color: #2c2c2c;">Easterseals UCP</div>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 12px; text-align: center; font-size: 14px; font-weight: 600; color: #2c2c2c;">Veterans Life Center NC</div>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 12px; text-align: center; font-size: 14px; font-weight: 600; color: #2c2c2c;">Passage Home</div>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 12px; text-align: center; font-size: 14px; font-weight: 600; color: #2c2c2c;">Step Up Ministry</div>
+                <div style="background: #f8f9fa; padding: 15px; border-radius: 12px; text-align: center; font-size: 14px; font-weight: 600; color: #2c2c2c;">Raleigh Dream Center</div>
+            </div>
+
+            <div style="margin-top: 30px; padding: 25px; background: linear-gradient(135deg, #fff4e0, #ffe8c0); border-radius: 20px; border: 2px solid #f58420;">
+                <h3 style="font-family: 'Lato', sans-serif; font-weight: 700; margin-bottom: 15px; color: #1a1a1a;">Recognition & Support</h3>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; font-size: 13px; color: #4a4a4a;">
+                    <div>✅ $600K NC Digital Champion Grant</div>
+                    <div>✅ $25K State Farm Grant</div>
+                    <div>✅ T-Mobile Hometown Grant</div>
+                    <div>✅ Featured on WRAL News</div>
+                </div>
             </div>
         </section>
 
@@ -943,36 +1567,60 @@
             </div>
         </section>
 
-        <!-- Call to Action -->
-        <section class="section cta">
-            <h2 style="font-size: 32px; margin-bottom: 20px;">Join Us in Transforming Lives</h2>
-            <p style="font-size: 18px; line-height: 1.6; margin-bottom: 30px;">
-                Every laptop donated, every dollar contributed, and every hour volunteered directly impacts a child's future.
-            </p>
-            
-            <div class="cta-buttons">
-                <a href="https://www.hubzonetech.org/donate" class="btn btn-primary">
-                    💝 Donate Now
-                </a>
-                <a href="tel:+12525900240" class="btn btn-secondary">
-                    📞 Call (252) 590-0240
-                </a>
-                <a href="mailto:info@hubzonetech.org" class="btn btn-secondary">
-                    ✉️ Contact Our Team
-                </a>
-            </div>
+        <!-- Donation Hub -->
+        <section class="section donate-hub" id="donate">
+            <h2 class="section-title">Help a Child Today</h2>
+            <p class="impact-intro">Every contribution—whether a laptop, a donation, or your time—directly changes a child's educational future in Henderson and Wake Forest.</p>
 
-            <div style="margin-top: 40px; padding: 20px; background: rgba(255,255,255,0.1); border-radius: 15px;">
-                <h3 style="margin-bottom: 15px;">Ways to Make an Impact:</h3>
-                <ul style="text-align: left; line-height: 2; list-style: none; padding: 0;">
-                    <li>✅ Donate laptops from your organization</li>
-                    <li>✅ Sponsor digital literacy training</li>
-                    <li>✅ Host a laptop collection drive</li>
-                    <li>✅ Volunteer as a digital literacy instructor</li>
-                    <li>✅ Connect us with corporate partners</li>
-                    <li>✅ Share our story with your network</li>
-                </ul>
+            <div class="donation-cards">
+                <!-- Primary: Donate a Laptop -->
+                <a href="mailto:info@hubzonetech.org?subject=Laptop Donation Inquiry" class="donation-card primary">
+                    <span class="donation-icon-large">💻</span>
+                    <h3>Donate a Laptop</h3>
+                    <p>Your old laptop becomes a child's gateway to education</p>
+                    <span class="donation-impact">1 Laptop = 1 Child Empowered</span>
+                    <div class="btn btn-primary">Email to Arrange Pickup</div>
+                </a>
+
+                <!-- Give Money -->
+                <a href="https://www.hubzonetech.org/donate" class="donation-card">
+                    <span class="donation-icon">💝</span>
+                    <h3>Give Money</h3>
+                    <p>Fund conversions and training programs</p>
+                    <span class="donation-impact">$25 = Training for 1 Family</span>
+                    <div class="btn btn-primary" style="font-size: 16px; padding: 12px 20px;">Donate Now</div>
+                </a>
+
+                <!-- Shop eBay Store -->
+                <a href="https://www.hubzonetech.org" class="donation-card">
+                    <span class="donation-icon">🛒</span>
+                    <h3>Shop eBay</h3>
+                    <p>Buy tech, support our mission</p>
+                    <span class="donation-impact">100% Proceeds → Chromebooks</span>
+                    <div class="btn btn-primary" style="font-size: 16px; padding: 12px 20px;">Browse Store</div>
+                </a>
+
+                <!-- Partner With Us -->
+                <a href="mailto:info@hubzonetech.org?subject=Partnership Inquiry" class="donation-card">
+                    <span class="donation-icon">🤝</span>
+                    <h3>Partner</h3>
+                    <p>Corporate or org collaboration</p>
+                    <span class="donation-impact">Bulk Donations Welcome</span>
+                    <div class="btn btn-primary" style="font-size: 16px; padding: 12px 20px;">Get in Touch</div>
+                </a>
             </div>
+        </section>
+
+        <!-- Wake Forest Kiwanis Thank You -->
+        <section class="kiwanis-thanks">
+            <img src="https://www.kiwanis.org/wp-content/uploads/2023/06/KI_logo_blue_4C.png" alt="Kiwanis International" class="kiwanis-logo">
+            <h2>Thank You, Wake Forest Kiwanis Club</h2>
+            <p>
+                To the members of the <span class="highlight">Wake Forest Kiwanis Club</span>: Thank you for welcoming me to The Forks on October 9th to share HTI's mission. Your nearly 40 years of serving children in Wake Forest—from Kiwanis Park to youth leadership programs—reflects the same commitment that drives our work bridging the digital divide.
+            </p>
+            <p style="margin-top: 15px;">
+                Special thanks to <span class="highlight">Jeff Gonder</span> for making this connection possible. When organizations like Kiwanis and HTI collaborate, we amplify our impact on the young lives we're called to serve.
+            </p>
         </section>
 
         <!-- Footer -->
@@ -1190,6 +1838,117 @@
 
         document.querySelectorAll('.stat-card').forEach(card => {
             statObserver.observe(card);
+        });
+
+        // Testimonial Carousel
+        const carousel = {
+            track: document.querySelector('.carousel-track'),
+            slides: document.querySelectorAll('.carousel-slide'),
+            dotsContainer: document.querySelector('.carousel-dots'),
+            prevBtn: document.querySelector('.carousel-prev'),
+            nextBtn: document.querySelector('.carousel-next'),
+            currentIndex: 0,
+            autoPlayInterval: null,
+            touchStartX: 0,
+            touchEndX: 0
+        };
+
+        // Create dots
+        carousel.slides.forEach((_, index) => {
+            const dot = document.createElement('button');
+            dot.classList.add('carousel-dot');
+            if (index === 0) dot.classList.add('active');
+            dot.addEventListener('click', () => carousel.goToSlide(index));
+            carousel.dotsContainer.appendChild(dot);
+        });
+
+        carousel.dots = document.querySelectorAll('.carousel-dot');
+
+        carousel.goToSlide = function(index) {
+            this.currentIndex = index;
+            const offset = -index * 100;
+            this.track.style.transform = `translateX(${offset}%)`;
+
+            this.dots.forEach((dot, i) => {
+                dot.classList.toggle('active', i === index);
+            });
+
+            this.resetAutoPlay();
+        };
+
+        carousel.next = function() {
+            const nextIndex = (this.currentIndex + 1) % this.slides.length;
+            this.goToSlide(nextIndex);
+        };
+
+        carousel.prev = function() {
+            const prevIndex = (this.currentIndex - 1 + this.slides.length) % this.slides.length;
+            this.goToSlide(prevIndex);
+        };
+
+        carousel.startAutoPlay = function() {
+            this.autoPlayInterval = setInterval(() => this.next(), 5000);
+        };
+
+        carousel.resetAutoPlay = function() {
+            clearInterval(this.autoPlayInterval);
+            this.startAutoPlay();
+        };
+
+        // Event listeners
+        carousel.prevBtn.addEventListener('click', () => carousel.prev());
+        carousel.nextBtn.addEventListener('click', () => carousel.next());
+
+        // Touch swipe support
+        carousel.track.addEventListener('touchstart', (e) => {
+            carousel.touchStartX = e.changedTouches[0].screenX;
+        }, { passive: true });
+
+        carousel.track.addEventListener('touchend', (e) => {
+            carousel.touchEndX = e.changedTouches[0].screenX;
+            const diff = carousel.touchStartX - carousel.touchEndX;
+
+            if (Math.abs(diff) > 50) {
+                if (diff > 0) {
+                    carousel.next();
+                } else {
+                    carousel.prev();
+                }
+            }
+        }, { passive: true });
+
+        // Start auto-play
+        carousel.startAutoPlay();
+
+        // Pause on hover (desktop)
+        carousel.track.addEventListener('mouseenter', () => {
+            clearInterval(carousel.autoPlayInterval);
+        });
+
+        carousel.track.addEventListener('mouseleave', () => {
+            carousel.startAutoPlay();
+        });
+
+        // Expandable Sections
+        document.querySelectorAll('.expand-header').forEach(header => {
+            header.addEventListener('click', function() {
+                const expandable = this.parentElement;
+                const content = expandable.querySelector('.expand-content');
+                const icon = this.querySelector('.expand-icon');
+
+                // Toggle open state
+                const isOpen = content.classList.contains('open');
+
+                content.classList.toggle('open');
+                icon.classList.toggle('open');
+
+                // Smooth scroll into view if opening
+                if (!isOpen) {
+                    setTimeout(() => {
+                        expandable.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                    }, 100);
+                }
+            });
         });
     </script>
 </body>
