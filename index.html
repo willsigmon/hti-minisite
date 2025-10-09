@@ -337,6 +337,7 @@
             margin-bottom: 30px;
             font-family: 'Inter', sans-serif;
             line-height: 1.6;
+            text-align: center;
         }
 
         .impact-grid {
@@ -356,6 +357,7 @@
             opacity: 0;
             transform: translateY(30px);
             animation: fadeInUp 0.6s ease forwards;
+            text-align: center;
         }
 
         .impact-card:nth-child(1) { animation-delay: 0.1s; }
@@ -398,6 +400,7 @@
             font-family: 'Inter', sans-serif;
             color: #4a4a4a;
             line-height: 1.6;
+            text-align: center;
         }
 
         /* Testimonial Carousel */
@@ -502,6 +505,7 @@
             position: relative;
             z-index: 1;
             flex-grow: 1;
+            text-align: center;
         }
 
         .testimonial-footer {
@@ -605,6 +609,53 @@
             transform: scale(0.95);
             background: linear-gradient(135deg, #f58420, #e85d2c);
             color: white;
+        }
+
+        /* Mobile Swipe Hint */
+        .swipe-hint {
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 12px;
+            color: #999;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            animation: fadeInOut 3s ease-in-out infinite;
+        }
+
+        @keyframes fadeInOut {
+            0%, 100% { opacity: 0.4; }
+            50% { opacity: 0.8; }
+        }
+
+        .swipe-hint-arrow {
+            font-size: 14px;
+            animation: swipeLeft 2s ease-in-out infinite;
+        }
+
+        @keyframes swipeLeft {
+            0%, 100% { transform: translateX(0); }
+            50% { transform: translateX(-5px); }
+        }
+
+        /* Touch Ripple Effect */
+        .touch-ripple {
+            position: absolute;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(253, 183, 21, 0.4), transparent);
+            transform: scale(0);
+            animation: ripple 0.6s ease-out;
+            pointer-events: none;
+        }
+
+        @keyframes ripple {
+            to {
+                transform: scale(4);
+                opacity: 0;
+            }
         }
 
         /* Donation Hub */
@@ -837,6 +888,10 @@
             line-height: 1.7;
             font-family: 'Inter', sans-serif;
             margin-bottom: 25px;
+            text-align: center;
+            max-width: 360px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .tgt-cta {
@@ -2071,6 +2126,11 @@
                 </div>
 
                 <div class="carousel-dots"></div>
+                <div class="swipe-hint">
+                    <span class="swipe-hint-arrow">←</span>
+                    <span>Swipe to explore more stories</span>
+                    <span class="swipe-hint-arrow">→</span>
+                </div>
             </div>
         </section>
 
@@ -2791,6 +2851,27 @@
 
         // Initial call
         appleStyleZoom();
+
+        // Touch Ripple Effect on Card Taps
+        document.querySelectorAll('.impact-card, .donation-card, .expand-header, .social-follow-link').forEach(element => {
+            element.addEventListener('touchstart', function(e) {
+                const ripple = document.createElement('span');
+                ripple.classList.add('touch-ripple');
+
+                const rect = this.getBoundingClientRect();
+                const size = Math.max(rect.width, rect.height);
+                const x = e.touches[0].clientX - rect.left - size / 2;
+                const y = e.touches[0].clientY - rect.top - size / 2;
+
+                ripple.style.width = ripple.style.height = size + 'px';
+                ripple.style.left = x + 'px';
+                ripple.style.top = y + 'px';
+
+                this.appendChild(ripple);
+
+                setTimeout(() => ripple.remove(), 600);
+            }, { passive: true });
+        });
 
         // Kiwanis Popover - Only show on 10/9/2025
         (function() {
