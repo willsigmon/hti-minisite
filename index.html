@@ -2,18 +2,90 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="theme-color" content="#1a1a1a">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="format-detection" content="telephone=no">
     <title>HTI - Transforming Young Lives Through Technology</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="HUBZone Technology Initiative converts donated laptops into Chromebooks for NC families in need. 2,500+ devices distributed across 15 counties. Partner with us to close the digital divide.">
+    <meta name="keywords" content="digital divide, chromebook donation, NC nonprofit, technology access, device refurbishment, HUBZone, digital equity">
+    <meta name="author" content="HUBZone Technology Initiative">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.hubzonetech.org/">
+    <meta property="og:title" content="HTI - Transforming Young Lives Through Technology">
+    <meta property="og:description" content="We convert donated laptops into Chromebooks for NC families who need technology to achieve their educational and career goals. 2,500+ devices distributed.">
+    <meta property="og:image" content="https://www.hubzonetech.org/hti-full-logo.png">
+    <meta property="og:site_name" content="HUBZone Technology Initiative">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.hubzonetech.org/">
+    <meta name="twitter:title" content="HTI - Transforming Young Lives Through Technology">
+    <meta name="twitter:description" content="We convert donated laptops into Chromebooks for NC families who need technology to achieve their educational and career goals.">
+    <meta name="twitter:image" content="https://www.hubzonetech.org/hti-full-logo.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/hti-full-logo.png">
+    <link rel="apple-touch-icon" href="/hti-full-logo.png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=DM+Sans:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <style>
+        /* HTI Brand Design Tokens */
+        :root {
+            /* Primary Brand Colors */
+            --hti-orange: #f58420;
+            --hti-gold: #fdb715;
+            --hti-gold-light: #ffd000;
+            --hti-orange-deep: #e85d2c;
+            --hti-orange-dark: #e45927;
+
+            /* Neutral Colors */
+            --hti-dark: #1a1a1a;
+            --hti-dark-mid: #2c2c2c;
+            --hti-text: #4a4a4a;
+            --hti-text-light: #666666;
+            --hti-navy: #1e3a5f;
+
+            /* Background Colors */
+            --hti-bg-cream: #fffbf5;
+            --hti-bg-warm: #fff8f0;
+            --hti-bg-peach: #fff4e0;
+            --hti-bg-apricot: #ffe8c0;
+            --hti-bg-light: #f8f9fa;
+            --hti-bg-gray: #f5f5f5;
+
+            /* Gradients */
+            --hti-gradient-brand: linear-gradient(90deg, var(--hti-gold-light), var(--hti-gold), var(--hti-orange), var(--hti-orange-deep));
+            --hti-gradient-cta: linear-gradient(90deg, var(--hti-gold), var(--hti-orange) 58%, var(--hti-orange-dark));
+            --hti-gradient-dark: linear-gradient(135deg, var(--hti-dark-mid) 0%, var(--hti-dark) 100%);
+
+            /* Shadows */
+            --hti-shadow-sm: 0 3px 10px rgba(0, 0, 0, 0.08);
+            --hti-shadow-md: 0 5px 15px rgba(245, 132, 32, 0.15);
+            --hti-shadow-lg: 0 10px 30px rgba(245, 132, 32, 0.2);
+            --hti-shadow-glow: 0 0 15px rgba(245, 132, 32, 0.4);
+
+            /* Typography */
+            --font-heading: 'DM Sans', sans-serif;
+            --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+            /* Spacing */
+            --container-max: 430px;
+            --section-padding: 50px 20px;
+            --border-radius: 20px;
+            --border-radius-sm: 12px;
+            --border-radius-lg: 24px;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -2168,14 +2240,112 @@
                 padding: 50px 20px;
             }
         }
+
+        /* Utility Classes */
+        .text-accent { color: var(--hti-orange); }
+        .text-dark { color: var(--hti-dark); }
+        .text-muted { color: var(--hti-text); }
+        .text-center { text-align: center; }
+        .fw-bold { font-weight: 700; }
+        .fw-black { font-weight: 900; }
+        .mb-0 { margin-bottom: 0; }
+        .mb-1 { margin-bottom: 5px; }
+        .mb-2 { margin-bottom: 10px; }
+        .mb-3 { margin-bottom: 15px; }
+        .mb-4 { margin-bottom: 20px; }
+        .mb-5 { margin-bottom: 25px; }
+        .mb-6 { margin-bottom: 30px; }
+        .section-compact { padding: 40px 20px; }
+        .link-accent { color: var(--hti-orange); text-decoration: none; font-weight: 600; }
+        .link-accent:hover { color: var(--hti-gold); }
+        .btn-sm { font-size: 16px; padding: 12px 20px; }
+        .card-info { background: var(--hti-bg-light); padding: 15px; border-radius: 12px; border-left: 4px solid var(--hti-orange); }
+        .card-info p { margin: 0; font-size: 16px; font-family: var(--font-body); color: var(--hti-dark-mid); }
+        .heading-section { font-size: 28px; font-weight: 900; font-family: var(--font-heading); color: var(--hti-dark); margin-bottom: 20px; }
+        .pitch-container { max-width: 380px; margin: 0 auto; text-align: center; }
+
+        /* Accessibility: Respect user's motion preferences */
+        @media (prefers-reduced-motion: reduce) {
+            *,
+            *::before,
+            *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+
+            .scroll-progress,
+            .logo-container,
+            .hero::before,
+            .hero::after,
+            .step-number,
+            .carousel-arrow,
+            .social-follow-link {
+                animation: none !important;
+            }
+
+            .hero-stat,
+            .impact-card,
+            .process-step {
+                opacity: 1 !important;
+                transform: none !important;
+            }
+        }
     </style>
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "NonprofitOrganization",
+        "name": "HUBZone Technology Initiative",
+        "alternateName": "HTI",
+        "url": "https://www.hubzonetech.org",
+        "logo": "https://www.hubzonetech.org/hti-full-logo.png",
+        "description": "501(c)(3) nonprofit closing North Carolina's digital divide by converting donated laptops into Chromebooks for families in need.",
+        "foundingDate": "2019",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "501 S. Chestnut Street",
+            "addressLocality": "Henderson",
+            "addressRegion": "NC",
+            "postalCode": "27536",
+            "addressCountry": "US"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-252-590-0240",
+            "email": "info@hubzonetech.org",
+            "contactType": "customer service"
+        },
+        "sameAs": [
+            "https://www.facebook.com/HTIHUBZone",
+            "https://www.linkedin.com/company/htihubzone",
+            "https://www.instagram.com/hubzonetech"
+        ],
+        "areaServed": {
+            "@type": "State",
+            "name": "North Carolina"
+        },
+        "nonprofitStatus": "Nonprofit501c3",
+        "taxID": "83-3153294"
+    }
+    </script>
 </head>
 <body>
+    <!-- Accessibility: No-JavaScript Fallback -->
+    <noscript>
+        <div style="background: #f58420; color: white; padding: 20px; text-align: center; font-family: sans-serif;">
+            <strong>JavaScript Required</strong><br>
+            Please enable JavaScript to view this site. For assistance, contact us at info@hubzonetech.org
+        </div>
+    </noscript>
     <!-- Kiwanis Popover (Only shows on 10/9/2025) -->
     <div class="kiwanis-popover-overlay" id="kiwanisPopover">
         <div class="kiwanis-popover">
             <button class="kiwanis-popover-close" id="closePopover" aria-label="Close">×</button>
-            <img src="https://www.kiwanis.org/wp-content/uploads/2023/06/KI_logo_blue_4C.png" alt="Kiwanis International" class="kiwanis-popover-logo">
+            <img src="https://www.kiwanis.org/wp-content/uploads/2023/06/KI_logo_blue_4C.png" alt="Kiwanis International" class="kiwanis-popover-logo" width="120" height="48">
             <h2>Welcome, Wake Forest Kiwanis Club!</h2>
             <p>
                 Thank you for having me at The Forks today to share HTI's mission. Your nearly <span class="highlight">40 years of serving children</span> in Wake Forest—from Kiwanis Park to youth leadership programs—inspires everything we do.
@@ -2193,7 +2363,7 @@
         <!-- Hero Section -->
         <section class="section hero">
             <div class="logo-container">
-                <img src="hti-full-logo.png" alt="HubZone Technology Initiative" class="logo-img">
+                <img src="hti-full-logo.png" alt="HubZone Technology Initiative" class="logo-img" width="310" height="80">
             </div>
             <h1>Old Laptops. New Opportunities.</h1>
             <p class="tagline"><span class="old">Surplus</span> devices. <span class="new">Real</span> impact.</p>
@@ -2513,35 +2683,35 @@
                     <div class="expand-inner" style="padding: 30px 20px;">
                         <div class="partner-logos">
                 <div class="partner-card">
-                    <img src="assets/partners/boys-and-girls-club.png" alt="Boys &amp; Girls Club logo" class="partner-logo" loading="lazy">
+                    <img src="assets/partners/boys-and-girls-club.png" alt="Boys &amp; Girls Club logo" class="partner-logo" loading="lazy" width="120" height="60">
                     <span class="partner-name">Boys &amp; Girls Club</span>
                 </div>
                 <div class="partner-card">
-                    <img src="assets/partners/ymca.png" alt="YMCA logo" class="partner-logo" loading="lazy">
+                    <img src="assets/partners/ymca.png" alt="YMCA logo" class="partner-logo" loading="lazy" width="120" height="60">
                     <span class="partner-name">YMCA</span>
                 </div>
                 <div class="partner-card">
-                    <img src="assets/partners/salvation-army.png" alt="Salvation Army shield logo" class="partner-logo" loading="lazy">
+                    <img src="assets/partners/salvation-army.png" alt="Salvation Army shield logo" class="partner-logo" loading="lazy" width="120" height="60">
                     <span class="partner-name">Salvation Army</span>
                 </div>
                 <div class="partner-card">
-                    <img src="assets/partners/easterseals-ucp.png" alt="Easterseals UCP logo" class="partner-logo" loading="lazy">
+                    <img src="assets/partners/easterseals-ucp.png" alt="Easterseals UCP logo" class="partner-logo" loading="lazy" width="120" height="60">
                     <span class="partner-name">Easterseals UCP</span>
                 </div>
                 <div class="partner-card">
-                    <img src="assets/partners/veterans-life-center.png" alt="Veterans Life Center of North Carolina logo" class="partner-logo" loading="lazy">
+                    <img src="assets/partners/veterans-life-center.png" alt="Veterans Life Center of North Carolina logo" class="partner-logo" loading="lazy" width="120" height="60">
                     <span class="partner-name">Veterans Life Center NC</span>
                 </div>
                 <div class="partner-card">
-                    <img src="assets/partners/passage-home.png" alt="Passage Home logo" class="partner-logo" loading="lazy">
+                    <img src="assets/partners/passage-home.png" alt="Passage Home logo" class="partner-logo" loading="lazy" width="120" height="60">
                     <span class="partner-name">Passage Home</span>
                 </div>
                 <div class="partner-card">
-                    <img src="assets/partners/step-up-ministry.png" alt="Step Up Ministry logo" class="partner-logo" loading="lazy">
+                    <img src="assets/partners/step-up-ministry.png" alt="Step Up Ministry logo" class="partner-logo" loading="lazy" width="120" height="60">
                     <span class="partner-name">Step Up Ministry</span>
                 </div>
                 <div class="partner-card">
-                    <img src="assets/partners/raleigh-dream-center.png" alt="Raleigh Dream Center logo" class="partner-logo" loading="lazy">
+                    <img src="assets/partners/raleigh-dream-center.png" alt="Raleigh Dream Center logo" class="partner-logo" loading="lazy" width="120" height="60">
                     <span class="partner-name">Raleigh Dream Center</span>
                         </div>
                     </div>
@@ -2555,28 +2725,28 @@
                 </h3>
                 <div class="recognition-grid">
                     <div class="recognition-item">
-                        <img src="assets/recognition/nc-dit.png" alt="North Carolina Department of Information Technology logo" class="recognition-logo" loading="lazy">
+                        <img src="assets/recognition/nc-dit.png" alt="North Carolina Department of Information Technology logo" class="recognition-logo" loading="lazy" width="48" height="36">
                         <div class="recognition-text">
                             <span class="recognition-title">$600,000 NC Digital Champion Grant</span>
                             <span class="recognition-caption">Awarded by the NC Department of Information Technology</span>
                         </div>
                     </div>
                     <div class="recognition-item">
-                        <img src="assets/recognition/state-farm.png" alt="State Farm logo" class="recognition-logo" loading="lazy">
+                        <img src="assets/recognition/state-farm.png" alt="State Farm logo" class="recognition-logo" loading="lazy" width="48" height="36">
                         <div class="recognition-text">
                             <span class="recognition-title">$25,000 State Farm Neighborhood Assist</span>
                             <span class="recognition-caption">Community grant fueling device refurbishments</span>
                         </div>
                     </div>
                     <div class="recognition-item">
-                        <img src="assets/recognition/t-mobile.png" alt="T-Mobile logo" class="recognition-logo" loading="lazy">
+                        <img src="assets/recognition/t-mobile.png" alt="T-Mobile logo" class="recognition-logo" loading="lazy" width="48" height="36">
                         <div class="recognition-text">
                             <span class="recognition-title">T-Mobile Hometown Grant</span>
                             <span class="recognition-caption">Funded the cargo van that powers rural deliveries</span>
                         </div>
                     </div>
                     <div class="recognition-item">
-                        <img src="assets/recognition/wral.png" alt="WRAL News logo" class="recognition-logo" loading="lazy">
+                        <img src="assets/recognition/wral.png" alt="WRAL News logo" class="recognition-logo" loading="lazy" width="48" height="36">
                         <div class="recognition-text">
                             <span class="recognition-title">Featured on WRAL News</span>
                             <span class="recognition-caption">Spotlighted as a leading digital equity program</span>
